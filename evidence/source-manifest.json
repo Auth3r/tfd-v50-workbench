@@ -1,0 +1,26 @@
+﻿[
+    {
+        "file":  "src/LocalService.cs",
+        "sha256":  "2FA41C62A5E22FE53800B39863663CFDC43829A780E7903FEC5619C890123C34"
+    },
+    {
+        "file":  "src/Model.cs",
+        "sha256":  "A43C56624412C69C2E8DF56E1B5E8E05965FB5F801CDC66703A2ABB4A24DFF3B"
+    },
+    {
+        "file":  "src/Persistence.cs",
+        "sha256":  "F01F515CA492412292061D9194FB73086F8B4ADE215C2A788E0110B581986C19"
+    },
+    {
+        "file":  "src/Program.cs",
+        "sha256":  "F2B751B38196449E581249B0310D72BC9228F3C869A220B2E970DC9426085FB1"
+    },
+    {
+        "file":  "src/Protocol.cs",
+        "sha256":  "7219D51B106821950FB42065627F579C25EC54361D66714630022C76F462EA27"
+    },
+    {
+        "file":  "src/SelfTest.cs",
+        "sha256":  "F093EC26013219B6405A8788DA9D504A88CE37ABF566162107B9666A19931D2F"
+    }
+]

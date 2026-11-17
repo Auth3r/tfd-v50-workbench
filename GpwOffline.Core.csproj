@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AssemblyName>GpwOffline.Core</AssemblyName>
+    <Authors>狗屁王_official</Authors>
+    <Product>GPW Offline</Product>
+    <Version>0.1.0</Version>
+    <RestorePackagesPath>$(MSBuildProjectDirectory)/.nuget/packages</RestorePackagesPath>
+    <NuGetAudit>false</NuGetAudit>
+  </PropertyGroup>
+  <ItemGroup><Compile Include="src/**/*.cs" /></ItemGroup>
+</Project>

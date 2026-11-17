@@ -1,0 +1,152 @@
+﻿[
+    {
+        "path":  "E:\\第二后裔\\TFD-Offline\\TFD-Offline.exe",
+        "bytes":  71539712,
+        "sha256":  "482BCD4F2CFD80A363423353E6E650230AA5E44BDD34F46BAE63F87381460B71"
+    },
+    {
+        "path":  "E:\\第二后裔\\TFD-Offline-发布端-15.06.zip",
+        "bytes":  71545204,
+        "sha256":  "E0047FE9DF5F9C5EFFF103E0527D1AB9D9A4F84B0CD7B7310B4B380E55B0D14D"
+    },
+    {
+        "path":  "E:\\第二后裔\\The First Descendant\\M1\\Binaries\\Win64\\M1-Win64-Shipping.exe",
+        "bytes":  227045392,
+        "sha256":  "C01476888DA891BF38F464ACA7081A7DA6BDE6A33E50485CD75C9FA93794E867"
+    },
+    {
+        "path":  "E:\\第二后裔\\The First Descendant\\TheFirstDescendant.exe",
+        "bytes":  6700528,
+        "sha256":  "88793F25B554B7A72B93AAA239D796B82EE192F7F7BF31D58355C913648734D1"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\00-最终技术判断.md",
+        "bytes":  3697,
+        "sha256":  "F7DD1A767FA72733081FAAB7267B95288A81C5AC358B2AAB0519CB46340AF5A5"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\01-V15原始样本基线.md",
+        "bytes":  3174,
+        "sha256":  "7231AEE99D73AEDBA1CA7B3EB5AC42703E272D8DFF4ED17F2EB29F060A5E49A9"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\02-程序与进程架构.md",
+        "bytes":  2475,
+        "sha256":  "81524A69A26127CAC65DBAEEBF1FD094D55B474F5099A79335CC5CB0DF4818BA"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\03-本地服务架构.md",
+        "bytes":  2456,
+        "sha256":  "26C451F843ECBB7A31DF8B69BE3CC835C0C7AB7BC9927E054EE9D982192A0822"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\04-数据结构与通信契约.md",
+        "bytes":  3780,
+        "sha256":  "7838A5A0ACA4C0AD336F820574942DDB7189CE6BF3C5C16BB4D40BF7FC5BB1E0"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\05-商店与购买功能.md",
+        "bytes":  2595,
+        "sha256":  "BD8ECC4322838A1BAF73B6C8377D24BB342A929956CA424D00848A9AD4C0CF37"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\06-GM与游戏系统.md",
+        "bytes":  2234,
+        "sha256":  "C24840EE01A761F668C19BD3F229451C05A61A52D0984C8161ACD1DAD287EE01"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\07-GPW成果复用清单.md",
+        "bytes":  2812,
+        "sha256":  "B508E4E6FEC0FA3171A9E6170B6CBD5601B5FE0EC26C0BCDB2ACA8E65333697B"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\08-独立实现路线.md",
+        "bytes":  4038,
+        "sha256":  "D07629D700C8610ABF3C1B1B209B7CE75C096DB42C64360CE36B02AB2C65A053"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\09-证据与阻塞清单.md",
+        "bytes":  5204,
+        "sha256":  "61F152F7E1F6D95D5FC331CC6A12E61EF2806CAA145A920FD60466A65F92FA74"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\PROVE-IT.md",
+        "bytes":  2743,
+        "sha256":  "FEAF5308FEB67BEA88B3D375CAC83F66E08E260E6E9F634C3DBC2251B5E99557"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\SHA256SUMS.txt",
+        "bytes":  3801,
+        "sha256":  "BB689F18D5E6266FDEEC634EE5A9670E2FB995FDC5A718E3EBE2DA9023835575"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round2\\README.md",
+        "bytes":  8687,
+        "sha256":  "2922ABD564380037BC99A2EF858162BDAF6285A070BA8C9DA7ADDA32F84DF83F"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round3\\AGENTS.md",
+        "bytes":  1198,
+        "sha256":  "57F185854BC817AA1F3B610AFC0F1562C5F060C750CE546BCB6363892F78AE23"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round3\\PARSER.md",
+        "bytes":  3386,
+        "sha256":  "E6D4E0F32787F3F77B6C6541ED1157AC7162C203E3E7D00DBCD9E78F13727AA4"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round3\\README.md",
+        "bytes":  10527,
+        "sha256":  "CD271540F86C3ECFC9DF2B678B3277449E7C0E5A2AF114A35FCA17C459C5FA94"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round4\\00-最终结果.md",
+        "bytes":  2691,
+        "sha256":  "ACCCCDE3C6FFC4C8463CF7316340A738B6CF18E38C1DB9ABE86B05C4588F9556"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round4\\01-运行链状态表.md",
+        "bytes":  2142,
+        "sha256":  "CBA884AC2E04DE157DEFB58E5C44EBE93F92620CC6A40B6719CB75FCCB513B79"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round4\\02-最早失败节点分析.md",
+        "bytes":  1729,
+        "sha256":  "CEC331533C20323849244904DF0E298C9DB9BB547CC86759E9B4E7981C339EE7"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round4\\03-解析器新增能力.md",
+        "bytes":  1300,
+        "sha256":  "13F9CE589D28E9E44599E4E72A3B50C537AF1BA636AD0239CBB938E030C1CECE"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round4\\04-世界分配与资料加载.md",
+        "bytes":  1416,
+        "sha256":  "DA381A863CF8F6B237D831F4A9864D65902A804A3111574D92FFE14992DEB179"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round4\\05-GPW自有服务实现.md",
+        "bytes":  2812,
+        "sha256":  "BB966314B43595E83807BB2770BC181701EDD5C094E5A807B1902B79AF52FBD1"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round4\\06-真实运行证据.md",
+        "bytes":  2442,
+        "sha256":  "421682B6E253576657B9DD84750045A5849F6E41A03B47DE34B86C9F781C3980"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round4\\07-下一步阻塞与准入.md",
+        "bytes":  2135,
+        "sha256":  "FC2BDC0E434DC48DAC7A4492478FE6D42386EC3AE0636063B6B9BEA7215BED6F"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\experiments\\v15-service-chain\\round4\\AGENTS.md",
+        "bytes":  1210,
+        "sha256":  "2776262C4B93B8585706FD9D1D8D34AA3B0C08789DFAC2A8178CE66C045CC149"
+    },
+    {
+        "path":  "F:\\Codex\\GPW-TFD-Client\\reports\\v15-deep-research\\evidence\\protocol-declarations.json",
+        "bytes":  32202,
+        "sha256":  "9B918950B84D60D043078D9E5224982F2142DBCD56689EBD0DDB00B22BE8AA22"
+    }
+]

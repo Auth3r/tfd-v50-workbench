@@ -1,0 +1,6 @@
+bin/
+obj/
+.dotnet/
+.nuget/
+data/
+checks/mutation/

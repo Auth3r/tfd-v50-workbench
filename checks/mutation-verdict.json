@@ -1,0 +1,8 @@
+﻿{
+    "negativeExit":  1,
+    "expectedExit":  1,
+    "staleWriteCaught":  true,
+    "failedChecks":  4,
+    "productionSourceSha256":  "2FA41C62A5E22FE53800B39863663CFDC43829A780E7903FEC5619C890123C34",
+    "mutationSourceSha256":  "CBFDA9894CEC494564FFBACADFF2727B79F9F5B6A8CA778CEBA084C61CE08B42"
+}
