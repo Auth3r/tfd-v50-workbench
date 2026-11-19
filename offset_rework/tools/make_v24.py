@@ -1,0 +1,81 @@
+# -*- coding: utf-8 -*-
+"""v24：扫描仍在 JS 线程，但 showLogin 改到游戏线程（0x449d540 的 onLeave）里调用"""
+import io, sys
+
+ROOT = r"E:\第二后裔\TFD发布端V50\TFD发布端V50"
+SRC = ROOT + r"\offset_rework\old_bridge_v23_cont_host.js"
+DST = ROOT + r"\offset_rework\old_bridge_v24_gamethread.js"
+START = "// __POOL_PROBE__"
+
+NEW = r"""// __POOL_PROBE__
+(function(){
+ var cont=null,wantAt=0,scanDone=false,acting=false,acted=false;
+ attachSafe(base.add(0x4850bb0),{
+  onEnter(a){ this.c=a[0]; if(!cont){cont=this.c;} }
+ });
+ // 游戏线程：每次 UI tick 检查是否该切页
+ attachSafe(base.add(0x449d540),{
+  onLeave(){
+   try{
+    if(acted||!globalThis.__v24host){return;}
+    if(Date.now()-globalThis.__v24at<1500){return;}
+    acted=true;
+    var h=globalThis.__v24host;
+    send({event:'v24_gamethread_call',a:h});
+    showLogin(ptr(h),ticket);
+    send({event:'v24_call_returned'});
+   }catch(e){send({event:'v24_call_err',d:String(e)});}
+  }
+ });
+ globalThis.__v24mark=function(){wantAt=Date.now();};
+ function findHost(){
+  var cnt=0,chunks=null,hits=[];
+  try{cnt=base.add(0xb89c294).readS32();chunks=base.add(0xb89c280).readPointer();}catch(e){return hits;}
+  if(cnt<1||chunks.isNull()||!cont){return hits;}
+  var limit=Math.min(cnt,320000);
+  for(var i=0;i<limit;i++){
+   try{
+    var ch=chunks.add((i>>>16)*8).readPointer();
+    if(ch.isNull()){continue;}
+    var obj=ch.add((i&65535)*24).readPointer();
+    if(obj.isNull()){continue;}
+    if((obj.add(8).readU32()&0x60000030)){continue;}
+    var p=obj.add(0x720).readPointer();
+    if(p.isNull()){continue;}
+    if(!p.equals(cont)){continue;}
+    hits.push({a:obj.toString(),page:obj.add(0x738).readS32()});
+    if(hits.length>=6){break;}
+   }catch(e){}
+  }
+  return hits;
+ }
+ var timer=setInterval(function(){
+  try{
+   if(scanDone||!wantAt){return;}
+   if(Date.now()-wantAt<7000){return;}
+   scanDone=true;
+   var hosts=findHost();
+   send({event:'v24_scan',cont:cont?cont.toString():'null',hosts:hosts});
+   if(!hosts.length){return;}
+   globalThis.__v24host=hosts[0].a;
+   globalThis.__v24at=Date.now();
+   send({event:'v24_armed',a:hosts[0].a,page:hosts[0].page});
+  }catch(e){send({event:'v24_err',d:String(e)});}
+ },3000);
+})();
+"""
+
+text = io.open(SRC, 'r', encoding='utf-8').read()
+i = text.find(START)
+if i < 0:
+    print('POOL MARKER NOT FOUND'); sys.exit(1)
+text = text[:i] + NEW
+old = "try{if(globalThis.__v23mark){globalThis.__v23mark();}}catch(e){}"
+new = "try{if(globalThis.__v24mark){globalThis.__v24mark();}}catch(e){}"
+if old in text:
+    text = text.replace(old, new, 1)
+    print('mark switched to v24')
+else:
+    print('WARN: v23 mark anchor not found')
+io.open(DST, 'w', encoding='utf-8', newline='\n').write(text)
+print('written', DST, len(text))
