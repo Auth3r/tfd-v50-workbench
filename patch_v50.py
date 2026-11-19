@@ -845,7 +845,22 @@ def main():
     # 按客户端 build 自动选桥：c0147688(旧 build 26263743) 用原桥；其它(新 build 26722146)用迁移版
     bridge_file = FULL_BRIDGE
     sha12 = (LR.CLIENT_SHA256 or '').lower()[:8]
-    if sha12 == 'c0147688':
+    _override = os.environ.get('TFD_BRIDGE_FILE', '').strip()
+    if not _override:
+        _fo = HERE / 'bridge_override.txt'
+        try:
+            if _fo.exists():
+                _override = _fo.read_text(encoding='utf-8').strip().splitlines()[0].strip()
+        except Exception:
+            _override = ''
+    if _override:
+        cand = Path(_override)
+        if not cand.is_absolute():
+            cand = HERE / cand
+        if cand.exists():
+            bridge_file = cand
+            w('桥覆盖: %s' % cand.name)
+    elif sha12 == 'c0147688':
         cand = HERE / 'old_bridge_full.js.bak-c0147688'
         if cand.exists():
             bridge_file = cand
