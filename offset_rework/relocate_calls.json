@@ -1,0 +1,446 @@
+{
+ "targets": 55,
+ "solved": 0,
+ "rows": [
+  {
+   "old_rva": "0x36be870",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x36d20e0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x36f2710",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x36f2b60",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x3900a10",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x40d19a0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x40d242c",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x40d2bf4",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x40d2c66",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x422f390",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x4315eb0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x43ec960",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x43ed2b0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x4434820",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x44354b0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x44358e0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x443f430",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x4444230",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x44489f0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x4459f40",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x449f5c0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x449fcb0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x44a01e0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x44a0730",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x44a1280",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x44a51c0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x8fc0930",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9658ab0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9803f50",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x98f78e8",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x99241f0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9942950",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a4d138",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a548e8",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a60570",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a63a98",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a64528",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a67848",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a67fc8",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a69ce8",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a6ea68",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a6f3b8",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a776b8",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a781f0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a7f160",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a83d88",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a85e78",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a86308",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a8afe0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a8cfd0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0x9a8f260",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0xa0c4948",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0xb75c300",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0xb75c314",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  },
+  {
+   "old_rva": "0xbcbb2b0",
+   "new_rva": null,
+   "votes": 0,
+   "sites": 0,
+   "delta": null,
+   "detail": []
+  }
+ ]
+}

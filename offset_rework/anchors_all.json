@@ -1,0 +1,2415 @@
+{
+ "summary": {
+  "total_distinct": 300,
+  "by_section": {
+   ".text": 269,
+   ".rdata": 26,
+   ".data": 3,
+   "?": 2
+  },
+  "is_func_start": 263,
+  "in_v2_map": 32
+ },
+ "anchors": [
+  {
+   "rva": "0x110b460",
+   "lines": 2,
+   "first_line": 1151,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x112d840",
+   "lines": 2,
+   "first_line": 335,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x34817d0",
+   "lines": 1,
+   "first_line": 1226,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x34f34a0",
+   "lines": 1,
+   "first_line": 1226,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x35d2ba0",
+   "lines": 1,
+   "first_line": 2260,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3641950",
+   "lines": 1,
+   "first_line": 611,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x369c010",
+   "lines": 1,
+   "first_line": 2306,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x369c1e0",
+   "lines": 1,
+   "first_line": 2304,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x369c2d0",
+   "lines": 1,
+   "first_line": 2300,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x369c550",
+   "lines": 1,
+   "first_line": 2298,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x369ca60",
+   "lines": 1,
+   "first_line": 2296,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x369cce0",
+   "lines": 1,
+   "first_line": 2302,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x369cf70",
+   "lines": 1,
+   "first_line": 2294,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x369d200",
+   "lines": 1,
+   "first_line": 2292,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x369d450",
+   "lines": 1,
+   "first_line": 2290,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36a47e0",
+   "lines": 1,
+   "first_line": 2288,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36a5030",
+   "lines": 1,
+   "first_line": 2308,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36a8ec0",
+   "lines": 1,
+   "first_line": 2310,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36a9bd0",
+   "lines": 1,
+   "first_line": 2344,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36b2e40",
+   "lines": 1,
+   "first_line": 2246,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36bc1d0",
+   "lines": 1,
+   "first_line": 2336,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36bc620",
+   "lines": 1,
+   "first_line": 2286,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36bcc00",
+   "lines": 1,
+   "first_line": 2324,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36bd220",
+   "lines": 1,
+   "first_line": 2266,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36bd4e0",
+   "lines": 1,
+   "first_line": 2322,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36be180",
+   "lines": 1,
+   "first_line": 2374,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36be480",
+   "lines": 1,
+   "first_line": 2372,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36be670",
+   "lines": 1,
+   "first_line": 2370,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36be870",
+   "lines": 1,
+   "first_line": 2378,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36bea70",
+   "lines": 1,
+   "first_line": 2376,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36beb60",
+   "lines": 1,
+   "first_line": 2264,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c0180",
+   "lines": 1,
+   "first_line": 932,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c0270",
+   "lines": 1,
+   "first_line": 930,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c0360",
+   "lines": 1,
+   "first_line": 938,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c04d0",
+   "lines": 1,
+   "first_line": 936,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c0630",
+   "lines": 1,
+   "first_line": 934,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c0a90",
+   "lines": 1,
+   "first_line": 942,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c0bf0",
+   "lines": 1,
+   "first_line": 940,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c26b0",
+   "lines": 1,
+   "first_line": 2366,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c2a30",
+   "lines": 1,
+   "first_line": 2364,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c3280",
+   "lines": 1,
+   "first_line": 2368,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c6970",
+   "lines": 1,
+   "first_line": 2320,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c6d90",
+   "lines": 1,
+   "first_line": 2312,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c70b0",
+   "lines": 1,
+   "first_line": 2314,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c7330",
+   "lines": 1,
+   "first_line": 2316,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c86c0",
+   "lines": 1,
+   "first_line": 2268,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c8a60",
+   "lines": 1,
+   "first_line": 2346,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c8f20",
+   "lines": 1,
+   "first_line": 2280,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c93b0",
+   "lines": 1,
+   "first_line": 2334,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c9670",
+   "lines": 1,
+   "first_line": 2332,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c9930",
+   "lines": 1,
+   "first_line": 2276,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c9bc0",
+   "lines": 1,
+   "first_line": 2278,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36c9ee0",
+   "lines": 1,
+   "first_line": 2274,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36ca1e0",
+   "lines": 1,
+   "first_line": 2330,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36ca580",
+   "lines": 1,
+   "first_line": 2328,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36ca8a0",
+   "lines": 1,
+   "first_line": 2326,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36ccae0",
+   "lines": 1,
+   "first_line": 2262,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36cd570",
+   "lines": 1,
+   "first_line": 2250,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36cd7f0",
+   "lines": 1,
+   "first_line": 2252,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36d20e0",
+   "lines": 1,
+   "first_line": 2254,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36d9c50",
+   "lines": 1,
+   "first_line": 2356,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36da630",
+   "lines": 1,
+   "first_line": 2354,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36db250",
+   "lines": 1,
+   "first_line": 2033,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36dbe70",
+   "lines": 1,
+   "first_line": 2342,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36dc050",
+   "lines": 1,
+   "first_line": 2340,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36e6810",
+   "lines": 1,
+   "first_line": 2318,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36ecbc0",
+   "lines": 1,
+   "first_line": 2362,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36ed3a0",
+   "lines": 1,
+   "first_line": 2352,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36ed580",
+   "lines": 1,
+   "first_line": 2350,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36ed800",
+   "lines": 1,
+   "first_line": 2348,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36ee670",
+   "lines": 1,
+   "first_line": 2358,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36ef520",
+   "lines": 1,
+   "first_line": 2360,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36efa30",
+   "lines": 1,
+   "first_line": 888,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36f1800",
+   "lines": 1,
+   "first_line": 2392,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36f18f0",
+   "lines": 1,
+   "first_line": 2390,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36f1c90",
+   "lines": 1,
+   "first_line": 2388,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36f2210",
+   "lines": 1,
+   "first_line": 2386,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36f2490",
+   "lines": 1,
+   "first_line": 2384,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36f2710",
+   "lines": 1,
+   "first_line": 2382,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36f2b60",
+   "lines": 1,
+   "first_line": 2380,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36f3f00",
+   "lines": 1,
+   "first_line": 2272,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36f4b60",
+   "lines": 1,
+   "first_line": 2248,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36f5a70",
+   "lines": 1,
+   "first_line": 2338,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36f7410",
+   "lines": 1,
+   "first_line": 2256,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36f7500",
+   "lines": 1,
+   "first_line": 2258,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36fbc30",
+   "lines": 1,
+   "first_line": 2282,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36fbe10",
+   "lines": 1,
+   "first_line": 2270,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x36fdff0",
+   "lines": 1,
+   "first_line": 2284,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x38ff0c0",
+   "lines": 1,
+   "first_line": 62,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3900a10",
+   "lines": 1,
+   "first_line": 2831,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3900be0",
+   "lines": 1,
+   "first_line": 2829,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3ba90c0",
+   "lines": 1,
+   "first_line": 1660,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3be07a0",
+   "lines": 1,
+   "first_line": 258,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3c311d0",
+   "lines": 1,
+   "first_line": 1617,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3c3b910",
+   "lines": 1,
+   "first_line": 16,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3c3f670",
+   "lines": 1,
+   "first_line": 603,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3c42b20",
+   "lines": 1,
+   "first_line": 333,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3c7d270",
+   "lines": 1,
+   "first_line": 2875,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3c842a0",
+   "lines": 1,
+   "first_line": 2863,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3dc2090",
+   "lines": 1,
+   "first_line": 1318,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3dd8210",
+   "lines": 1,
+   "first_line": 1232,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3e8c490",
+   "lines": 1,
+   "first_line": 657,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3f97720",
+   "lines": 1,
+   "first_line": 1378,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3fba2d0",
+   "lines": 1,
+   "first_line": 1196,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x3fdc770",
+   "lines": 1,
+   "first_line": 1033,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4094990",
+   "lines": 1,
+   "first_line": 246,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x40a0f90",
+   "lines": 1,
+   "first_line": 607,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x40a2290",
+   "lines": 1,
+   "first_line": 605,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x40b3490",
+   "lines": 1,
+   "first_line": 2746,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x40b4060",
+   "lines": 1,
+   "first_line": 2748,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x40d19a0",
+   "lines": 1,
+   "first_line": 1569,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x40d242c",
+   "lines": 1,
+   "first_line": 1593,
+   "section": ".text",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x40d2bf4",
+   "lines": 1,
+   "first_line": 1619,
+   "section": ".text",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x40d2c66",
+   "lines": 1,
+   "first_line": 1615,
+   "section": ".text",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x40fe220",
+   "lines": 1,
+   "first_line": 1621,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4164dc0",
+   "lines": 1,
+   "first_line": 615,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x41cdbe0",
+   "lines": 1,
+   "first_line": 1982,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x41ce9c0",
+   "lines": 1,
+   "first_line": 1654,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x421ac90",
+   "lines": 1,
+   "first_line": 1497,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x422b250",
+   "lines": 1,
+   "first_line": 1533,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x422e8d0",
+   "lines": 1,
+   "first_line": 1531,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x422e950",
+   "lines": 1,
+   "first_line": 1533,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x422e9d0",
+   "lines": 1,
+   "first_line": 1533,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x422f390",
+   "lines": 1,
+   "first_line": 1531,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x422f6f0",
+   "lines": 1,
+   "first_line": 1082,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4236d90",
+   "lines": 1,
+   "first_line": 1095,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4248900",
+   "lines": 1,
+   "first_line": 2092,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x42a32b0",
+   "lines": 2,
+   "first_line": 2527,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4315eb0",
+   "lines": 1,
+   "first_line": 1186,
+   "section": ".text",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x4358140",
+   "lines": 1,
+   "first_line": 2090,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x435a070",
+   "lines": 1,
+   "first_line": 2260,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43e2d40",
+   "lines": 1,
+   "first_line": 1230,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43e4760",
+   "lines": 1,
+   "first_line": 461,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43ec960",
+   "lines": 1,
+   "first_line": 2290,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43ecd50",
+   "lines": 1,
+   "first_line": 2292,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43ed2b0",
+   "lines": 1,
+   "first_line": 2294,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43ed880",
+   "lines": 1,
+   "first_line": 2302,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43ede60",
+   "lines": 1,
+   "first_line": 2296,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43ee400",
+   "lines": 1,
+   "first_line": 2298,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43ee980",
+   "lines": 1,
+   "first_line": 2300,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43eea90",
+   "lines": 1,
+   "first_line": 2304,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43eed00",
+   "lines": 1,
+   "first_line": 2306,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43fd5a0",
+   "lines": 6,
+   "first_line": 222,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43feee0",
+   "lines": 1,
+   "first_line": 294,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43ff750",
+   "lines": 1,
+   "first_line": 280,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43ffc70",
+   "lines": 1,
+   "first_line": 2246,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x43ffcf0",
+   "lines": 2,
+   "first_line": 40,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4404fd0",
+   "lines": 3,
+   "first_line": 210,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4415900",
+   "lines": 1,
+   "first_line": 2310,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4417a50",
+   "lines": 1,
+   "first_line": 2344,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x441b2c0",
+   "lines": 1,
+   "first_line": 544,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x441b2d0",
+   "lines": 1,
+   "first_line": 492,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x441bd00",
+   "lines": 1,
+   "first_line": 2919,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x441e910",
+   "lines": 1,
+   "first_line": 2308,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x441f8a0",
+   "lines": 7,
+   "first_line": 490,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4420d50",
+   "lines": 1,
+   "first_line": 2913,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4420de0",
+   "lines": 1,
+   "first_line": 2913,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4422120",
+   "lines": 1,
+   "first_line": 2288,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4432420",
+   "lines": 2,
+   "first_line": 2322,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4432ba0",
+   "lines": 1,
+   "first_line": 2266,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4433990",
+   "lines": 1,
+   "first_line": 904,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4433b80",
+   "lines": 3,
+   "first_line": 904,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4433bd0",
+   "lines": 1,
+   "first_line": 904,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4434820",
+   "lines": 1,
+   "first_line": 2336,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4434e10",
+   "lines": 1,
+   "first_line": 2376,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44354b0",
+   "lines": 1,
+   "first_line": 2378,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44358e0",
+   "lines": 1,
+   "first_line": 2370,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4436020",
+   "lines": 1,
+   "first_line": 2372,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44365a0",
+   "lines": 1,
+   "first_line": 2374,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x443bd40",
+   "lines": 1,
+   "first_line": 2368,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x443cae0",
+   "lines": 1,
+   "first_line": 2364,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x443d170",
+   "lines": 1,
+   "first_line": 2366,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x443f250",
+   "lines": 1,
+   "first_line": 940,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x443f370",
+   "lines": 1,
+   "first_line": 942,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x443f430",
+   "lines": 1,
+   "first_line": 934,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4440550",
+   "lines": 1,
+   "first_line": 930,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4440880",
+   "lines": 1,
+   "first_line": 932,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44412e0",
+   "lines": 1,
+   "first_line": 936,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44415d0",
+   "lines": 1,
+   "first_line": 938,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4443170",
+   "lines": 1,
+   "first_line": 1398,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4443bc0",
+   "lines": 1,
+   "first_line": 2316,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4444230",
+   "lines": 1,
+   "first_line": 2314,
+   "section": ".text",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x44447d0",
+   "lines": 1,
+   "first_line": 2312,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44452f0",
+   "lines": 1,
+   "first_line": 2320,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4445e70",
+   "lines": 1,
+   "first_line": 715,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4445e80",
+   "lines": 1,
+   "first_line": 609,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4446900",
+   "lines": 1,
+   "first_line": 2264,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4446f20",
+   "lines": 1,
+   "first_line": 2280,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4447540",
+   "lines": 1,
+   "first_line": 2346,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4447a60",
+   "lines": 1,
+   "first_line": 2268,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44489f0",
+   "lines": 1,
+   "first_line": 2328,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4449060",
+   "lines": 1,
+   "first_line": 2330,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44499f0",
+   "lines": 1,
+   "first_line": 2274,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x444a190",
+   "lines": 1,
+   "first_line": 2278,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x444aa40",
+   "lines": 1,
+   "first_line": 2276,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x444afe0",
+   "lines": 1,
+   "first_line": 2332,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x444b840",
+   "lines": 1,
+   "first_line": 2334,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x444bb40",
+   "lines": 1,
+   "first_line": 2326,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x444d390",
+   "lines": 1,
+   "first_line": 2252,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x444d7b0",
+   "lines": 1,
+   "first_line": 2250,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x444f5e0",
+   "lines": 1,
+   "first_line": 2262,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4454710",
+   "lines": 2,
+   "first_line": 1662,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4456440",
+   "lines": 1,
+   "first_line": 2927,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4459f40",
+   "lines": 1,
+   "first_line": 2254,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x446f260",
+   "lines": 1,
+   "first_line": 1706,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44703a0",
+   "lines": 1,
+   "first_line": 1728,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4471460",
+   "lines": 1,
+   "first_line": 1894,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4471b50",
+   "lines": 1,
+   "first_line": 1864,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4471c70",
+   "lines": 2,
+   "first_line": 1656,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4472c00",
+   "lines": 1,
+   "first_line": 1648,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4472d30",
+   "lines": 1,
+   "first_line": 1650,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4475e80",
+   "lines": 1,
+   "first_line": 2340,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44764b0",
+   "lines": 1,
+   "first_line": 2342,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4476e80",
+   "lines": 1,
+   "first_line": 2033,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4478180",
+   "lines": 1,
+   "first_line": 2354,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4478c70",
+   "lines": 1,
+   "first_line": 2356,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4486030",
+   "lines": 1,
+   "first_line": 2754,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4488550",
+   "lines": 1,
+   "first_line": 2750,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4488c20",
+   "lines": 1,
+   "first_line": 2752,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4488df0",
+   "lines": 1,
+   "first_line": 2756,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x448a840",
+   "lines": 1,
+   "first_line": 2318,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4491bc0",
+   "lines": 1,
+   "first_line": 2360,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4493890",
+   "lines": 1,
+   "first_line": 2358,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4495e50",
+   "lines": 1,
+   "first_line": 2348,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4496360",
+   "lines": 1,
+   "first_line": 2350,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4496880",
+   "lines": 1,
+   "first_line": 2352,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4497430",
+   "lines": 1,
+   "first_line": 2362,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4497f10",
+   "lines": 1,
+   "first_line": 890,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4498120",
+   "lines": 1,
+   "first_line": 902,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44982e0",
+   "lines": 2,
+   "first_line": 888,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4498c30",
+   "lines": 2,
+   "first_line": 890,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4498ca0",
+   "lines": 2,
+   "first_line": 902,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x449f5c0",
+   "lines": 1,
+   "first_line": 2380,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x449fcb0",
+   "lines": 1,
+   "first_line": 2382,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44a01e0",
+   "lines": 1,
+   "first_line": 2384,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44a0730",
+   "lines": 1,
+   "first_line": 2386,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44a0d50",
+   "lines": 1,
+   "first_line": 2388,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44a1280",
+   "lines": 1,
+   "first_line": 2390,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44a1750",
+   "lines": 1,
+   "first_line": 2392,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44a3770",
+   "lines": 1,
+   "first_line": 2338,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44a51c0",
+   "lines": 1,
+   "first_line": 2248,
+   "section": ".text",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x44a7240",
+   "lines": 1,
+   "first_line": 2272,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44a79e0",
+   "lines": 1,
+   "first_line": 2258,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44a8070",
+   "lines": 1,
+   "first_line": 2256,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44ad1b0",
+   "lines": 1,
+   "first_line": 2270,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44ad5f0",
+   "lines": 1,
+   "first_line": 2282,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44b5bb0",
+   "lines": 1,
+   "first_line": 2284,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44b9720",
+   "lines": 4,
+   "first_line": 792,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44c1700",
+   "lines": 2,
+   "first_line": 1092,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x44c45f0",
+   "lines": 1,
+   "first_line": 2605,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x49cd210",
+   "lines": 1,
+   "first_line": 66,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x49cdbf0",
+   "lines": 1,
+   "first_line": 184,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x49d3e20",
+   "lines": 1,
+   "first_line": 389,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x49f4ec0",
+   "lines": 2,
+   "first_line": 64,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4a05e90",
+   "lines": 1,
+   "first_line": 349,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4bd6f20",
+   "lines": 1,
+   "first_line": 272,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4d203e0",
+   "lines": 1,
+   "first_line": 2833,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4dce540",
+   "lines": 1,
+   "first_line": 2708,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4dd0700",
+   "lines": 2,
+   "first_line": 2702,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x4dd1ad0",
+   "lines": 1,
+   "first_line": 310,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x5009ed0",
+   "lines": 1,
+   "first_line": 1150,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x51d3f10",
+   "lines": 3,
+   "first_line": 962,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x51ec760",
+   "lines": 1,
+   "first_line": 1228,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x51f1100",
+   "lines": 1,
+   "first_line": 613,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x6dbfcf0",
+   "lines": 4,
+   "first_line": 1027,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x6ddb820",
+   "lines": 6,
+   "first_line": 796,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x71eaea0",
+   "lines": 1,
+   "first_line": 1224,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x787d080",
+   "lines": 1,
+   "first_line": 1152,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x7939350",
+   "lines": 1,
+   "first_line": 1029,
+   "section": ".text",
+   "is_func": true,
+   "align16": true
+  },
+  {
+   "rva": "0x8fc0930",
+   "lines": 2,
+   "first_line": 351,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x9658ab0",
+   "lines": 1,
+   "first_line": 1043,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x9803f50",
+   "lines": 1,
+   "first_line": 1988,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x98f78e8",
+   "lines": 1,
+   "first_line": 1155,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x99241f0",
+   "lines": 1,
+   "first_line": 1169,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x9942950",
+   "lines": 2,
+   "first_line": 2098,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x9a4d138",
+   "lines": 9,
+   "first_line": 2290,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a548e8",
+   "lines": 6,
+   "first_line": 2110,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a60570",
+   "lines": 4,
+   "first_line": 918,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x9a63a98",
+   "lines": 5,
+   "first_line": 2370,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a64528",
+   "lines": 6,
+   "first_line": 798,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a67848",
+   "lines": 3,
+   "first_line": 2250,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a67fc8",
+   "lines": 12,
+   "first_line": 2264,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a69ce8",
+   "lines": 4,
+   "first_line": 2312,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a6ea68",
+   "lines": 1,
+   "first_line": 2254,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a6f3b8",
+   "lines": 1,
+   "first_line": 1814,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a776b8",
+   "lines": 5,
+   "first_line": 2033,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a781f0",
+   "lines": 3,
+   "first_line": 1666,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x9a7f160",
+   "lines": 1,
+   "first_line": 2318,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x9a83d88",
+   "lines": 3,
+   "first_line": 2248,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a85e78",
+   "lines": 7,
+   "first_line": 2380,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a86308",
+   "lines": 7,
+   "first_line": 798,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0x9a8afe0",
+   "lines": 1,
+   "first_line": 2284,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x9a8cfd0",
+   "lines": 2,
+   "first_line": 2270,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x9a8f260",
+   "lines": 2,
+   "first_line": 2256,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0xa0c4948",
+   "lines": 1,
+   "first_line": 2567,
+   "section": ".rdata",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0xb75c300",
+   "lines": 5,
+   "first_line": 106,
+   "section": ".data",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0xb75c314",
+   "lines": 5,
+   "first_line": 104,
+   "section": ".data",
+   "is_func": false,
+   "align16": false
+  },
+  {
+   "rva": "0xbcbb2b0",
+   "lines": 1,
+   "first_line": 1854,
+   "section": ".data",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x30200000",
+   "lines": 5,
+   "first_line": 365,
+   "section": "?",
+   "is_func": false,
+   "align16": true
+  },
+  {
+   "rva": "0x60000030",
+   "lines": 3,
+   "first_line": 128,
+   "section": "?",
+   "is_func": false,
+   "align16": true
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+# 大体积/可再生成的二进制与运行数据不入库
+*.exe
+*.dll
+*.pyd
+*.i64
+*.iid
+*.pdb
+*.log
+*.zip
+*.png
+*.jpg
+
+vendor/
+unpacked/
+data/
+licensing/
+runtime/
+
+# 运行记录与存档（含用户数据）
+data/launcher/runs/
+data/launcher/saves/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.bak-*
+
+# 临时
+__pycache__/
+*.pyc
+.tfd-patch/

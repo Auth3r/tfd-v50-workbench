@@ -1,0 +1,38 @@
+{
+ "task": "把 V50 免授权桥（old_bridge_full.js）从 Build 26263743 迁移到 Build 26722146",
+ "target_build": "26722146",
+ "target_exe": "F:\\Codex\\TFD-Zero-P0\\build-26722146\\runtime-copy\\M1\\Binaries\\Win64\\M1-Win64-Shipping.exe",
+ "source_build": "26263743",
+ "source_exe": "E:\\第二后裔\\The First Descendant\\M1\\Binaries\\Win64\\M1-Win64-Shipping.exe",
+ "phase": "P1-anchor-mapping",
+ "phases": {
+  "P0_recon": "done",
+  "P1_anchor_map": "in_progress",
+  "P2_manual_fixup": "pending",
+  "P3_live_validation": "pending",
+  "P4_ship": "pending"
+ },
+ "progress": {
+  "anchors_total": 43,
+  "resolved_confident": 28,
+  "resolved_uncertain": 3,
+  "unresolved_data": 10,
+  "unresolved_text": 4,
+  "bad_rva": 1,
+  "confidence_ratio": "28/43 = 65%"
+ },
+ "artifacts": {
+  "pass1": "match_report.md / offset_map.json",
+  "pass2": "match_report_v2.md / offset_map_v2.json",
+  "pass3_text": "text_unresolved_pass3.md / text_unresolved_pass3.json",
+  "classify": "unresolved_classify.md / unresolved_classify.json",
+  "ida_old": "work/old_ida.json (running)"
+ },
+ "next_action": "等 IDA 旧库分析完成 -> 用 xref 把 10 个 .rdata 指针表与 4 个 .text 锚点定址 -> 生成 v3 映射表",
+ "blockers": [],
+ "notes": [
+  "delta 随 RVA 单调增长 = 代码体量增长导致整体后移，锚点函数本身未消失",
+  "0x4236d90 起点是 e9 jmp thunk，字节匹配天然歧义，需按 jmp 目标反推",
+  "0xbcbb2b0 映射不到文件字节（可能是未初始化区或 RVA 记错），待 IDA 核对"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "distinct_replaced": 270,
+ "occurrences_replaced": 360,
+ "distinct_left": 28,
+ "occurrences_left": 52,
+ "dropped_collisions": {
+  "0x36cd570": {
+   "old_rva": "0x36cd570",
+   "new_rva": "0x37004f0",
+   "reason": "collision",
+   "kept": "0x369cf70"
+  },
+  "0x36ed580": {
+   "old_rva": "0x36ed580",
+   "new_rva": "0x36f11c0",
+   "reason": "collision",
+   "kept": "0x36bea70"
+  },
+  "0x36c26b0": {
+   "old_rva": "0x36c26b0",
+   "new_rva": "0x36d2850",
+   "reason": "collision",
+   "kept": "0x36da630"
+  },
+  "0x36c2a30": {
+   "old_rva": "0x36c2a30",
+   "new_rva": "0x36d2850",
+   "reason": "collision",
+   "kept": "0x36da630"
+  },
+  "0x36c86c0": {
+   "old_rva": "0x36c86c0",
+   "new_rva": "0x36d2850",
+   "reason": "collision",
+   "kept": "0x36da630"
+  },
+  "0x36fbe10": {
+   "old_rva": "0x36fbe10",
+   "new_rva": "0x36c85b0",
+   "reason": "collision",
+   "kept": "0x36fbc30"
+  },
+  "0x44354b0": {
+   "old_rva": "0x44354b0",
+   "new_rva": "0x44d5220",
+   "reason": "collision",
+   "kept": "0x4434e10"
+  }
+ },
+ "left_detail": {
+  "0x9a64528": 6,
+  "0x9a60570": 4,
+  "0x98f78e8": 1,
+  "0x99241f0": 1,
+  "0x40d242c": 1,
+  "0x40d2c66": 1,
+  "0x40d2bf4": 1,
+  "0x9803f50": 1,
+  "0x9942950": 2,
+  "0x9a548e8": 6,
+  "0x36cd570": 1,
+  "0x9a6ea68": 1,
+  "0x36d20e0": 1,
+  "0x36c86c0": 1,
+  "0x36fbe10": 1,
+  "0x4434820": 1,
+  "0x36ed580": 1,
+  "0x36c2a30": 1,
+  "0x36c26b0": 1,
+  "0x9a63a98": 5,
+  "0x44354b0": 1,
+  "0x9a85e78": 7,
+  "0x36f2b60": 1,
+  "0x36f2710": 1,
+  "0x449fcb0": 1,
+  "0x44a01e0": 1,
+  "0x44a1280": 1,
+  "0xa0c4948": 1
+ }
+}

@@ -1,0 +1,48 @@
+[
+ {
+  "old_rva": "0x3641950",
+  "predicted": "0x3641950",
+  "base_delta": "0x0",
+  "bracket": null,
+  "best_score": 0.707,
+  "second_score": 0.5391,
+  "new_rva": "0x36406e0",
+  "new_delta": "0x-1270"
+ },
+ {
+  "old_rva": "0x36db250",
+  "predicted": "0x36db250",
+  "base_delta": "0x0",
+  "bracket": null,
+  "best_score": 0.8008,
+  "second_score": 0.7227,
+  "new_rva": "0x36ddf50",
+  "new_delta": "0x2d00"
+ },
+ {
+  "old_rva": "0x3c3f670",
+  "predicted": "0x3cbc3d0",
+  "base_delta": "0x7cd60",
+  "bracket": [
+   "0x3ba90c0",
+   "0x3e8c490"
+  ],
+  "best_score": 0.1523,
+  "second_score": 0.1133,
+  "new_rva": "0x3cb7e00",
+  "new_delta": "0x78790"
+ },
+ {
+  "old_rva": "0x4236d90",
+  "predicted": "0x42cf210",
+  "base_delta": "0x98480",
+  "bracket": [
+   "0x422f6f0",
+   "0x43fd5a0"
+  ],
+  "best_score": 0.9219,
+  "second_score": 0.9062,
+  "new_rva": "0x42cf5f0",
+  "new_delta": "0x98860"
+ }
+]

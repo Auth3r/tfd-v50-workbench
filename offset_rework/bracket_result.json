@@ -1,0 +1,77 @@
+{
+ "0x36f2710": {
+  "new_rva": 57830816,
+  "size": 241,
+  "method": "bracket_size",
+  "window": [
+   "0x3726b20",
+   "0x37280b0"
+  ]
+ },
+ "0x36f2b60": {
+  "new_rva": 57830816,
+  "size": 241,
+  "method": "bracket_size",
+  "window": [
+   "0x3726b20",
+   "0x37280b0"
+  ]
+ },
+ "0x422f390": {
+  "new_rva": 70023184,
+  "size": 854,
+  "method": "bracket_size",
+  "window": [
+   "0x42c6e50",
+   "0x42c7b70"
+  ]
+ },
+ "0x43ec960": {
+  "new_rva": null,
+  "size": 5,
+  "method": "bracket_ambiguous",
+  "cands": [
+   "0x4483bd0",
+   "0x44848c0",
+   "0x4484f60",
+   "0x4485480",
+   "0x4485ea0",
+   "0x4486640"
+  ],
+  "window": [
+   "0x4483b40",
+   "0x448c230"
+  ]
+ },
+ "0x4459f40": {
+  "new_rva": null,
+  "size": 5,
+  "method": "bracket_ambiguous",
+  "cands": [
+   "0x44fcf80",
+   "0x4504180",
+   "0x4506b10",
+   "0x4506b20",
+   "0x4506b30",
+   "0x4506b40"
+  ],
+  "window": [
+   "0x44f9480",
+   "0x45114c0"
+  ]
+ },
+ "0x44a1280": {
+  "new_rva": null,
+  "size": 42,
+  "method": "bracket_ambiguous",
+  "cands": [
+   "0x45430c0",
+   "0x45435f0",
+   "0x4543ab0"
+  ],
+  "window": [
+   "0x45430c0",
+   "0x4543ab0"
+  ]
+ }
+}

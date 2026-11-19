@@ -1,0 +1,222 @@
+[
+ {
+  "rva": "0x8fc0930",
+  "section": ".rdata",
+  "aligned16": true,
+  "head": "a07331410100000020a512410100000030a5124101000000b0ac124101000000",
+  "qwords": [
+   "0x1413173a0",
+   "0x14112a520",
+   "0x14112a530",
+   "0x14112acb0"
+  ],
+  "seed8_hits": []
+ },
+ {
+  "rva": "0x9803f50",
+  "section": ".rdata",
+  "aligned16": true,
+  "head": "b03c51430100000050b5104101000000a0c91e450100000040138c4101000000",
+  "qwords": [
+   "0x143513cb0",
+   "0x14110b550",
+   "0x1451ec9a0",
+   "0x1418c1340"
+  ],
+  "seed8_hits": []
+ },
+ {
+  "rva": "0x9a60570",
+  "section": ".rdata",
+  "aligned16": true,
+  "head": "f05d6c430100000050b5104101000000a0c91e450100000040138c4101000000",
+  "qwords": [
+   "0x1436c5df0",
+   "0x14110b550",
+   "0x1451ec9a0",
+   "0x1418c1340"
+  ],
+  "seed8_hits": [
+   "0xb7d1be0"
+  ]
+ },
+ {
+  "rva": "0x9a64528",
+  "section": ".rdata",
+  "aligned16": false,
+  "head": "30dc6b430100000050b5104101000000a0c91e450100000040138c4101000000",
+  "qwords": [
+   "0x1436bdc30",
+   "0x14110b550",
+   "0x1451ec9a0",
+   "0x1418c1340"
+  ],
+  "seed8_hits": []
+ },
+ {
+  "rva": "0x9a6f3b8",
+  "section": ".rdata",
+  "aligned16": false,
+  "head": "90146d430100000050b5104101000000a0c91e450100000040138c4101000000",
+  "qwords": [
+   "0x1436d1490",
+   "0x14110b550",
+   "0x1451ec9a0",
+   "0x1418c1340"
+  ],
+  "seed8_hits": []
+ },
+ {
+  "rva": "0x9a776b8",
+  "section": ".rdata",
+  "aligned16": false,
+  "head": "c0d46d430100000050b5104101000000a0c91e450100000040138c4101000000",
+  "qwords": [
+   "0x1436dd4c0",
+   "0x14110b550",
+   "0x1451ec9a0",
+   "0x1418c1340"
+  ],
+  "seed8_hits": []
+ },
+ {
+  "rva": "0x9a781f0",
+  "section": ".rdata",
+  "aligned16": true,
+  "head": "30966d430100000050b5104101000000a0c91e450100000040138c4101000000",
+  "qwords": [
+   "0x1436d9630",
+   "0x14110b550",
+   "0x1451ec9a0",
+   "0x1418c1340"
+  ],
+  "seed8_hits": []
+ },
+ {
+  "rva": "0x9a86308",
+  "section": ".rdata",
+  "aligned16": false,
+  "head": "300c6f430100000050b5104101000000a0c91e450100000040138c4101000000",
+  "qwords": [
+   "0x1436f0c30",
+   "0x14110b550",
+   "0x1451ec9a0",
+   "0x1418c1340"
+  ],
+  "seed8_hits": []
+ },
+ {
+  "rva": "0xb75c300",
+  "section": ".data",
+  "aligned16": true,
+  "head": "0000000000000000000000000000000000000000000000000000000000000000",
+  "qwords": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "seed8_hits": [
+   "0x19",
+   "0x1a",
+   "0x1b",
+   "0x1c",
+   "0x1d"
+  ]
+ },
+ {
+  "rva": "0xb75c314",
+  "section": ".data",
+  "aligned16": false,
+  "head": "0000000000000000000000000000000000000000000000000000000000000000",
+  "qwords": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "seed8_hits": [
+   "0x19",
+   "0x1a",
+   "0x1b",
+   "0x1c",
+   "0x1d"
+  ]
+ },
+ {
+  "rva": "0x3641950",
+  "section": ".text",
+  "aligned16": true,
+  "head": "4c8bdc4883ec78488b058a6053084885c00f8592000000488d05e29bacfd4989",
+  "qwords": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "seed8_hits": [
+   "0x1126400",
+   "0x1144bb0",
+   "0x1146640",
+   "0x1146760",
+   "0x1149120"
+  ]
+ },
+ {
+  "rva": "0x36db250",
+  "section": ".text",
+  "aligned16": true,
+  "head": "488bc44889580848897010574883ec4033ff488bda488978d8488bf18978e066",
+  "qwords": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "seed8_hits": [
+   "0xb1ad60",
+   "0x103d2c0",
+   "0x1131090",
+   "0x11338c0",
+   "0x113df40"
+  ]
+ },
+ {
+  "rva": "0x3c3f670",
+  "section": ".text",
+  "aligned16": true,
+  "head": "48895c24084889742410574883ec20488b99c8000000486381d0000000488d34",
+  "qwords": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "seed8_hits": [
+   "0x997520",
+   "0x99ae30",
+   "0xa11880",
+   "0xa11da0",
+   "0xa38d70"
+  ]
+ },
+ {
+  "rva": "0x4236d90",
+  "section": ".text",
+  "aligned16": true,
+  "head": "e95b89ffffcccccccccccccccccccccc4883ec28448b491c4c8bc14585c97450",
+  "qwords": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "seed8_hits": []
+ },
+ {
+  "rva": "0xbcbb2b0",
+  "section": ".data",
+  "aligned16": true,
+  "note": "no file bytes"
+ }
+]

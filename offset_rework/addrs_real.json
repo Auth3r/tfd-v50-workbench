@@ -1,0 +1,856 @@
+{
+ "total": 91,
+ "mapped": 77,
+ "items": [
+  {
+   "old_rva": "0x110b460",
+   "lines": [
+    1151
+   ],
+   "mapped": true,
+   "new_rva": "0x1125120",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x112d840",
+   "lines": [
+    335,
+    467
+   ],
+   "mapped": true,
+   "new_rva": "0x1147500",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x3641950",
+   "lines": [
+    611
+   ],
+   "mapped": true,
+   "new_rva": "0x37483c0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x36db250",
+   "lines": [
+    2033
+   ],
+   "mapped": true,
+   "new_rva": "0x370fb20",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x38ff0c0",
+   "lines": [
+    62
+   ],
+   "mapped": true,
+   "new_rva": "0x38e1390",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x3900a10",
+   "lines": [
+    2831
+   ],
+   "mapped": true,
+   "new_rva": "0x3a321b0",
+   "method": "snap_func"
+  },
+  {
+   "old_rva": "0x3900be0",
+   "lines": [
+    2829
+   ],
+   "mapped": true,
+   "new_rva": "0x3948bb0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x3ba90c0",
+   "lines": [
+    1660
+   ],
+   "mapped": true,
+   "new_rva": "0x3c25e20",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x3be07a0",
+   "lines": [
+    258
+   ],
+   "mapped": true,
+   "new_rva": "0x3c381f0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x3c3b910",
+   "lines": [
+    16
+   ],
+   "mapped": true,
+   "new_rva": "0x3c98380",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x3c3f670",
+   "lines": [
+    603
+   ],
+   "mapped": true,
+   "new_rva": "0x3c634b0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x3c42b20",
+   "lines": [
+    333
+   ],
+   "mapped": true,
+   "new_rva": "0x3c261b0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x3c7d270",
+   "lines": [
+    2875
+   ],
+   "mapped": true,
+   "new_rva": "0x3cd8150",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x3c842a0",
+   "lines": [
+    2863
+   ],
+   "mapped": true,
+   "new_rva": "0x3cdf180",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x3e8c490",
+   "lines": [
+    657
+   ],
+   "mapped": true,
+   "new_rva": "0x3ee21d0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x3fba2d0",
+   "lines": [
+    1196
+   ],
+   "mapped": true,
+   "new_rva": "0x401d430",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x3fdc770",
+   "lines": [
+    1033
+   ],
+   "mapped": true,
+   "new_rva": "0x4046840",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4094990",
+   "lines": [
+    246
+   ],
+   "mapped": true,
+   "new_rva": "0x40f8c10",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x40a0f90",
+   "lines": [
+    607
+   ],
+   "mapped": true,
+   "new_rva": "0x41052a0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x40a2290",
+   "lines": [
+    605
+   ],
+   "mapped": true,
+   "new_rva": "0x41065a0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x40b3490",
+   "lines": [
+    2746
+   ],
+   "mapped": true,
+   "new_rva": "0x41264b0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x40b4060",
+   "lines": [
+    2748
+   ],
+   "mapped": true,
+   "new_rva": "0x4127080",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4164dc0",
+   "lines": [
+    615
+   ],
+   "mapped": true,
+   "new_rva": "0x41fa6d0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x41cdbe0",
+   "lines": [
+    1982
+   ],
+   "mapped": true,
+   "new_rva": "0x4264df0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x41ce9c0",
+   "lines": [
+    1654
+   ],
+   "mapped": true,
+   "new_rva": "0x4265bd0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x422f6f0",
+   "lines": [
+    1082
+   ],
+   "mapped": true,
+   "new_rva": "0x42c7b70",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4236d90",
+   "lines": [
+    1095
+   ],
+   "mapped": true,
+   "new_rva": "0x42cf5f0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4248900",
+   "lines": [
+    2092
+   ],
+   "mapped": true,
+   "new_rva": "0x42e11b0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4315eb0",
+   "lines": [
+    1186
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0x4358140",
+   "lines": [
+    2090
+   ],
+   "mapped": true,
+   "new_rva": "0x43f0e40",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x43e4760",
+   "lines": [
+    461
+   ],
+   "mapped": true,
+   "new_rva": "0x4483b40",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x43fd5a0",
+   "lines": [
+    222,
+    534,
+    699,
+    1116
+   ],
+   "mapped": true,
+   "new_rva": "0x449d540",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x43feee0",
+   "lines": [
+    294
+   ],
+   "mapped": true,
+   "new_rva": "0x449ee80",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x43ff750",
+   "lines": [
+    280
+   ],
+   "mapped": true,
+   "new_rva": "0x449f870",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x43ffcf0",
+   "lines": [
+    40,
+    68
+   ],
+   "mapped": true,
+   "new_rva": "0x449fe10",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4404fd0",
+   "lines": [
+    210,
+    371,
+    2686
+   ],
+   "mapped": true,
+   "new_rva": "0x44a5370",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x441b2c0",
+   "lines": [
+    544
+   ],
+   "mapped": true,
+   "new_rva": "0x44bb690",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x441b2d0",
+   "lines": [
+    492
+   ],
+   "mapped": true,
+   "new_rva": "0x44bb6a0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x441bd00",
+   "lines": [
+    2919
+   ],
+   "mapped": true,
+   "new_rva": "0x44bc0d0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x441f8a0",
+   "lines": [
+    490,
+    601,
+    794,
+    1646,
+    2031,
+    2086
+   ],
+   "mapped": true,
+   "new_rva": "0x44bfc80",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4445e70",
+   "lines": [
+    715
+   ],
+   "mapped": true,
+   "new_rva": "0x44e6c10",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4445e80",
+   "lines": [
+    609
+   ],
+   "mapped": true,
+   "new_rva": "0x44e6c20",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4454710",
+   "lines": [
+    1662,
+    2883
+   ],
+   "mapped": true,
+   "new_rva": "0x44f7750",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4456440",
+   "lines": [
+    2927
+   ],
+   "mapped": true,
+   "new_rva": "0x44f9480",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x446f260",
+   "lines": [
+    1706
+   ],
+   "mapped": true,
+   "new_rva": "0x45114c0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x44703a0",
+   "lines": [
+    1728
+   ],
+   "mapped": true,
+   "new_rva": "0x4512600",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4471460",
+   "lines": [
+    1894
+   ],
+   "mapped": true,
+   "new_rva": "0x45136c0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4471b50",
+   "lines": [
+    1864
+   ],
+   "mapped": true,
+   "new_rva": "0x4513dc0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4471c70",
+   "lines": [
+    1656,
+    1692
+   ],
+   "mapped": true,
+   "new_rva": "0x4513ee0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4472c00",
+   "lines": [
+    1648
+   ],
+   "mapped": true,
+   "new_rva": "0x4514e70",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4472d30",
+   "lines": [
+    1650
+   ],
+   "mapped": true,
+   "new_rva": "0x4514fa0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4476e80",
+   "lines": [
+    2033
+   ],
+   "mapped": true,
+   "new_rva": "0x45190f0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4486030",
+   "lines": [
+    2754
+   ],
+   "mapped": true,
+   "new_rva": "0x4528100",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4488550",
+   "lines": [
+    2750
+   ],
+   "mapped": true,
+   "new_rva": "0x452a620",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4488c20",
+   "lines": [
+    2752
+   ],
+   "mapped": true,
+   "new_rva": "0x452acf0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4488df0",
+   "lines": [
+    2756
+   ],
+   "mapped": true,
+   "new_rva": "0x452aec0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x44b9720",
+   "lines": [
+    792,
+    1644,
+    2030,
+    2084
+   ],
+   "mapped": true,
+   "new_rva": "0x455ba70",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x44c1700",
+   "lines": [
+    1092
+   ],
+   "mapped": true,
+   "new_rva": "0x4563ca0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x49cd210",
+   "lines": [
+    66
+   ],
+   "mapped": true,
+   "new_rva": "0x4aa2cd0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x49cdbf0",
+   "lines": [
+    184
+   ],
+   "mapped": true,
+   "new_rva": "0x4aa36b0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x49d3e20",
+   "lines": [
+    389
+   ],
+   "mapped": true,
+   "new_rva": "0x4aa94a0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x49f4ec0",
+   "lines": [
+    64,
+    445
+   ],
+   "mapped": true,
+   "new_rva": "0x4acf6c0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4a05e90",
+   "lines": [
+    349
+   ],
+   "mapped": true,
+   "new_rva": "0x4ab22f0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4bd6f20",
+   "lines": [
+    272
+   ],
+   "mapped": true,
+   "new_rva": "0x4cb86e0",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4d203e0",
+   "lines": [
+    2833
+   ],
+   "mapped": true,
+   "new_rva": "0x4dfe430",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4dce540",
+   "lines": [
+    2708
+   ],
+   "mapped": true,
+   "new_rva": "0x4eaea40",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4dd0700",
+   "lines": [
+    2702,
+    2782
+   ],
+   "mapped": true,
+   "new_rva": "0x4eb0c00",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x4dd1ad0",
+   "lines": [
+    310
+   ],
+   "mapped": true,
+   "new_rva": "0x4eb1130",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x5009ed0",
+   "lines": [
+    1150
+   ],
+   "mapped": true,
+   "new_rva": "0x50ee120",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x51d3f10",
+   "lines": [
+    962,
+    2054,
+    2416
+   ],
+   "mapped": true,
+   "new_rva": "0x52b8220",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x51f1100",
+   "lines": [
+    613
+   ],
+   "mapped": true,
+   "new_rva": "0x52d5410",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x6dbfcf0",
+   "lines": [
+    1027
+   ],
+   "mapped": true,
+   "new_rva": "0x6ea0730",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x6ddb820",
+   "lines": [
+    796,
+    1658,
+    2032,
+    2088
+   ],
+   "mapped": true,
+   "new_rva": "0x6ebc350",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x787d080",
+   "lines": [
+    1152
+   ],
+   "mapped": true,
+   "new_rva": "0x795c760",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x7939350",
+   "lines": [
+    1029
+   ],
+   "mapped": true,
+   "new_rva": "0x7a18060",
+   "method": "confirm_func"
+  },
+  {
+   "old_rva": "0x8fc0930",
+   "lines": [
+    351,
+    1096
+   ],
+   "mapped": true,
+   "new_rva": "0x90acd10",
+   "method": "data_reloc"
+  },
+  {
+   "old_rva": "0x9658ab0",
+   "lines": [
+    1043
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0x9803f50",
+   "lines": [
+    1988
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0x98f78e8",
+   "lines": [
+    1155
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0x99241f0",
+   "lines": [
+    1169
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0x9942950",
+   "lines": [
+    2098
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0x9a548e8",
+   "lines": [
+    2110
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0x9a60570",
+   "lines": [
+    918
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0x9a64528",
+   "lines": [
+    798
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0x9a6f3b8",
+   "lines": [
+    1814
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0x9a776b8",
+   "lines": [
+    2033
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0x9a781f0",
+   "lines": [
+    1666,
+    1776,
+    1904
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0x9a86308",
+   "lines": [
+    798
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0xb75c300",
+   "lines": [
+    106,
+    355,
+    1086
+   ],
+   "mapped": true,
+   "new_rva": "0xb89c280",
+   "method": "data_reloc"
+  },
+  {
+   "old_rva": "0xb75c314",
+   "lines": [
+    104,
+    355,
+    1085
+   ],
+   "mapped": false,
+   "new_rva": null,
+   "method": null
+  },
+  {
+   "old_rva": "0xbcbb2b0",
+   "lines": [
+    1854
+   ],
+   "mapped": true,
+   "new_rva": "0xbdfdfb0",
+   "method": "data_reloc"
+  }
+ ]
+}

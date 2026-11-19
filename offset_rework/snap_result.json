@@ -1,0 +1,134 @@
+{
+ "total": 24,
+ "fixed": 2,
+ "items": [
+  {
+   "old_rva": "0x36be870",
+   "candidate": "0x36f0dca",
+   "old_size": 241
+  },
+  {
+   "old_rva": "0x36d20e0",
+   "candidate": "0x36dcb40",
+   "old_size": 693
+  },
+  {
+   "old_rva": "0x36f2710",
+   "candidate": "0x36fec40",
+   "old_size": 241,
+   "snapped": "0x36ffc90",
+   "new_size": 386,
+   "prologue_mismatch": 6,
+   "delta": "0xd580"
+  },
+  {
+   "old_rva": "0x36f2b60",
+   "candidate": "0x36fec40",
+   "old_size": 241,
+   "snapped": "0x36ffc90",
+   "new_size": 386,
+   "prologue_mismatch": 6,
+   "delta": "0xd130"
+  },
+  {
+   "old_rva": "0x3900a10",
+   "candidate": "0x3a32200",
+   "old_size": 238
+  },
+  {
+   "old_rva": "0x40d19a0",
+   "candidate": "0x413670a",
+   "old_size": 5969
+  },
+  {
+   "old_rva": "0x40d2bf4",
+   "candidate": "0x412ae0c",
+   "old_size": null
+  },
+  {
+   "old_rva": "0x40d2c66",
+   "candidate": "0x40b9406",
+   "old_size": null
+  },
+  {
+   "old_rva": "0x422f390",
+   "candidate": "0x42c780f",
+   "old_size": 854
+  },
+  {
+   "old_rva": "0x4315eb0",
+   "candidate": "0x43ae800",
+   "old_size": null
+  },
+  {
+   "old_rva": "0x43ec960",
+   "candidate": "0x4483f60",
+   "old_size": 5
+  },
+  {
+   "old_rva": "0x43ed2b0",
+   "candidate": "0x443eff5",
+   "old_size": 42
+  },
+  {
+   "old_rva": "0x4434820",
+   "candidate": "0x44d4c30",
+   "old_size": 225
+  },
+  {
+   "old_rva": "0x44354b0",
+   "candidate": "0x4493d06",
+   "old_size": 79
+  },
+  {
+   "old_rva": "0x44358e0",
+   "candidate": "0x44d5ec0",
+   "old_size": 42
+  },
+  {
+   "old_rva": "0x443f430",
+   "candidate": "0x44e01ee",
+   "old_size": 3480
+  },
+  {
+   "old_rva": "0x4444230",
+   "candidate": "0x44e4fd0",
+   "old_size": null
+  },
+  {
+   "old_rva": "0x44489f0",
+   "candidate": "0x44e9800",
+   "old_size": 58
+  },
+  {
+   "old_rva": "0x4459f40",
+   "candidate": "0x44fd126",
+   "old_size": 5
+  },
+  {
+   "old_rva": "0x449fcb0",
+   "candidate": "0x4542040",
+   "old_size": 42
+  },
+  {
+   "old_rva": "0x44a01e0",
+   "candidate": "0x4542540",
+   "old_size": 42
+  },
+  {
+   "old_rva": "0x44a0730",
+   "candidate": "0x451a460",
+   "old_size": 42
+  },
+  {
+   "old_rva": "0x44a1280",
+   "candidate": "0x45435e0",
+   "old_size": 42
+  },
+  {
+   "old_rva": "0x44a51c0",
+   "candidate": "0x4547510",
+   "old_size": null
+  }
+ ]
+}
