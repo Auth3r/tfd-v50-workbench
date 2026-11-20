@@ -1,0 +1,182 @@
+   Compiling gpw-offline-core v0.1.0 (F:\Codex\tfd-offline-2\app)
+    Finished `release` profile [optimized] target(s) in 2.14s
+   Compiling gpw-offline-core v0.1.0 (F:\Codex\tfd-offline-2\app)
+    Finished `release` profile [optimized] target(s) in 1.78s
+     Running unittests rust\lib.rs (target\release\build\gpw-offline-core/00256d4c176ee9fc\out\gpw_offline_core-00256d4c176ee9fc.exe)
+
+running 7 tests
+test v50_handlers::mail::conflicting_registration_leaves_entire_mail_domain_untouched ... ok
+test v50_handlers::quest::dispatches_quest_bytes_and_preserves_missing_request_schema ... ok
+test v50_handlers::mail::dispatches_declared_mail_ids_and_keeps_schema_holes_explicit ... ok
+test v50_handlers::tests::dispatch_distinguishes_missing_handlers_and_intentional_no_reply ... ok
+test snapshot::tests::account_and_character_must_both_match ... ok
+test snapshot::tests::invalid_selection_is_never_defaulted ... ok
+test snapshot::tests::wrong_identity_and_unsealed_files_are_refused ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running unittests rust\main.rs (target\release\build\gpw-offline-core/7d974f914d46c1b7\out\gpw_offline_core-7d974f914d46c1b7.exe)
+
+running 4 tests
+test auth::tests::handoff_and_attached_sessions_expire_at_their_deadlines ... ok
+test content::tests::mixed_install_and_incomplete_roster_cannot_use_target_mapping ... ok
+test game_ingress::tests::manager_stop_closes_live_gpw_connection_before_joining ... ok
+test game_ingress::tests::windows_reports_the_connecting_child_for_the_accepted_tuple ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.41s
+
+     Running tests\auth_runtime.rs (target\release\build\gpw-offline-core/488f51fc297e3f17\out\auth_runtime-488f51fc297e3f17.exe)
+
+running 1 test
+test local_identity_and_session_lifecycle_across_real_tcp_and_process_restart ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 32.62s
+
+     Running tests\business.rs (target\release\build\gpw-offline-core/7467248f381fb9ed\out\business-7467248f381fb9ed.exe)
+
+running 6 tests
+test exclusive_store_and_corruption_fail_closed ... ok
+test competing_writers_cannot_lose_updates ... ok
+test actual_process_transfer_retry_restart_and_return ... ok
+test rejected_batches_leave_disk_and_equipment_unchanged ... ok
+test provisioning_is_explicit_and_bad_frames_do_not_kill_service ... ok
+test slow_partial_frame_cannot_extend_runtime_or_commit_after_deadline ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.05s
+
+     Running tests\connect_observation.rs (target\release\build\gpw-offline-core/aa6596e13996a98b\out\connect_observation-aa6596e13996a98b.exe)
+
+running 1 test
+test short_client_prefix_keeps_transport_attribution_without_a_business_request ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 3.05s
+
+     Running tests\core_cli.rs (target\release\build\gpw-offline-core/22b103cee04e3572\out\core_cli-22b103cee04e3572.exe)
+
+running 4 tests
+test actual_cli_inspects_opaque_bytes_and_refuses_truncated_frames ... ok
+test actual_metadata_process_accepts_cause_link_and_rejects_own_notification_id ... ok
+test unapproved_metadata_fields_and_oversized_lines_are_rejected ... ok
+test headless_default_and_help_exit_without_opening_game_or_window ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.26s
+
+     Running tests\login_procedure1.rs (target\release\build\gpw-offline-core/48478f9342f6fff0\out\login_procedure1-48478f9342f6fff0.exe)
+
+running 2 tests
+test client_service_replies_missing_on_ordinary_and_configured_xor_frames ... ok
+test login_handshake_and_structural_validation_reach_the_provider_boundary ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 4.06s
+
+     Running tests\profile.rs (target\release\build\gpw-offline-core/d6c3d504d61fe1c2\out\profile-d6c3d504d61fe1c2.exe)
+
+running 2 tests
+test arbitrary_paths_rejected_before_listen ... ok
+profile_accept	127.0.0.1:8583
+profile_accept	127.0.0.1:8584
+profile_accept	127.0.0.1:8585
+profile_accept	127.0.0.1:10058
+profile_accept	127.0.0.1:10059
+profile_accept	127.0.0.1:10060
+profile_accept	127.0.0.1:6910
+profile_accept	127.0.0.1:6911
+profile_accept	127.0.0.1:6912
+test sealed_profiles_are_served_by_real_short_lived_processes ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 9.35s
+
+     Running tests\protocol.rs (target\release\build\gpw-offline-core/3df08f8aec6f8a2b\out\protocol-3df08f8aec6f8a2b.exe)
+
+running 7 tests
+test bytewise_ingress_and_clean_eof_do_not_lose_frames ... ok
+test captured_v50_first_frame_has_mirrored_payload_length ... ok
+test every_tcp_split_and_coalesced_frame_preserves_boundaries ... ok
+test malformed_lengths_and_unverified_modes_poison_stream ... ok
+test v50_mirror_mismatch_warns_without_losing_the_next_frame ... ok
+test truncated_headers_and_payloads_cannot_be_accepted ... ok
+test v50_still_rejects_invalid_sizes_unknown_marker_and_truncation ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\session.rs (target\release\build\gpw-offline-core/6170ec6d5fb8e2f0\out\session-6170ec6d5fb8e2f0.exe)
+
+running 7 tests
+test asynchronous_notification_does_not_stand_in_for_response ... ok
+test expired_requests_and_reused_ids_cannot_accept_late_events ... ok
+test identical_ids_in_different_services_complete_independently ... ok
+test bounded_session_rejects_id_reuse_clock_reversal_and_invalid_policy ... ok
+test disconnect_and_idle_expiry_release_pending_work_and_new_session_is_clean ... ok
+test notifications_correlate_to_cause_not_latest_reservation ... ok
+test mismatched_service_procedure_and_cause_leave_request_pending ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\v15_key_parameter.rs (target\release\build\gpw-offline-core/b3174a9bd0564acc\out\v15_key_parameter-b3174a9bd0564acc.exe)
+
+running 1 test
+test owned_thirty_byte_parameter_wraps_at_30_and_plain_ignores_all_parameters ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\v15_static.rs (target\release\build\gpw-offline-core/aba0c1df1306a457\out\v15_static-aba0c1df1306a457.exe)
+
+running 10 tests
+test dictionary_wrapper_and_invalid_headers_never_expose_a_guessed_body ... ok
+test header_keeps_negative_id_and_nested_service_bytes_without_classifying_events ... ok
+test signed_vectors_cover_negative_values_and_extremes ... ok
+test ordinary_header_accepts_nonminimal_fields_without_shifting_the_body ... ok
+test fragmented_plain_frames_preserve_rpc_marker_layer_and_field_boundaries ... ok
+test truncated_overflow_and_unterminated_inputs_are_distinct_failures ... ok
+test unsigned_vectors_follow_seven_bit_groups_and_width_limits ... ok
+test unwrapped_header_uses_signed32_then_signed16_with_opaque_remainder ... ok
+test writers_reject_out_of_range_before_returning_bytes ... ok
+test redundant_zero_groups_are_accepted_only_within_static_width_budget ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\v15_transform.rs (target\release\build\gpw-offline-core/f461ce814ffe8584\out\v15_transform-f461ce814ffe8584.exe)
+
+running 8 tests
+test every_truncation_is_rejected_without_contaminating_retry ... ok
+test historical_outer_header_only_cannot_claim_rpc_bytes ... ok
+test transform_does_not_weaken_rpc_integer_or_wrapper_errors ... ok
+test synthetic_frames_transform_once_then_enter_rpc_at_zero ... ok
+test synthetic_repeating_xor_vector_preserves_every_byte_and_resets ... ok
+test unknown_modes_and_missing_parameter_never_become_plain ... ok
+test invalid_lengths_offsets_and_overflow_are_explicit_errors ... ok
+test payload_limit_is_inclusive_and_oversize_does_not_modify_input ... ok
+
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+     Running tests\v50_codec.rs (target\release\build\gpw-offline-core/1dff0b75d0e7dcee\out\v50_codec-1dff0b75d0e7dcee.exe)
+
+running 4 tests
+test decoded_requires_explicit_decoder_and_preserves_mirror_warning ... ok
+test decode_and_boundary_failures_report_field_and_keep_bytes ... ok
+test unknown_marker_retains_raw_and_never_calls_decoder ... ok
+test golden_is_raw_only_and_replays_identically ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests\v50_domains.rs (target\release\build\gpw-offline-core/f68846ae8a18d146\out\v50_domains-f68846ae8a18d146.exe)
+
+running 6 tests
+test live ... ok
+test mail ... ok
+test account_save ... ok
+test instance ... ok
+test quest ... ok
+test shop ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests gpw_offline_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+Project: F:\Codex\tfd-offline-2\app; dependencies: F:\Codex\tfd-offline-2\app\.nuget\packages (zero package references)
+Rust: F:\Codex\tfd-offline-2\app\target; dependency cache: F:\Codex\tfd-offline-2\app\.cargo-home (zero external crates)
+Microsoft libraries: F:\Codex\tfd-offline-2\app\.build-tools\lib

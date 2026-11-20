@@ -1,0 +1,16 @@
+serve-game PORT SECONDS [--gpw-accounts FILE [--characters ACCOUNT GAME_ROOT]] (GPW login, session and account-owned characters)
+launch-game [--startup-diagnostics] [--gpw-accounts FILE [--characters ACCOUNT GAME_ROOT]] (use Start-GpwOffline.ps1)
+register-account FILE ACCOUNT PUBLIC_XY_HEX (GPW P-256 public verification key)
+identify-build GAME_ROOT (read-only executable fingerprints)
+init-character-profile FILE ACCOUNT GAME_ROOT (create GPW's own Ultimate Freyna Lv2 profile)
+--saved-characters ACCOUNT GAME_ROOT loads the GPW character journal only; --characters allows one-time import of the approved snapshot
+GPW Offline by 狗屁王_official
+Unofficial local service; no game compatibility claim.
+serve JOURNAL PORT SECONDS [--allow-provisioning]
+inspect-frames FILE
+inspect-chain FILE
+Binds 127.0.0.1 only. GPW.rust/1 is a local developer API, not GPW.local/1 or V15.
+V15 integerEncoding=UNKNOWN; world_runtime_implemented=false.
+selected-level A|B|GPW
+serve-profile A|B|GPW PORT SECONDS (GPW-only, not a game endpoint)
+registered-route (inspect installed Windows launch route; never starts Steam or the game)

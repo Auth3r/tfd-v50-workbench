@@ -1,0 +1,570 @@
+[
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\fixtures\\v50_first_frame.rs",
+    "Expected": "b36d07d0cdf74f373e98654b4dd2999218948409b33f5f932be563a4b14fac12",
+    "Actual": "b36d07d0cdf74f373e98654b4dd2999218948409b33f5f932be563a4b14fac12",
+    "ExpectedBytes": 347,
+    "ActualBytes": 347,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\AGENTS.md",
+    "Expected": "71333cf223b8a345bcd8c467ec5332888796e83f040930d83487cab88045186c",
+    "Actual": "71333cf223b8a345bcd8c467ec5332888796e83f040930d83487cab88045186c",
+    "ExpectedBytes": 3479,
+    "ActualBytes": 3479,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\CONTRACT.md",
+    "Expected": "1d64c7d89f77f2fda605f6e6fc1f4534039be78d5dadf39622f4601a50b501ef",
+    "Actual": "1d64c7d89f77f2fda605f6e6fc1f4534039be78d5dadf39622f4601a50b501ef",
+    "ExpectedBytes": 4589,
+    "ActualBytes": 4589,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\PROTOCOL.md",
+    "Expected": "cd235fbd34ac5b7c209fff7a580d83ba2d997da7877fc8139a6ad22b7ffde224",
+    "Actual": "cd235fbd34ac5b7c209fff7a580d83ba2d997da7877fc8139a6ad22b7ffde224",
+    "ExpectedBytes": 5247,
+    "ActualBytes": 5247,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\RUST.md",
+    "Expected": "322eedd3ff0d05ee681f707cde99597390ef2144a79a49007627135adbfe6775",
+    "Actual": "322eedd3ff0d05ee681f707cde99597390ef2144a79a49007627135adbfe6775",
+    "ExpectedBytes": 4859,
+    "ActualBytes": 4859,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\TAKEOVER.md",
+    "Expected": "248835833f3d11fc152b66e2890193da1832840e202d78c0129440d16f49c73e",
+    "Actual": "248835833f3d11fc152b66e2890193da1832840e202d78c0129440d16f49c73e",
+    "ExpectedBytes": 8245,
+    "ActualBytes": 8245,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\USER-CAPTURE-REQUEST.md",
+    "Expected": "2c393ca7fbc0a807b09a3df29756d10cee00ea648c1d927618f7eb8319a084fa",
+    "Actual": "2c393ca7fbc0a807b09a3df29756d10cee00ea648c1d927618f7eb8319a084fa",
+    "ExpectedBytes": 2614,
+    "ActualBytes": 2614,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\V50-ACCOUNT-LIST-CONTRACT.md",
+    "Expected": "70d052d6b703257505130d8ac0fc30fbe6c35809cfa51141eb48bb7f21b574af",
+    "Actual": "70d052d6b703257505130d8ac0fc30fbe6c35809cfa51141eb48bb7f21b574af",
+    "ExpectedBytes": 4882,
+    "ActualBytes": 4882,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\V50-CHARACTER-ENTRY-BINDINGS.md",
+    "Expected": "b85996eef70e13ea7858e5fba5c1c670a551a14cbd9de827b0dcb0a8609bfade",
+    "Actual": "b85996eef70e13ea7858e5fba5c1c670a551a14cbd9de827b0dcb0a8609bfade",
+    "ExpectedBytes": 4441,
+    "ActualBytes": 4441,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\V50-CLIENT-TABLE-BINDINGS.md",
+    "Expected": "725718012678772f0964e73735ba900d5075f762a7cc2701c676abe2fd4c232a",
+    "Actual": "725718012678772f0964e73735ba900d5075f762a7cc2701c676abe2fd4c232a",
+    "ExpectedBytes": 14136,
+    "ActualBytes": 14136,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\V50-CONTENT-GAPS.md",
+    "Expected": "18fa77fba5055ad4dc192777708ec11a224c2595c00b0b6eaf96039e0b5ce9cf",
+    "Actual": "18fa77fba5055ad4dc192777708ec11a224c2595c00b0b6eaf96039e0b5ce9cf",
+    "ExpectedBytes": 10629,
+    "ActualBytes": 10629,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\V50-FRAME-CONTRACT.md",
+    "Expected": "a8a426d67c77c180e316e3e7f78e9c0e1f84346cebf251eddc3c3e1521fcfe6f",
+    "Actual": "a8a426d67c77c180e316e3e7f78e9c0e1f84346cebf251eddc3c3e1521fcfe6f",
+    "ExpectedBytes": 7669,
+    "ActualBytes": 7669,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\V50-LOGIN-RESPONSE-EVIDENCE.md",
+    "Expected": "cde00c6ff36eee986e648b4b7cdec812f25719a5d30a30f5d5366947fbb4b4dc",
+    "Actual": "cde00c6ff36eee986e648b4b7cdec812f25719a5d30a30f5d5366947fbb4b4dc",
+    "ExpectedBytes": 1955,
+    "ActualBytes": 1955,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\V50-P8-CAPTURE-SPEC.md",
+    "Expected": "0ea5f81bbe63c5c9d7dd961c26633865a21d1a124f9f9d6eff06db9e2e71ed6f",
+    "Actual": "0ea5f81bbe63c5c9d7dd961c26633865a21d1a124f9f9d6eff06db9e2e71ed6f",
+    "ExpectedBytes": 4302,
+    "ActualBytes": 4302,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\V50-SAVE-MAPPING.md",
+    "Expected": "e683b2cd3124c4fdd8d7489bbbb7322658e4f236ad4820e84d1cbfa8b75451ed",
+    "Actual": "e683b2cd3124c4fdd8d7489bbbb7322658e4f236ad4820e84d1cbfa8b75451ed",
+    "ExpectedBytes": 8138,
+    "ActualBytes": 8138,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\V50-START-HERE.md",
+    "Expected": "d5ce1e9d5fde9ea413181bb26835f21c020312a7d9a91081de363b656f051e10",
+    "Actual": "d5ce1e9d5fde9ea413181bb26835f21c020312a7d9a91081de363b656f051e10",
+    "ExpectedBytes": 1096,
+    "ActualBytes": 1096,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\V50-TAP-FRAMES.csv",
+    "Expected": "5548170423f0c0585460ccd3e21cac36f94ff7223d947fb8e2c98a05daa9d21a",
+    "Actual": "5548170423f0c0585460ccd3e21cac36f94ff7223d947fb8e2c98a05daa9d21a",
+    "ExpectedBytes": 8680,
+    "ActualBytes": 8680,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\GpwEgress.cs",
+    "Expected": "c8c45a5467e91aaec7e0105f0d085b5f1abc1ba3b7743d9285ae457912d8d221",
+    "Actual": "c8c45a5467e91aaec7e0105f0d085b5f1abc1ba3b7743d9285ae457912d8d221",
+    "ExpectedBytes": 6006,
+    "ActualBytes": 6006,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\afd-connect.wprp",
+    "Expected": "76c922fb14bf68b4c1158b62b954a557ae845053d661a2701cb6500865fad586",
+    "Actual": "76c922fb14bf68b4c1158b62b954a557ae845053d661a2701cb6500865fad586",
+    "ExpectedBytes": 1241,
+    "ActualBytes": 1241,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\accounts.rs",
+    "Expected": "fed6f68bd3f8324d3288f89284d3d3d414eadfbc1ce492462c83f0cb02cf6f70",
+    "Actual": "fed6f68bd3f8324d3288f89284d3d3d414eadfbc1ce492462c83f0cb02cf6f70",
+    "ExpectedBytes": 3573,
+    "ActualBytes": 3573,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\crypto.rs",
+    "Expected": "ed6073961b9b9ea3e672307817eef0eb921e1ff155126eb1dbf77dd1379af70f",
+    "Actual": "ed6073961b9b9ea3e672307817eef0eb921e1ff155126eb1dbf77dd1379af70f",
+    "ExpectedBytes": 3672,
+    "ActualBytes": 3672,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\mod.rs",
+    "Expected": "f226c4241ccc2936396cb4997c5dc648e466143a2a42f8822b6fa247b912e870",
+    "Actual": "f226c4241ccc2936396cb4997c5dc648e466143a2a42f8822b6fa247b912e870",
+    "ExpectedBytes": 11138,
+    "ActualBytes": 11138,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\character.rs",
+    "Expected": "827b1fc83352057e2af294d4792bd53a7595d94c0a4fc6751ee2ee40127310c9",
+    "Actual": "827b1fc83352057e2af294d4792bd53a7595d94c0a4fc6751ee2ee40127310c9",
+    "ExpectedBytes": 5803,
+    "ActualBytes": 5803,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\content.rs",
+    "Expected": "b3c2866041e5361752b9b4bf07dc8268dda32fad8f0bf9478d5c5d339a2b1944",
+    "Actual": "b3c2866041e5361752b9b4bf07dc8268dda32fad8f0bf9478d5c5d339a2b1944",
+    "ExpectedBytes": 4318,
+    "ActualBytes": 4318,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\data.rs",
+    "Expected": "23edb0060a54eb18add9c46fb52d509b47147af51524bd10cc5a76b6adfa1382",
+    "Actual": "23edb0060a54eb18add9c46fb52d509b47147af51524bd10cc5a76b6adfa1382",
+    "ExpectedBytes": 18533,
+    "ActualBytes": 18533,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\game_ingress.rs",
+    "Expected": "e26dc85e05b6e0034f30eb19d8d7f3e077a9709dde6addbdb3642337d61c8e01",
+    "Actual": "e26dc85e05b6e0034f30eb19d8d7f3e077a9709dde6addbdb3642337d61c8e01",
+    "ExpectedBytes": 16693,
+    "ActualBytes": 16693,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\inspection.rs",
+    "Expected": "0b1ab91028d965f0a6be3df9d937b9531d0e8531993cf189099071488af6f637",
+    "Actual": "0b1ab91028d965f0a6be3df9d937b9531d0e8531993cf189099071488af6f637",
+    "ExpectedBytes": 3357,
+    "ActualBytes": 3357,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\launch.rs",
+    "Expected": "7a55e721e80325c7c9b1847633499455a10274bea82a7c6001987b44e3d65ec2",
+    "Actual": "7a55e721e80325c7c9b1847633499455a10274bea82a7c6001987b44e3d65ec2",
+    "ExpectedBytes": 7282,
+    "ActualBytes": 7282,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\lib.rs",
+    "Expected": "49ecf90d85a2afe191c9976ff124e198017090fcc7cf985056d967277f326259",
+    "Actual": "49ecf90d85a2afe191c9976ff124e198017090fcc7cf985056d967277f326259",
+    "ExpectedBytes": 349,
+    "ActualBytes": 349,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\login_wire.rs",
+    "Expected": "a86478ba84d4be3205304f8c809441e772a0f853038f7fde32131268fd22e4f7",
+    "Actual": "a86478ba84d4be3205304f8c809441e772a0f853038f7fde32131268fd22e4f7",
+    "ExpectedBytes": 5176,
+    "ActualBytes": 5176,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\main.rs",
+    "Expected": "21b15c6c7c4653f7a283574a98bc5e2ca367cbf9817f917c21f511b8efa11c37",
+    "Actual": "21b15c6c7c4653f7a283574a98bc5e2ca367cbf9817f917c21f511b8efa11c37",
+    "ExpectedBytes": 7364,
+    "ActualBytes": 7364,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\observe-connect.ps1",
+    "Expected": "9a5fa9af367e112c0809bc44dea2b8086a0dddb2aeab8bca71b0a006c18a3e2f",
+    "Actual": "9a5fa9af367e112c0809bc44dea2b8086a0dddb2aeab8bca71b0a006c18a3e2f",
+    "ExpectedBytes": 5811,
+    "ActualBytes": 5811,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\protocol.rs",
+    "Expected": "6ca922ef014e09c08b2488ad3a5d032b5636eb27556ec3f03db613fef3d9216c",
+    "Actual": "6ca922ef014e09c08b2488ad3a5d032b5636eb27556ec3f03db613fef3d9216c",
+    "ExpectedBytes": 16214,
+    "ActualBytes": 16214,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\registered-route.ps1",
+    "Expected": "81f6d2906a3895674727f3eb3429e0e1f64b5429789fc4a35b29a8ba30108747",
+    "Actual": "81f6d2906a3895674727f3eb3429e0e1f64b5429789fc4a35b29a8ba30108747",
+    "ExpectedBytes": 2498,
+    "ActualBytes": 2498,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\runtime.rs",
+    "Expected": "37611999099433ee685bd1db6e067dddfefd6c21e8b46dc6144f15cadaf3abf1",
+    "Actual": "37611999099433ee685bd1db6e067dddfefd6c21e8b46dc6144f15cadaf3abf1",
+    "ExpectedBytes": 6059,
+    "ActualBytes": 6059,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\session.rs",
+    "Expected": "edd9d69cd2f128576f19175adab6b80d3afa9375e7e350fb69b4f155d13fd282",
+    "Actual": "edd9d69cd2f128576f19175adab6b80d3afa9375e7e350fb69b4f155d13fd282",
+    "ExpectedBytes": 7374,
+    "ActualBytes": 7374,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\snapshot.rs",
+    "Expected": "a9910269e45088b0271b0e900011d4a353ef1e75283d32d96302cef2932aed0f",
+    "Actual": "a9910269e45088b0271b0e900011d4a353ef1e75283d32d96302cef2932aed0f",
+    "ExpectedBytes": 13847,
+    "ActualBytes": 13847,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\v50_codec.rs",
+    "Expected": "56eef88c62240ec5f134e3e526e4636ea1a547f8505e0b28de68d97ce9a78533",
+    "Actual": "56eef88c62240ec5f134e3e526e4636ea1a547f8505e0b28de68d97ce9a78533",
+    "ExpectedBytes": 4749,
+    "ActualBytes": 4749,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\v50_handlers.rs",
+    "Expected": "26c452bf8f11472352f6a00c0afc543214793bf46765848105534b282bb81825",
+    "Actual": "26c452bf8f11472352f6a00c0afc543214793bf46765848105534b282bb81825",
+    "ExpectedBytes": 8057,
+    "ActualBytes": 8057,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\v50_schema.rs",
+    "Expected": "341a66b11848e6e17be731ba811b62d20f25e6e5ea5f2a5be015d596cb1e9f7b",
+    "Actual": "341a66b11848e6e17be731ba811b62d20f25e6e5ea5f2a5be015d596cb1e9f7b",
+    "ExpectedBytes": 33499,
+    "ActualBytes": 33499,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\src\\LocalService.cs",
+    "Expected": "2fa41c62a5e22fe53800b39863663cfdc43829a780e7903fec5619c890123c34",
+    "Actual": "2fa41c62a5e22fe53800b39863663cfdc43829a780e7903fec5619c890123c34",
+    "ExpectedBytes": 7821,
+    "ActualBytes": 7821,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\src\\Model.cs",
+    "Expected": "a43c56624412c69c2e8df56e1b5e8e05965fb5f801cdc66703a2abb4a24dff3b",
+    "Actual": "a43c56624412c69c2e8df56e1b5e8e05965fb5f801cdc66703a2abb4a24dff3b",
+    "ExpectedBytes": 2385,
+    "ActualBytes": 2385,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\src\\Persistence.cs",
+    "Expected": "f01f515ca492412292061d9194fb73086f8b4ade215c2a788e0110b581986c19",
+    "Actual": "f01f515ca492412292061d9194fb73086f8b4ade215c2a788e0110b581986c19",
+    "ExpectedBytes": 8395,
+    "ActualBytes": 8395,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\src\\Program.cs",
+    "Expected": "f2b751b38196449e581249b0310d72bc9228f3c869a220b2e970dc9426085fb1",
+    "Actual": "f2b751b38196449e581249b0310d72bc9228f3c869a220b2e970dc9426085fb1",
+    "ExpectedBytes": 6404,
+    "ActualBytes": 6404,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\src\\Protocol.cs",
+    "Expected": "7219d51b106821950fb42065627f579c25ec54361d66714630022c76f462ea27",
+    "Actual": "7219d51b106821950fb42065627f579c25ec54361d66714630022c76f462ea27",
+    "ExpectedBytes": 6453,
+    "ActualBytes": 6453,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\src\\SelfTest.cs",
+    "Expected": "f093ec26013219b6405a8788da9d504a88ce37abf566162107b9666a19931d2f",
+    "Actual": "f093ec26013219b6405a8788da9d504a88ce37abf566162107b9666a19931d2f",
+    "ExpectedBytes": 19950,
+    "ActualBytes": 19950,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\auth_runtime.ps1",
+    "Expected": "213a9cf8c1020ba427311b5f0ecf5153d18adc48cff44dce868eb50f41631444",
+    "Actual": "213a9cf8c1020ba427311b5f0ecf5153d18adc48cff44dce868eb50f41631444",
+    "ExpectedBytes": 24579,
+    "ActualBytes": 24579,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\auth_runtime.rs",
+    "Expected": "3deb7ffd3dd3f6f2692592399ea621e61865b60d3cf8a7118fb18b11f2433976",
+    "Actual": "3deb7ffd3dd3f6f2692592399ea621e61865b60d3cf8a7118fb18b11f2433976",
+    "ExpectedBytes": 1084,
+    "ActualBytes": 1084,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\business.rs",
+    "Expected": "8f1d3e012e94d2409a4a6c36d31066ff46679c177a43632a136449d4b654c37b",
+    "Actual": "8f1d3e012e94d2409a4a6c36d31066ff46679c177a43632a136449d4b654c37b",
+    "ExpectedBytes": 9271,
+    "ActualBytes": 9271,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\connect_observation.rs",
+    "Expected": "2dedb4939dbe35656c3f578222b53d5a4f37482d57235bb712ed1cdb2d293e77",
+    "Actual": "2dedb4939dbe35656c3f578222b53d5a4f37482d57235bb712ed1cdb2d293e77",
+    "ExpectedBytes": 2237,
+    "ActualBytes": 2237,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\core_cli.rs",
+    "Expected": "a8e82e01ddb71613a73ad5d7b0b39bb77a006d48584cab8e23847f59424d3c03",
+    "Actual": "a8e82e01ddb71613a73ad5d7b0b39bb77a006d48584cab8e23847f59424d3c03",
+    "ExpectedBytes": 5003,
+    "ActualBytes": 5003,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\login_procedure1.rs",
+    "Expected": "14ea9f53faba1c8c34f7c0163db6179fc364521a5b9ef647e2ca36e6ee268efb",
+    "Actual": "14ea9f53faba1c8c34f7c0163db6179fc364521a5b9ef647e2ca36e6ee268efb",
+    "ExpectedBytes": 8321,
+    "ActualBytes": 8321,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\profile.rs",
+    "Expected": "760bbe5d0cfa9827c78149cf680adfa9496eb0013e6c48455ad447707a9062c1",
+    "Actual": "760bbe5d0cfa9827c78149cf680adfa9496eb0013e6c48455ad447707a9062c1",
+    "ExpectedBytes": 2413,
+    "ActualBytes": 2413,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\protocol.rs",
+    "Expected": "989eb3fc1d13e996563873f782d7e4fdae04df235bab751f33660c0a67e6e509",
+    "Actual": "989eb3fc1d13e996563873f782d7e4fdae04df235bab751f33660c0a67e6e509",
+    "ExpectedBytes": 5286,
+    "ActualBytes": 5286,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\session.rs",
+    "Expected": "f9053ec1fd75229635780aad6b648ec772023295822546a7faf97793ce127be3",
+    "Actual": "f9053ec1fd75229635780aad6b648ec772023295822546a7faf97793ce127be3",
+    "ExpectedBytes": 3896,
+    "ActualBytes": 3896,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v15_key_parameter.rs",
+    "Expected": "e817e559105989bc51403d32ac8d693a9f0a59b9c9e9239ec864f97b1674eff1",
+    "Actual": "e817e559105989bc51403d32ac8d693a9f0a59b9c9e9239ec864f97b1674eff1",
+    "ExpectedBytes": 2045,
+    "ActualBytes": 2045,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v15_static.rs",
+    "Expected": "3c501bfe16621f37f57c1587432a6fd33291ddbaaa5ac71074adeba52048e678",
+    "Actual": "3c501bfe16621f37f57c1587432a6fd33291ddbaaa5ac71074adeba52048e678",
+    "ExpectedBytes": 9477,
+    "ActualBytes": 9477,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v15_transform.rs",
+    "Expected": "2352d5f4d9bc6e8a62ebf53e9c2309d6542a356d3734f7a0d743559966e1607a",
+    "Actual": "2352d5f4d9bc6e8a62ebf53e9c2309d6542a356d3734f7a0d743559966e1607a",
+    "ExpectedBytes": 8554,
+    "ActualBytes": 8554,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v50_codec.rs",
+    "Expected": "a27629d83e84dc8e31da6ad2fba246263ca4810fddbd63bac56033fa0a401d42",
+    "Actual": "a27629d83e84dc8e31da6ad2fba246263ca4810fddbd63bac56033fa0a401d42",
+    "ExpectedBytes": 3527,
+    "ActualBytes": 3527,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v50_domains.rs",
+    "Expected": "0581b84985237c2ef032a7b9faeb5e01c30647db8bd210ed90918cccfde6c14d",
+    "Actual": "0581b84985237c2ef032a7b9faeb5e01c30647db8bd210ed90918cccfde6c14d",
+    "ExpectedBytes": 2383,
+    "ActualBytes": 2383,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tools\\_run_v50.py",
+    "Expected": "37df73c85708022467fd986b31bd1bc5aa8851733429c3dc7e08b54c41986e9e",
+    "Actual": "37df73c85708022467fd986b31bd1bc5aa8851733429c3dc7e08b54c41986e9e",
+    "ExpectedBytes": 2060,
+    "ActualBytes": 2060,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tools\\generate_v50_schema.py",
+    "Expected": "79f8ddbaadbf6f594883e4fde2171a07566a0d40fc64db20c10f46ae12c819c7",
+    "Actual": "79f8ddbaadbf6f594883e4fde2171a07566a0d40fc64db20c10f46ae12c819c7",
+    "ExpectedBytes": 3175,
+    "ActualBytes": 3175,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tools\\inspect_v50_login_window.py",
+    "Expected": "84a3cc35f879198eccaff10915cc4278ed16ceec4c44c37c6e72589c941eeb3c",
+    "Actual": "84a3cc35f879198eccaff10915cc4278ed16ceec4c44c37c6e72589c941eeb3c",
+    "ExpectedBytes": 2281,
+    "ActualBytes": 2281,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tools\\reassemble_v50_tap.py",
+    "Expected": "e380c701d9d40d25240dc831b5e71faf469ec7b84462320c0a504757b1c43a0d",
+    "Actual": "e380c701d9d40d25240dc831b5e71faf469ec7b84462320c0a504757b1c43a0d",
+    "ExpectedBytes": 6037,
+    "ActualBytes": 6037,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_account_save.py",
+    "Expected": "48b8d924a925ec0ae5fca2e243512fe44768589a698823c249d3375f79f3e867",
+    "Actual": "48b8d924a925ec0ae5fca2e243512fe44768589a698823c249d3375f79f3e867",
+    "ExpectedBytes": 139,
+    "ActualBytes": 139,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_frame.py",
+    "Expected": "9e4b8b5abaabc507a97edaae4ad8762b7b2b2340113a43b85a7435beb3a4d55c",
+    "Actual": "9e4b8b5abaabc507a97edaae4ad8762b7b2b2340113a43b85a7435beb3a4d55c",
+    "ExpectedBytes": 125,
+    "ActualBytes": 125,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_instance.py",
+    "Expected": "cb5d0195769a2c4d621c494673f19dbd3b78ff97021567ae87b22ae59b430663",
+    "Actual": "cb5d0195769a2c4d621c494673f19dbd3b78ff97021567ae87b22ae59b430663",
+    "ExpectedBytes": 131,
+    "ActualBytes": 131,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_live.py",
+    "Expected": "f980a0ef20939b2c59f50e872d74d13d05708ead8429c6616754e7671fbf1d79",
+    "Actual": "f980a0ef20939b2c59f50e872d74d13d05708ead8429c6616754e7671fbf1d79",
+    "ExpectedBytes": 123,
+    "ActualBytes": 123,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_mail.py",
+    "Expected": "6592d920822e407041ddb2b0f5ab1807610ecc0614942dcafbf4e6a137064084",
+    "Actual": "6592d920822e407041ddb2b0f5ab1807610ecc0614942dcafbf4e6a137064084",
+    "ExpectedBytes": 123,
+    "ActualBytes": 123,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_quest.py",
+    "Expected": "2e574b9c47f54cee9cdb0cca312be1b3bda93891a15ede0a2472b007176eea54",
+    "Actual": "2e574b9c47f54cee9cdb0cca312be1b3bda93891a15ede0a2472b007176eea54",
+    "ExpectedBytes": 125,
+    "ActualBytes": 125,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_shop.py",
+    "Expected": "27f13b67c2c5a7dee072255526f9a1130357972e3c29eccb4f530a2237c3cfbd",
+    "Actual": "27f13b67c2c5a7dee072255526f9a1130357972e3c29eccb4f530a2237c3cfbd",
+    "ExpectedBytes": 123,
+    "ActualBytes": 123,
+    "Match": true
+  }
+]
