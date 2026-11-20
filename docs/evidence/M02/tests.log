@@ -1,0 +1,15 @@
+   Compiling gpw-offline-core v0.1.0 (F:\Codex\tfd-offline-2\app)
+    Finished `release` profile [optimized] target(s) in 3.40s
+     Running tests\v50_login.rs (target\release\build\gpw-offline-core/91edc8e8d00a3bc9\out\v50_login-91edc8e8d00a3bc9.exe)
+
+running 3 tests
+70 truncations, trailing bytes, invalid boolean, missing terminator and wrong procedure: rejected
+real input=70 B -> 10 response fields -> exact RPC reply=72 B; request_id=2, procedure=1, AccountUid=1
+received ticket 43 B -> ClientService.1003 body -> existing client_login validator: accepted; no session authentication claimed
+explicit UTF-16 AccountLinkInfo survives ticket handoff; incomplete bodies and missing ticket rejected
+test incomplete_or_malformed_real_login_bodies_are_rejected ... ok
+test real_70_byte_body_matches_all_72_reply_bytes_and_carries_ticket_forward ... ok
+test next_process_carries_unicode_link_and_rejects_truncated_ticket ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

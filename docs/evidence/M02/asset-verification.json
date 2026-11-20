@@ -1,0 +1,82 @@
+[
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\protocol.rs",
+    "manifest_key": "F:\\Codex\\tfd-offline-2\\app\\rust\\protocol.rs",
+    "expected": "6ca922ef014e09c08b2488ad3a5d032b5636eb27556ec3f03db613fef3d9216c",
+    "actual_normalized": "6ca922ef014e09c08b2488ad3a5d032b5636eb27556ec3f03db613fef3d9216c",
+    "raw_sha256": "6ca922ef014e09c08b2488ad3a5d032b5636eb27556ec3f03db613fef3d9216c",
+    "match": true
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\lib.rs",
+    "manifest_key": "F:\\Codex\\tfd-offline-2\\app\\rust\\lib.rs",
+    "expected": "f60e9bf839f5130d303231f2f47f835c4463c20d2460f81d910a1e43438e4618",
+    "actual_normalized": "f60e9bf839f5130d303231f2f47f835c4463c20d2460f81d910a1e43438e4618",
+    "raw_sha256": "49ecf90d85a2afe191c9976ff124e198017090fcc7cf985056d967277f326259",
+    "match": true
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\login_procedure1.rs",
+    "manifest_key": "F:\\Codex\\tfd-offline-2\\app\\tests\\login_procedure1.rs",
+    "expected": "14ea9f53faba1c8c34f7c0163db6179fc364521a5b9ef647e2ca36e6ee268efb",
+    "actual_normalized": "14ea9f53faba1c8c34f7c0163db6179fc364521a5b9ef647e2ca36e6ee268efb",
+    "raw_sha256": "14ea9f53faba1c8c34f7c0163db6179fc364521a5b9ef647e2ca36e6ee268efb",
+    "match": true
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\login_wire.rs",
+    "manifest_key": "F:\\Codex\\tfd-offline-2\\app\\rust\\login_wire.rs",
+    "expected": "a86478ba84d4be3205304f8c809441e772a0f853038f7fde32131268fd22e4f7",
+    "actual_normalized": "a86478ba84d4be3205304f8c809441e772a0f853038f7fde32131268fd22e4f7",
+    "raw_sha256": "a86478ba84d4be3205304f8c809441e772a0f853038f7fde32131268fd22e4f7",
+    "match": true
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\accounts.rs",
+    "manifest_key": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\accounts.rs",
+    "expected": "fed6f68bd3f8324d3288f89284d3d3d414eadfbc1ce492462c83f0cb02cf6f70",
+    "actual_normalized": "fed6f68bd3f8324d3288f89284d3d3d414eadfbc1ce492462c83f0cb02cf6f70",
+    "raw_sha256": "fed6f68bd3f8324d3288f89284d3d3d414eadfbc1ce492462c83f0cb02cf6f70",
+    "match": true
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\crypto.rs",
+    "manifest_key": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\crypto.rs",
+    "expected": "ed6073961b9b9ea3e672307817eef0eb921e1ff155126eb1dbf77dd1379af70f",
+    "actual_normalized": "ed6073961b9b9ea3e672307817eef0eb921e1ff155126eb1dbf77dd1379af70f",
+    "raw_sha256": "ed6073961b9b9ea3e672307817eef0eb921e1ff155126eb1dbf77dd1379af70f",
+    "match": true
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\mod.rs",
+    "manifest_key": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\mod.rs",
+    "expected": "f226c4241ccc2936396cb4997c5dc648e466143a2a42f8822b6fa247b912e870",
+    "actual_normalized": "f226c4241ccc2936396cb4997c5dc648e466143a2a42f8822b6fa247b912e870",
+    "raw_sha256": "f226c4241ccc2936396cb4997c5dc648e466143a2a42f8822b6fa247b912e870",
+    "match": true
+  },
+  {
+    "path": "E:\\第二后裔\\TFD发布端V50\\TFD发布端V50\\docs\\考卷-协议样本-20261121.json",
+    "manifest_key": "docs\\考卷-协议样本-20261121.json",
+    "expected": "f0597d0d3054e4738b5eed688f4ac94df75e98ec28e5e8931c55c2da7229bc6c",
+    "actual_normalized": "f0597d0d3054e4738b5eed688f4ac94df75e98ec28e5e8931c55c2da7229bc6c",
+    "raw_sha256": "2bc209327d5628e9936f83ce4943cdfd624321bc98fa806e2fc5d532731d9cc4",
+    "match": true
+  },
+  {
+    "path": "E:\\第二后裔\\TFD发布端V50\\TFD发布端V50\\unpacked\\evidence\\reflected-structures.json",
+    "manifest_key": "unpacked\\evidence\\reflected-structures.json",
+    "expected": "afd1d4fa8018b2518ed8e76012c594c5c2e70e7a522f7526e3125945fadd0a8a",
+    "actual_normalized": "afd1d4fa8018b2518ed8e76012c594c5c2e70e7a522f7526e3125945fadd0a8a",
+    "raw_sha256": "a0f2b8d4b5dbc84a3f1b2a6b6cb96c4e0e031e8a0855f929cf89c6fa4015c1cf",
+    "match": true
+  },
+  {
+    "path": "E:\\第二后裔\\TFD发布端V50\\TFD发布端V50\\handoff\\08-patch_v50-基线.py",
+    "manifest_key": "patch_v50.py",
+    "expected": "8e146d755b5ca599a9819a0cdd72e6e32849df87fea5411b74ded1d31ef5c85b",
+    "actual_normalized": "8e146d755b5ca599a9819a0cdd72e6e32849df87fea5411b74ded1d31ef5c85b",
+    "raw_sha256": "8e146d755b5ca599a9819a0cdd72e6e32849df87fea5411b74ded1d31ef5c85b",
+    "match": true
+  }
+]

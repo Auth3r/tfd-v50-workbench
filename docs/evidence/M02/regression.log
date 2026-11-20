@@ -1,0 +1,10 @@
+   Compiling gpw-offline-core v0.1.0 (F:\Codex\tfd-offline-2\app)
+    Finished `release` profile [optimized] target(s) in 3.52s
+     Running tests\login_procedure1.rs (target\release\build\gpw-offline-core/48478f9342f6fff0\out\login_procedure1-48478f9342f6fff0.exe)
+
+running 2 tests
+test client_service_replies_missing_on_ordinary_and_configured_xor_frames ... ok
+test login_handshake_and_structural_validation_reach_the_provider_boundary ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 4.29s
+

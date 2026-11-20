@@ -1,0 +1,12 @@
+//! GPW Offline — independent, unofficial local service components.
+//! GPW.rust/1 is a developer contract. No V15 body codec or game adapter exists.
+pub mod data;
+pub mod protocol;
+pub mod session;
+pub mod snapshot;
+
+pub use data::{Command, Result, Store, read_frame, write_frame};
+
+pub mod v50_handlers;
+pub mod v50_schema;
+pub mod v50_codec;
