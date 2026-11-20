@@ -1,0 +1,16 @@
+# 换行符强制对齐：批处理/脚本必须是 CRLF，否则 cmd 解析器会把行拆错
+* text=auto
+
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.js text eol=lf
+
+*.xlsx binary
+*.png binary
+*.jpg binary
+*.sqlite3 binary

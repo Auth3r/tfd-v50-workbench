@@ -511,6 +511,155 @@ def _probe_wire():
     _st.StreamWriter.drain = drain
 
 
+def _wire_capture():
+    """整流抓包：把真正走 socket 的字节全量落盘（含外层帧头），
+    用于补 M01b（帧头/分帧样本）与 M05（完整 1004 应答）。
+
+    开关：TFD_WIRE_FULL=1。输出：<work>/wire_full.jsonl，一行一个写入/读取事件，
+    不做行截断（patch_v50.log 会截断长行，所以这里单独落文件）。
+
+    同时挂多层，因为 Windows 上的 asyncio 可能走 Proactor，不经过 StreamWriter：
+      asyncio.streams.StreamWriter.write
+      asyncio.selector_events._SelectorSocketTransport.write
+      asyncio.windows_events._ProactorSocketTransport.write
+      socket.socket.sendall / send / recv / recv_into
+    任何一层挂不上都不影响其它层。"""
+    if os.environ.get('TFD_WIRE_FULL', '') not in ('1', 'true', 'yes'):
+        return
+    import socket as _sock
+
+    out_path = _work_dir('wire_full.jsonl')
+    state = {'n': 0, 'bytes': 0, 'hit': {}}
+    BUDGET = 400 * 1024 * 1024
+    t0 = time.time()
+    _lk = threading.Lock()
+    try:
+        fh = open(out_path, 'a', encoding='utf-8', buffering=1)
+    except Exception as e:
+        w('WIRECAP 打不开 %r' % (e,))
+        return
+
+    def rec(d, data, layer):
+        try:
+            b = bytes(data)
+        except Exception:
+            return
+        if not b:
+            return
+        try:
+            with _lk:
+                if state['bytes'] > BUDGET:
+                    return
+                state['n'] += 1
+                state['bytes'] += len(b)
+                state['hit'][layer] = state['hit'].get(layer, 0) + 1
+                n = state['n']
+                fh.write(json.dumps({'t': round(time.time() - t0, 3), 'seq': n,
+                                     'dir': d, 'layer': layer,
+                                     'len': len(b), 'hex': b.hex()},
+                                    ensure_ascii=False) + '\n')
+                if n % 200 == 0:
+                    w('WIRECAP #%d %.1f MB %r' % (n, state['bytes'] / 1048576.0, state['hit']))
+        except Exception:
+            pass
+
+    def wrap_method(cls, layer, direction='out', take=None):
+        try:
+            orig = getattr(cls, 'write') if direction == 'out' else None
+        except Exception:
+            return
+        if not callable(orig) or getattr(orig, '_tfd_cap', False):
+            return
+
+        def f(self, data):
+            rec(direction, data, layer)
+            return orig(self, data)
+
+        f._tfd_cap = True
+        try:
+            setattr(cls, 'write', f)
+            w('WIRECAP 挂上 %s' % layer)
+        except Exception as e:
+            w('WIRECAP %s 失败 %r' % (layer, e))
+
+    # 1) asyncio 三层 write
+    for mod_name, cls_name, label in (
+            ('asyncio.streams', 'StreamWriter', 'StreamWriter.write'),
+            ('asyncio.selector_events', '_SelectorSocketTransport', 'SelectorTransport.write'),
+            ('asyncio.windows_events', '_ProactorSocketTransport', 'ProactorTransport.write'),
+            ('asyncio.proactor_events', '_ProactorBasePipeTransport', 'ProactorPipe.write')):
+        try:
+            mod = sys.modules.get(mod_name)
+            if mod is None:
+                continue
+            cls = getattr(mod, cls_name, None)
+            if cls is None:
+                continue
+            wrap_method(cls, label)
+        except Exception:
+            pass
+
+    # 2) 入向：服务端用 asyncio streams，读到的原始字节走 StreamReader.feed_data
+    try:
+        _st2 = sys.modules.get('asyncio.streams')
+        _SR = getattr(_st2, 'StreamReader', None) if _st2 is not None else None
+        if _SR is not None:
+            _orig_fd = _SR.feed_data
+            if not getattr(_orig_fd, '_tfd_cap', False):
+                def feed_data(self, data):
+                    rec('in', data, 'StreamReader.feed_data')
+                    return _orig_fd(self, data)
+                feed_data._tfd_cap = True
+                _SR.feed_data = feed_data
+                w('WIRECAP 挂上 StreamReader.feed_data')
+    except Exception as e:
+        w('WIRECAP StreamReader 失败 %r' % (e,))
+
+    # 3) socket 层：兜底
+    try:
+        orig_sa = _sock.socket.sendall
+        if not getattr(orig_sa, '_tfd_cap', False):
+            def sendall(self, data, *a, **k):
+                rec('out', data, 'socket.sendall')
+                return orig_sa(self, data, *a, **k)
+            sendall._tfd_cap = True
+            _sock.socket.sendall = sendall
+            w('WIRECAP 挂上 socket.sendall')
+    except Exception as e:
+        w('WIRECAP socket.sendall 失败 %r' % (e,))
+
+    try:
+        orig_s = _sock.socket.send
+        if not getattr(orig_s, '_tfd_cap', False):
+            def send(self, data, *a, **k):
+                r = orig_s(self, data, *a, **k)
+                try:
+                    rec('out', bytes(data)[:r] if r else b'', 'socket.send')
+                except Exception:
+                    pass
+                return r
+            send._tfd_cap = True
+            _sock.socket.send = send
+            w('WIRECAP 挂上 socket.send')
+    except Exception as e:
+        w('WIRECAP socket.send 失败 %r' % (e,))
+
+    try:
+        orig_r = _sock.socket.recv
+        if not getattr(orig_r, '_tfd_cap', False):
+            def recv(self, *a, **k):
+                r = orig_r(self, *a, **k)
+                rec('in', r, 'socket.recv')
+                return r
+            recv._tfd_cap = True
+            _sock.socket.recv = recv
+            w('WIRECAP 挂上 socket.recv')
+    except Exception as e:
+        w('WIRECAP socket.recv 失败 %r' % (e,))
+
+    w('WIRECAP 就绪 -> %s' % out_path)
+
+
 def _add_jumping_period(LS):
     """新版(build 26722146) 进主城时会请求 proc 3801 = JumpingPeriodVaild，
     但 login_server.GAME_COLLECTIONS 里没有这一条 -> 服务端回空包 ->
@@ -1415,6 +1564,11 @@ def main():
         _sniff_frames()
     except Exception as e:
         w('SNIFF 挂载失败 %r' % (e,))
+
+    try:
+        _wire_capture()
+    except Exception as e:
+        w('WIRECAP 挂载失败 %r' % (e,))
 
     moved = _quarantine_vaults(LL, here)
     if moved:
