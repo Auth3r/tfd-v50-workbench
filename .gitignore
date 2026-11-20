@@ -1,30 +1,35 @@
-# 大体积/可再生成的二进制与运行数据不入库
+# 运行期状态，不进仓库
+bridge_override.txt
+data/
+*.log
+
+# 二进制与依赖，不进仓库
 *.exe
 *.dll
 *.pyd
-*.i64
-*.iid
-*.pdb
-*.log
+*.so
 *.zip
+*.i64
+*.idb
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+unpacked/
+vendor/
+
+# 媒体不进仓库
 *.png
 *.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.mp4
+*.mov
+*.wav
+*.mp3
 
-vendor/
-unpacked/
-data/
-licensing/
-runtime/
-
-# 运行记录与存档（含用户数据）
-data/launcher/runs/
-data/launcher/saves/
-*.sqlite3
-*.sqlite3-wal
-*.sqlite3-shm
+# 备份快照不进仓库
+*.bak
+*.bak2
 *.bak-*
-
-# 临时
-__pycache__/
-*.pyc
-.tfd-patch/
