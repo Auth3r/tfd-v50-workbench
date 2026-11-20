@@ -1,0 +1,9 @@
+ASSET_MATCH reflected-structures.json sha256_lf=afd1d4fa8018b2518ed8e76012c594c5c2e70e7a522f7526e3125945fadd0a8a
+ASSET_MATCH V50-ACCOUNT-LIST-CONTRACT.md sha256_lf=f0f129d1810b4c2bb5c325eb82c160f1a451b25a6ebb231f0ce82c97234dd42b
+ASSET_MATCH V50-SAVE-MAPPING.md sha256_lf=44a19c65af607295eabae991ba86fad0e63dfcfb6f577b0de0aab9ddf9b60543
+M1AccountSimpleInfo: native_size_candidate=280; descriptors=35
+M1CharacterSimpleInfo: native_size_candidate=80; descriptors=13
+SOURCE_LIMITATIONS=["No network encoding, opcode assignments, or runtime behavior inferred from memory offsets.", "Container/boolean layouts and inherited fields require further decoding.", "Reflected names can describe development or unreachable code in Shipping."]
+M03 columns without approved SimpleInfo mapping: exp, reset_count, state_json, revision, updated_at
+SimpleInfo fields without approved M03 values: EigenFactorLevel, Favorites, SelectedLoadoutSlotIndex, Customizes, CustomizeOptions, Paints
+M04 NOT COMPLETE: no default values, synthetic wire format, or M01c work introduced

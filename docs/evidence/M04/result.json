@@ -1,0 +1,364 @@
+{
+  "status": "BLOCKED_MISSING_BODY_MAPPING_CONTRACT",
+  "assets": [
+    {
+      "path": "E:\\第二后裔\\TFD发布端V50\\TFD发布端V50\\unpacked\\evidence\\reflected-structures.json",
+      "expected": "afd1d4fa8018b2518ed8e76012c594c5c2e70e7a522f7526e3125945fadd0a8a",
+      "actual_normalized": "afd1d4fa8018b2518ed8e76012c594c5c2e70e7a522f7526e3125945fadd0a8a",
+      "match": true
+    },
+    {
+      "path": "F:\\Codex\\tfd-offline-2\\app\\V50-ACCOUNT-LIST-CONTRACT.md",
+      "expected": "f0f129d1810b4c2bb5c325eb82c160f1a451b25a6ebb231f0ce82c97234dd42b",
+      "actual_normalized": "f0f129d1810b4c2bb5c325eb82c160f1a451b25a6ebb231f0ce82c97234dd42b",
+      "match": true
+    },
+    {
+      "path": "F:\\Codex\\tfd-offline-2\\app\\V50-SAVE-MAPPING.md",
+      "expected": "44a19c65af607295eabae991ba86fad0e63dfcfb6f577b0de0aab9ddf9b60543",
+      "actual_normalized": "44a19c65af607295eabae991ba86fad0e63dfcfb6f577b0de0aab9ddf9b60543",
+      "match": true
+    }
+  ],
+  "schemas": {
+    "M1AccountSimpleInfo": {
+      "size_candidate": 280,
+      "descriptor_count": 35,
+      "fields": [
+        {
+          "name": "Uid",
+          "gen_flags": "0x4",
+          "memory_offset_candidate": 0,
+          "synthetic_inner": false
+        },
+        {
+          "name": "Name",
+          "gen_flags": "0x15",
+          "memory_offset_candidate": 8,
+          "synthetic_inner": false
+        },
+        {
+          "name": "LoginPlatformId",
+          "gen_flags": "0x15",
+          "memory_offset_candidate": 24,
+          "synthetic_inner": false
+        },
+        {
+          "name": "LoginPlatformUid",
+          "gen_flags": "0x4",
+          "memory_offset_candidate": 40,
+          "synthetic_inner": false
+        },
+        {
+          "name": "UnderlyingType",
+          "gen_flags": "0x0",
+          "memory_offset_candidate": 0,
+          "synthetic_inner": true
+        },
+        {
+          "name": "LoginPlatformType",
+          "gen_flags": "0x1e",
+          "memory_offset_candidate": 48,
+          "synthetic_inner": false
+        },
+        {
+          "name": "UnequipPeriodMedal",
+          "gen_flags": "0x4c",
+          "memory_offset_candidate": null,
+          "synthetic_inner": false
+        },
+        {
+          "name": "EquippedMedalTid",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 52,
+          "synthetic_inner": false
+        },
+        {
+          "name": "EquippedMedalLevel",
+          "gen_flags": "0x3",
+          "memory_offset_candidate": 56,
+          "synthetic_inner": false
+        },
+        {
+          "name": "WearingList",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 0,
+          "synthetic_inner": false
+        },
+        {
+          "name": "WearingList",
+          "gen_flags": "0x16",
+          "memory_offset_candidate": null,
+          "synthetic_inner": false
+        },
+        {
+          "name": "CombatPower",
+          "gen_flags": "0x4",
+          "memory_offset_candidate": 80,
+          "synthetic_inner": false
+        },
+        {
+          "name": "CreatedTime",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 88,
+          "synthetic_inner": false
+        },
+        {
+          "name": "PlayTime",
+          "gen_flags": "0x4",
+          "memory_offset_candidate": 96,
+          "synthetic_inner": false
+        },
+        {
+          "name": "CharacterList",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 0,
+          "synthetic_inner": false
+        },
+        {
+          "name": "CharacterList",
+          "gen_flags": "0x16",
+          "memory_offset_candidate": null,
+          "synthetic_inner": false
+        },
+        {
+          "name": "SelectedCharacter",
+          "gen_flags": "0x4",
+          "memory_offset_candidate": 120,
+          "synthetic_inner": false
+        },
+        {
+          "name": "MasteryRankLevel",
+          "gen_flags": "0x4",
+          "memory_offset_candidate": 128,
+          "synthetic_inner": false
+        },
+        {
+          "name": "MasteryRankExp",
+          "gen_flags": "0x4",
+          "memory_offset_candidate": 136,
+          "synthetic_inner": false
+        },
+        {
+          "name": "Region",
+          "gen_flags": "0x15",
+          "memory_offset_candidate": 144,
+          "synthetic_inner": false
+        },
+        {
+          "name": "LastMapTemplateId",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 160,
+          "synthetic_inner": false
+        },
+        {
+          "name": "LastBattleZoneId",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 164,
+          "synthetic_inner": false
+        },
+        {
+          "name": "LastPlayFieldDifficulty",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 168,
+          "synthetic_inner": false
+        },
+        {
+          "name": "CityStartLocationString",
+          "gen_flags": "0x15",
+          "memory_offset_candidate": 176,
+          "synthetic_inner": false
+        },
+        {
+          "name": "EquippedNameCardTid",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 192,
+          "synthetic_inner": false
+        },
+        {
+          "name": "CustomizeList",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 0,
+          "synthetic_inner": false
+        },
+        {
+          "name": "CustomizeList",
+          "gen_flags": "0x16",
+          "memory_offset_candidate": null,
+          "synthetic_inner": false
+        },
+        {
+          "name": "SelectedFellow",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 216,
+          "synthetic_inner": false
+        },
+        {
+          "name": "FellowList",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 0,
+          "synthetic_inner": false
+        },
+        {
+          "name": "FellowList",
+          "gen_flags": "0x16",
+          "memory_offset_candidate": null,
+          "synthetic_inner": false
+        },
+        {
+          "name": "SelectedVehicle",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 240,
+          "synthetic_inner": false
+        },
+        {
+          "name": "VehicleList",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 0,
+          "synthetic_inner": false
+        },
+        {
+          "name": "VehicleList",
+          "gen_flags": "0x16",
+          "memory_offset_candidate": null,
+          "synthetic_inner": false
+        },
+        {
+          "name": "CompletedQuestFlags",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 0,
+          "synthetic_inner": false
+        },
+        {
+          "name": "CompletedQuestFlags",
+          "gen_flags": "0x16",
+          "memory_offset_candidate": null,
+          "synthetic_inner": false
+        }
+      ]
+    },
+    "M1CharacterSimpleInfo": {
+      "size_candidate": 80,
+      "descriptor_count": 13,
+      "fields": [
+        {
+          "name": "Uid",
+          "gen_flags": "0x4",
+          "memory_offset_candidate": 0,
+          "synthetic_inner": false
+        },
+        {
+          "name": "CharacterTid",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 8,
+          "synthetic_inner": false
+        },
+        {
+          "name": "Level",
+          "gen_flags": "0x3",
+          "memory_offset_candidate": 12,
+          "synthetic_inner": false
+        },
+        {
+          "name": "MaxLevel",
+          "gen_flags": "0x3",
+          "memory_offset_candidate": 16,
+          "synthetic_inner": false
+        },
+        {
+          "name": "EigenFactorLevel",
+          "gen_flags": "0x3",
+          "memory_offset_candidate": 20,
+          "synthetic_inner": false
+        },
+        {
+          "name": "Favorites",
+          "gen_flags": "0x4c",
+          "memory_offset_candidate": null,
+          "synthetic_inner": false
+        },
+        {
+          "name": "SelectedLoadoutSlotIndex",
+          "gen_flags": "0x3",
+          "memory_offset_candidate": 28,
+          "synthetic_inner": false
+        },
+        {
+          "name": "Customizes",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 0,
+          "synthetic_inner": false
+        },
+        {
+          "name": "Customizes",
+          "gen_flags": "0x16",
+          "memory_offset_candidate": null,
+          "synthetic_inner": false
+        },
+        {
+          "name": "CustomizeOptions",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 0,
+          "synthetic_inner": false
+        },
+        {
+          "name": "CustomizeOptions",
+          "gen_flags": "0x16",
+          "memory_offset_candidate": null,
+          "synthetic_inner": false
+        },
+        {
+          "name": "Paints",
+          "gen_flags": "0x19",
+          "memory_offset_candidate": 0,
+          "synthetic_inner": false
+        },
+        {
+          "name": "Paints",
+          "gen_flags": "0x16",
+          "memory_offset_candidate": null,
+          "synthetic_inner": false
+        }
+      ]
+    }
+  },
+  "source_limitations": [
+    "No network encoding, opcode assignments, or runtime behavior inferred from memory offsets.",
+    "Container/boolean layouts and inherited fields require further decoding.",
+    "Reflected names can describe development or unreachable code in Shipping."
+  ],
+  "m03_character_columns": [
+    "uid",
+    "account_uid",
+    "template_id",
+    "exp",
+    "level",
+    "max_level",
+    "reset_count",
+    "state_json",
+    "revision",
+    "updated_at"
+  ],
+  "source_columns_without_approved_simpleinfo_mapping": [
+    "exp",
+    "reset_count",
+    "state_json",
+    "revision",
+    "updated_at"
+  ],
+  "target_fields_without_approved_m03_values": [
+    "EigenFactorLevel",
+    "Favorites",
+    "SelectedLoadoutSlotIndex",
+    "Customizes",
+    "CustomizeOptions",
+    "Paints"
+  ],
+  "missing": [
+    "Approved M03 snapshot -> account/character body field mapping",
+    "Approved body field serialization rules; memory offsets are not serialization",
+    "Versioned static SHAPE excerpt (patch_v50.log has no expected asset hash)"
+  ],
+  "m01c_touched": false,
+  "encoder_implemented": false
+}

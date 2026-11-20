@@ -1,0 +1,499 @@
+[
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\fixtures\\v50_first_frame.rs",
+    "expected": "25ede10c4d7b2f1bd5c4e529b6684c63f091d788bd65bbd598ccaf84fa3a38a7",
+    "actual_normalized": "25ede10c4d7b2f1bd5c4e529b6684c63f091d788bd65bbd598ccaf84fa3a38a7",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\AGENTS.md",
+    "expected": "71333cf223b8a345bcd8c467ec5332888796e83f040930d83487cab88045186c",
+    "actual_normalized": "71333cf223b8a345bcd8c467ec5332888796e83f040930d83487cab88045186c",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\CONTRACT.md",
+    "expected": "1d64c7d89f77f2fda605f6e6fc1f4534039be78d5dadf39622f4601a50b501ef",
+    "actual_normalized": "1d64c7d89f77f2fda605f6e6fc1f4534039be78d5dadf39622f4601a50b501ef",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\PROTOCOL.md",
+    "expected": "cd235fbd34ac5b7c209fff7a580d83ba2d997da7877fc8139a6ad22b7ffde224",
+    "actual_normalized": "cd235fbd34ac5b7c209fff7a580d83ba2d997da7877fc8139a6ad22b7ffde224",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\RUST.md",
+    "expected": "519d68964c486e2d786570c49e8f155a28b1f61678b7d812dc9c69142e7f189b",
+    "actual_normalized": "519d68964c486e2d786570c49e8f155a28b1f61678b7d812dc9c69142e7f189b",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\TAKEOVER.md",
+    "expected": "248835833f3d11fc152b66e2890193da1832840e202d78c0129440d16f49c73e",
+    "actual_normalized": "248835833f3d11fc152b66e2890193da1832840e202d78c0129440d16f49c73e",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\USER-CAPTURE-REQUEST.md",
+    "expected": "2c393ca7fbc0a807b09a3df29756d10cee00ea648c1d927618f7eb8319a084fa",
+    "actual_normalized": "2c393ca7fbc0a807b09a3df29756d10cee00ea648c1d927618f7eb8319a084fa",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\V50-ACCOUNT-LIST-CONTRACT.md",
+    "expected": "f0f129d1810b4c2bb5c325eb82c160f1a451b25a6ebb231f0ce82c97234dd42b",
+    "actual_normalized": "f0f129d1810b4c2bb5c325eb82c160f1a451b25a6ebb231f0ce82c97234dd42b",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\V50-CHARACTER-ENTRY-BINDINGS.md",
+    "expected": "e90bdf288c08defd5a8ff6748c2b546bc14e90321855b10fd282654d546a389d",
+    "actual_normalized": "e90bdf288c08defd5a8ff6748c2b546bc14e90321855b10fd282654d546a389d",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\V50-CLIENT-TABLE-BINDINGS.md",
+    "expected": "a1312dc336f492f6ea1600b499c23e0b1083f7fc50662371b6a104e5a91923d0",
+    "actual_normalized": "a1312dc336f492f6ea1600b499c23e0b1083f7fc50662371b6a104e5a91923d0",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\V50-CONTENT-GAPS.md",
+    "expected": "cc74fbc76549b6f8e9f00a775152ed1d718ff63a74d656a51f3934655baf90da",
+    "actual_normalized": "cc74fbc76549b6f8e9f00a775152ed1d718ff63a74d656a51f3934655baf90da",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\V50-FRAME-CONTRACT.md",
+    "expected": "3b80263cf5f69fcbdc0c66a34c70ad2c8227090a653da10dd426aca01951ce9a",
+    "actual_normalized": "3b80263cf5f69fcbdc0c66a34c70ad2c8227090a653da10dd426aca01951ce9a",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\V50-LOGIN-RESPONSE-EVIDENCE.md",
+    "expected": "262916ed9224be9edcf36debc5727c675c070267fa01721ccff30d70d718c65b",
+    "actual_normalized": "262916ed9224be9edcf36debc5727c675c070267fa01721ccff30d70d718c65b",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\V50-P8-CAPTURE-SPEC.md",
+    "expected": "1502291177bb21e89c8b5a92e6310149c7e954f9a2f457769516f10209e41f53",
+    "actual_normalized": "1502291177bb21e89c8b5a92e6310149c7e954f9a2f457769516f10209e41f53",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\V50-SAVE-MAPPING.md",
+    "expected": "44a19c65af607295eabae991ba86fad0e63dfcfb6f577b0de0aab9ddf9b60543",
+    "actual_normalized": "44a19c65af607295eabae991ba86fad0e63dfcfb6f577b0de0aab9ddf9b60543",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\V50-START-HERE.md",
+    "expected": "1bb89fd4a19a6a98f3331164a30d10e53e3035961ceb8802c506f5751a65c02e",
+    "actual_normalized": "1bb89fd4a19a6a98f3331164a30d10e53e3035961ceb8802c506f5751a65c02e",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\V50-TAP-FRAMES.csv",
+    "expected": "264560be97598fc15152a762c03e30f21c588f6966dbd8249de35d0a814439b2",
+    "actual_normalized": "264560be97598fc15152a762c03e30f21c588f6966dbd8249de35d0a814439b2",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\GpwEgress.cs",
+    "expected": "c8c45a5467e91aaec7e0105f0d085b5f1abc1ba3b7743d9285ae457912d8d221",
+    "actual_normalized": "c8c45a5467e91aaec7e0105f0d085b5f1abc1ba3b7743d9285ae457912d8d221",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\afd-connect.wprp",
+    "expected": "76c922fb14bf68b4c1158b62b954a557ae845053d661a2701cb6500865fad586",
+    "actual_normalized": "76c922fb14bf68b4c1158b62b954a557ae845053d661a2701cb6500865fad586",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\accounts.rs",
+    "expected": "fed6f68bd3f8324d3288f89284d3d3d414eadfbc1ce492462c83f0cb02cf6f70",
+    "actual_normalized": "fed6f68bd3f8324d3288f89284d3d3d414eadfbc1ce492462c83f0cb02cf6f70",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\crypto.rs",
+    "expected": "ed6073961b9b9ea3e672307817eef0eb921e1ff155126eb1dbf77dd1379af70f",
+    "actual_normalized": "ed6073961b9b9ea3e672307817eef0eb921e1ff155126eb1dbf77dd1379af70f",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\mod.rs",
+    "expected": "f226c4241ccc2936396cb4997c5dc648e466143a2a42f8822b6fa247b912e870",
+    "actual_normalized": "f226c4241ccc2936396cb4997c5dc648e466143a2a42f8822b6fa247b912e870",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\character.rs",
+    "expected": "827b1fc83352057e2af294d4792bd53a7595d94c0a4fc6751ee2ee40127310c9",
+    "actual_normalized": "827b1fc83352057e2af294d4792bd53a7595d94c0a4fc6751ee2ee40127310c9",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\content.rs",
+    "expected": "b3c2866041e5361752b9b4bf07dc8268dda32fad8f0bf9478d5c5d339a2b1944",
+    "actual_normalized": "b3c2866041e5361752b9b4bf07dc8268dda32fad8f0bf9478d5c5d339a2b1944",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\data.rs",
+    "expected": "23edb0060a54eb18add9c46fb52d509b47147af51524bd10cc5a76b6adfa1382",
+    "actual_normalized": "23edb0060a54eb18add9c46fb52d509b47147af51524bd10cc5a76b6adfa1382",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\game_ingress.rs",
+    "expected": "e26dc85e05b6e0034f30eb19d8d7f3e077a9709dde6addbdb3642337d61c8e01",
+    "actual_normalized": "e26dc85e05b6e0034f30eb19d8d7f3e077a9709dde6addbdb3642337d61c8e01",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\inspection.rs",
+    "expected": "0b1ab91028d965f0a6be3df9d937b9531d0e8531993cf189099071488af6f637",
+    "actual_normalized": "0b1ab91028d965f0a6be3df9d937b9531d0e8531993cf189099071488af6f637",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\launch.rs",
+    "expected": "7a55e721e80325c7c9b1847633499455a10274bea82a7c6001987b44e3d65ec2",
+    "actual_normalized": "7a55e721e80325c7c9b1847633499455a10274bea82a7c6001987b44e3d65ec2",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\lib.rs",
+    "expected": "f60e9bf839f5130d303231f2f47f835c4463c20d2460f81d910a1e43438e4618",
+    "actual_normalized": "ae555c8836644cfe59b57a7e0869d25b445e9b3527332f6753c000787ca39f08",
+    "match": false,
+    "authorized_module_export_change": true
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\login_wire.rs",
+    "expected": "a86478ba84d4be3205304f8c809441e772a0f853038f7fde32131268fd22e4f7",
+    "actual_normalized": "a86478ba84d4be3205304f8c809441e772a0f853038f7fde32131268fd22e4f7",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\main.rs",
+    "expected": "21b15c6c7c4653f7a283574a98bc5e2ca367cbf9817f917c21f511b8efa11c37",
+    "actual_normalized": "21b15c6c7c4653f7a283574a98bc5e2ca367cbf9817f917c21f511b8efa11c37",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\observe-connect.ps1",
+    "expected": "9a5fa9af367e112c0809bc44dea2b8086a0dddb2aeab8bca71b0a006c18a3e2f",
+    "actual_normalized": "9a5fa9af367e112c0809bc44dea2b8086a0dddb2aeab8bca71b0a006c18a3e2f",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\protocol.rs",
+    "expected": "6ca922ef014e09c08b2488ad3a5d032b5636eb27556ec3f03db613fef3d9216c",
+    "actual_normalized": "6ca922ef014e09c08b2488ad3a5d032b5636eb27556ec3f03db613fef3d9216c",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\registered-route.ps1",
+    "expected": "81f6d2906a3895674727f3eb3429e0e1f64b5429789fc4a35b29a8ba30108747",
+    "actual_normalized": "81f6d2906a3895674727f3eb3429e0e1f64b5429789fc4a35b29a8ba30108747",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\runtime.rs",
+    "expected": "37611999099433ee685bd1db6e067dddfefd6c21e8b46dc6144f15cadaf3abf1",
+    "actual_normalized": "37611999099433ee685bd1db6e067dddfefd6c21e8b46dc6144f15cadaf3abf1",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\session.rs",
+    "expected": "edd9d69cd2f128576f19175adab6b80d3afa9375e7e350fb69b4f155d13fd282",
+    "actual_normalized": "edd9d69cd2f128576f19175adab6b80d3afa9375e7e350fb69b4f155d13fd282",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\snapshot.rs",
+    "expected": "a9910269e45088b0271b0e900011d4a353ef1e75283d32d96302cef2932aed0f",
+    "actual_normalized": "a9910269e45088b0271b0e900011d4a353ef1e75283d32d96302cef2932aed0f",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\v50_codec.rs",
+    "expected": "56eef88c62240ec5f134e3e526e4636ea1a547f8505e0b28de68d97ce9a78533",
+    "actual_normalized": "56eef88c62240ec5f134e3e526e4636ea1a547f8505e0b28de68d97ce9a78533",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\v50_handlers.rs",
+    "expected": "26c452bf8f11472352f6a00c0afc543214793bf46765848105534b282bb81825",
+    "actual_normalized": "26c452bf8f11472352f6a00c0afc543214793bf46765848105534b282bb81825",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\v50_schema.rs",
+    "expected": "341a66b11848e6e17be731ba811b62d20f25e6e5ea5f2a5be015d596cb1e9f7b",
+    "actual_normalized": "341a66b11848e6e17be731ba811b62d20f25e6e5ea5f2a5be015d596cb1e9f7b",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\src\\LocalService.cs",
+    "expected": "2fa41c62a5e22fe53800b39863663cfdc43829a780e7903fec5619c890123c34",
+    "actual_normalized": "2fa41c62a5e22fe53800b39863663cfdc43829a780e7903fec5619c890123c34",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\src\\Model.cs",
+    "expected": "a43c56624412c69c2e8df56e1b5e8e05965fb5f801cdc66703a2abb4a24dff3b",
+    "actual_normalized": "a43c56624412c69c2e8df56e1b5e8e05965fb5f801cdc66703a2abb4a24dff3b",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\src\\Persistence.cs",
+    "expected": "f01f515ca492412292061d9194fb73086f8b4ade215c2a788e0110b581986c19",
+    "actual_normalized": "f01f515ca492412292061d9194fb73086f8b4ade215c2a788e0110b581986c19",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\src\\Program.cs",
+    "expected": "f2b751b38196449e581249b0310d72bc9228f3c869a220b2e970dc9426085fb1",
+    "actual_normalized": "f2b751b38196449e581249b0310d72bc9228f3c869a220b2e970dc9426085fb1",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\src\\Protocol.cs",
+    "expected": "7219d51b106821950fb42065627f579c25ec54361d66714630022c76f462ea27",
+    "actual_normalized": "7219d51b106821950fb42065627f579c25ec54361d66714630022c76f462ea27",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\src\\SelfTest.cs",
+    "expected": "f093ec26013219b6405a8788da9d504a88ce37abf566162107b9666a19931d2f",
+    "actual_normalized": "f093ec26013219b6405a8788da9d504a88ce37abf566162107b9666a19931d2f",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\auth_runtime.ps1",
+    "expected": "213a9cf8c1020ba427311b5f0ecf5153d18adc48cff44dce868eb50f41631444",
+    "actual_normalized": "213a9cf8c1020ba427311b5f0ecf5153d18adc48cff44dce868eb50f41631444",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\auth_runtime.rs",
+    "expected": "3deb7ffd3dd3f6f2692592399ea621e61865b60d3cf8a7118fb18b11f2433976",
+    "actual_normalized": "3deb7ffd3dd3f6f2692592399ea621e61865b60d3cf8a7118fb18b11f2433976",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\business.rs",
+    "expected": "8f1d3e012e94d2409a4a6c36d31066ff46679c177a43632a136449d4b654c37b",
+    "actual_normalized": "8f1d3e012e94d2409a4a6c36d31066ff46679c177a43632a136449d4b654c37b",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\connect_observation.rs",
+    "expected": "2dedb4939dbe35656c3f578222b53d5a4f37482d57235bb712ed1cdb2d293e77",
+    "actual_normalized": "2dedb4939dbe35656c3f578222b53d5a4f37482d57235bb712ed1cdb2d293e77",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\core_cli.rs",
+    "expected": "a8e82e01ddb71613a73ad5d7b0b39bb77a006d48584cab8e23847f59424d3c03",
+    "actual_normalized": "a8e82e01ddb71613a73ad5d7b0b39bb77a006d48584cab8e23847f59424d3c03",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\login_procedure1.rs",
+    "expected": "14ea9f53faba1c8c34f7c0163db6179fc364521a5b9ef647e2ca36e6ee268efb",
+    "actual_normalized": "14ea9f53faba1c8c34f7c0163db6179fc364521a5b9ef647e2ca36e6ee268efb",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\profile.rs",
+    "expected": "760bbe5d0cfa9827c78149cf680adfa9496eb0013e6c48455ad447707a9062c1",
+    "actual_normalized": "760bbe5d0cfa9827c78149cf680adfa9496eb0013e6c48455ad447707a9062c1",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\protocol.rs",
+    "expected": "aa4739ebf47f4eba2a9ead4d60b133e24b4b1d2463ff1ac0fef331bde2eb61bc",
+    "actual_normalized": "aa4739ebf47f4eba2a9ead4d60b133e24b4b1d2463ff1ac0fef331bde2eb61bc",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\session.rs",
+    "expected": "f9053ec1fd75229635780aad6b648ec772023295822546a7faf97793ce127be3",
+    "actual_normalized": "f9053ec1fd75229635780aad6b648ec772023295822546a7faf97793ce127be3",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v15_key_parameter.rs",
+    "expected": "e817e559105989bc51403d32ac8d693a9f0a59b9c9e9239ec864f97b1674eff1",
+    "actual_normalized": "e817e559105989bc51403d32ac8d693a9f0a59b9c9e9239ec864f97b1674eff1",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v15_static.rs",
+    "expected": "3c501bfe16621f37f57c1587432a6fd33291ddbaaa5ac71074adeba52048e678",
+    "actual_normalized": "3c501bfe16621f37f57c1587432a6fd33291ddbaaa5ac71074adeba52048e678",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v15_transform.rs",
+    "expected": "2352d5f4d9bc6e8a62ebf53e9c2309d6542a356d3734f7a0d743559966e1607a",
+    "actual_normalized": "2352d5f4d9bc6e8a62ebf53e9c2309d6542a356d3734f7a0d743559966e1607a",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v50_codec.rs",
+    "expected": "a27629d83e84dc8e31da6ad2fba246263ca4810fddbd63bac56033fa0a401d42",
+    "actual_normalized": "a27629d83e84dc8e31da6ad2fba246263ca4810fddbd63bac56033fa0a401d42",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v50_domains.rs",
+    "expected": "0581b84985237c2ef032a7b9faeb5e01c30647db8bd210ed90918cccfde6c14d",
+    "actual_normalized": "0581b84985237c2ef032a7b9faeb5e01c30647db8bd210ed90918cccfde6c14d",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\_run_v50.py",
+    "expected": "e5a622044653196c00eaa1d67801cf61a92d894f6f21df0b2213852e3a6fa6d0",
+    "actual_normalized": "e5a622044653196c00eaa1d67801cf61a92d894f6f21df0b2213852e3a6fa6d0",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\generate_v50_schema.py",
+    "expected": "ed177809549e58582566084d1b9976c1495433385e6f087fb094595a1bd24b12",
+    "actual_normalized": "ed177809549e58582566084d1b9976c1495433385e6f087fb094595a1bd24b12",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\inspect_v50_login_window.py",
+    "expected": "c23fd9bb1ad592c56202df99f63bac1f6ca00beea9c06acf04acc370b3cccf65",
+    "actual_normalized": "c23fd9bb1ad592c56202df99f63bac1f6ca00beea9c06acf04acc370b3cccf65",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\reassemble_v50_tap.py",
+    "expected": "2bc931dc872199680b08740dbe1305d2f0bf46091e6c0bdd5adff0a7913927cf",
+    "actual_normalized": "2bc931dc872199680b08740dbe1305d2f0bf46091e6c0bdd5adff0a7913927cf",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_account_save.py",
+    "expected": "0756c83782fa7a3410e2deeb4095d426dadcef4b616d2e6febc94ad280d79c13",
+    "actual_normalized": "0756c83782fa7a3410e2deeb4095d426dadcef4b616d2e6febc94ad280d79c13",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_frame.py",
+    "expected": "d267c726634d6f94bcfb9989058046d6ee7ac9bd10d16d1e6726ca6a3185cc04",
+    "actual_normalized": "d267c726634d6f94bcfb9989058046d6ee7ac9bd10d16d1e6726ca6a3185cc04",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_instance.py",
+    "expected": "7106575e86b9f2e03f2f6fb9cdb4199547772456a74906dd1d9b4e8318927672",
+    "actual_normalized": "7106575e86b9f2e03f2f6fb9cdb4199547772456a74906dd1d9b4e8318927672",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_live.py",
+    "expected": "debd4ce48c8d466a02eec2f1510bf36272eceb6e2125648464fc2f3611804a16",
+    "actual_normalized": "debd4ce48c8d466a02eec2f1510bf36272eceb6e2125648464fc2f3611804a16",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_mail.py",
+    "expected": "de0d33f4541c092086eb6e2dfb4cb7dcbcaaba3868171cee756c1cd7f3f2551d",
+    "actual_normalized": "de0d33f4541c092086eb6e2dfb4cb7dcbcaaba3868171cee756c1cd7f3f2551d",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_quest.py",
+    "expected": "468ff98004320ed205ea1d10cf8ea738319e3d59adcc75296aaf6158f562c32f",
+    "actual_normalized": "468ff98004320ed205ea1d10cf8ea738319e3d59adcc75296aaf6158f562c32f",
+    "match": true,
+    "authorized_module_export_change": false
+  },
+  {
+    "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_shop.py",
+    "expected": "32ed8e1959c1a52d8167f582693f97132dc279a0e9c77440e8b5323aaa191cd8",
+    "actual_normalized": "32ed8e1959c1a52d8167f582693f97132dc279a0e9c77440e8b5323aaa191cd8",
+    "match": true,
+    "authorized_module_export_change": false
+  }
+]
