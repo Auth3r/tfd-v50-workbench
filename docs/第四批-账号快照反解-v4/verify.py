@@ -1,7 +1,7 @@
 """Check the v4 character snapshot against both original byte ranges, offline, with Python 3.10+."""
 import argparse
 from collections import Counter
-from contextlib import closing
+from contextlib import closing, contextmanager
 from dataclasses import dataclass, fields
 from hashlib import sha256
 from io import BytesIO
@@ -107,16 +107,22 @@ def decode(segment):
     return records, bounds
 
 
-def sqlite_rows(blob):
+@contextmanager
+def sqlite_copy(blob):
     with TemporaryDirectory(dir=Path(__file__).resolve().parent) as tmp:
         path = Path(tmp, SAVE)
         path.write_bytes(blob)
         with closing(sqlite3.connect(path.as_uri() + "?mode=ro&immutable=1", uri=True)) as db:
             db.execute("PRAGMA query_only=ON")
-            rows = db.execute("SELECT uid, template_id, exp, level, max_level, reset_count "
-                              "FROM characters ORDER BY uid").fetchall()
+            yield db
         if sha256(path.read_bytes()).hexdigest() != SAVE_SHA:
             raise ValueError("temporary SQLite copy changed")
+
+
+def sqlite_rows(blob):
+    with sqlite_copy(blob) as db:
+        rows = db.execute("SELECT uid, template_id, exp, level, max_level, reset_count "
+                          "FROM characters ORDER BY uid").fetchall()
     if len(rows) != COUNT or len(set(row[0] for row in rows)) != COUNT:
         raise ValueError(f"unexpected SQLite character inventory: rows={len(rows)}")
     return [Character(*row) for row in rows]
@@ -242,6 +248,48 @@ def check_g4(frames, rows):
     return passed
 
 
+def check_g3(path, blob, decoded, rows):
+    with ZipFile(path) as archive:
+        layout = archive.read("03-结构速查.md")
+    checked_hash(layout.replace(b"\r\n", b"\n"),
+                 "0a22f48ffe003203d6f50aa49cd3de0a29afd717fbd802dc448145dd192eddf7", "03 (LF)")
+    text = layout.decode("utf-8-sig")
+    section = text.split("## M1CharacterSimpleInfo ·", 1)[1].split("\n## ", 1)[0]
+    properties = []
+    for line in section.splitlines():
+        if line.startswith("| 0x"):
+            offset, name, _ = (cell.strip() for cell in line.strip("|").split("|"))
+            properties.append((offset, name))
+    if len(properties) != 10 or len({name for _, name in properties}) != 10:
+        raise ValueError("unexpected deduplicated descriptor inventory in 03")
+    print("03 M1CharacterSimpleInfo: 80 bytes, 13 property descriptors, 10 distinct names.")
+    with sqlite_copy(blob) as db:
+        cols = [col[1] for col in db.execute("PRAGMA table_info(characters)")]
+        state_keys = Counter(key for state, in db.execute("SELECT state_json FROM characters")
+                             for key in json.loads(state))
+    print(f"05.characters columns={','.join(cols)}; state_json top-level key row counts={dict(state_keys)}")
+    anchors = {"Uid": "uid", "CharacterTid": "tid", "Level": "level", "MaxLevel": "max_level"}
+    established = 0
+    for offset, name in properties:
+        field = anchors.get(name)
+        if field is None:
+            print(f"{offset} {name}: value=UNKNOWN; SQLite/G2 anchor=unavailable")
+            continue
+        expected = [getattr(row, field) for row in rows]
+        scores = {}
+        for seq, (records, _) in decoded.items():
+            scores[seq] = sum(getattr(record, field) == want for record, want in zip(records, expected))
+        print(f"{offset} {name}: G2 values in uid order={[getattr(r, field) for r in decoded[30][0]]}; "
+              + " ".join(f"seq={seq}:{count}/{COUNT}" for seq, count in sorted(scores.items())))
+        established += all(count == COUNT for count in scores.values())
+    distinct = [(r.uid, r.level, r.max_level) for r in rows if r.level != r.max_level]
+    print(f"level/max_level distinguishing SQLite rows (uid,level,max_level)={distinct}")
+    print("exp and reset_count: wire and SQLite values verified at G2; native member/offset UNKNOWN.")
+    print(f"G3 PARTIAL: semantic anchors={established}/10; six named fields lack corresponding sample values. "
+          "Native offsets come from 03; no native row image in this batch.")
+    return established == len(anchors)
+
+
 def check(path, gate):
     frames, blob = inputs(path)
     if gate == "G4":
@@ -263,14 +311,16 @@ def check(path, gate):
     print("G2 PASS" if passed else "G2 FAIL")
     if not passed or gate == "G2":
         return 0 if passed else 1
-    return 0 if check_g4(frames, rows) else 1
+    if gate == "all" and not check_g4(frames, rows):
+        return 1
+    return 0 if check_g3(path, blob, decoded, rows) else 1
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", required=True, action="store_true")
     parser.add_argument("--zip", type=Path, default=ZIP)
-    parser.add_argument("--gate", choices=("G1", "G2", "G4", "all"), default="all")
+    parser.add_argument("--gate", choices=("G1", "G2", "G3", "G4", "all"), default="all")
     args = parser.parse_args()
     return check(args.zip, args.gate)
 
