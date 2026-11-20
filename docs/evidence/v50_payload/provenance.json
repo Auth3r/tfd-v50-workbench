@@ -1,0 +1,257 @@
+{
+  "claim": "v50_payload 夹具的 body/payload 均来自真实抓包，非编码器反算产物",
+  "why_source_not_in_repo": "runs/ 存放原始抓包（约 1.2 MB），按项目边界不纳入版本库；因此这里用哈希 + 行号锚定来源，而不是把源文件搬进来",
+  "sources": {
+    "runs/wire_full.jsonl": {
+      "sha256": "fd3e038ca76443e554c92f04e0b9645ea6d754612ae7ceee8c3946a9f0f0304e",
+      "bytes": 593227,
+      "lines": 212
+    },
+    "runs/decoded_payloads_20261121.json": {
+      "sha256": "daccdff4513a848f9e689a4308086e899a189494456b5bcf50c7088c5dce804d",
+      "bytes": 1161685
+    }
+  },
+  "how_to_recheck": [
+    "1) 手上有原始抓包时：对 wire_full.jsonl 与 decoded_payloads_20261121.json 算 sha256，应与 sources 下一致",
+    "2) 按 wire_hits 的 line 号打开 wire_full.jsonl 第 N 行，该行 hex 的尾段应逐字节等于 PAYLOAD_n_HEX",
+    "3) 该行前 10 字节应为 [plen][-plen][0x7fff]，且 plen == bytes",
+    "4) decoded_hits 指向 decoded_payloads 中同载荷记录，其 dec_hex 应逐字节等于 BODY_n_HEX"
+  ],
+  "fixtures": [
+    {
+      "fixture_index": 0,
+      "bytes": 4,
+      "sha256_body": "7b676d9b82838baf80ee1a8877505ac2f2b9dc475b50adbaf33e8cfc04514190",
+      "sha256_payload": "d62976d73f68ac2c60c599b68523d19163325cf8f2631b7b16ca6d7da86c6d54",
+      "xor_holds": true,
+      "wire_hits": [
+        {
+          "line": 9,
+          "seq": 9,
+          "dir": "out",
+          "layer": "StreamWriter.write",
+          "rec_len": 14
+        },
+        {
+          "line": 98,
+          "seq": 13,
+          "dir": "out",
+          "layer": "StreamWriter.write",
+          "rec_len": 14
+        }
+      ],
+      "decoded_hits": [
+        {
+          "seq": 9,
+          "dir": "out",
+          "plen": 4,
+          "t": 26.205
+        },
+        {
+          "seq": 13,
+          "dir": "out",
+          "plen": 4,
+          "t": 27.095
+        }
+      ],
+      "wire_hit_count": 2,
+      "decoded_hit_count": 2
+    },
+    {
+      "fixture_index": 1,
+      "bytes": 5,
+      "sha256_body": "50ba5812fea4f337c3736732d3a71d12545b5b90033355378401e965d2fe7c18",
+      "sha256_payload": "6b93bb84292d843f9512cc5c94e9959659b79aabef5841f32dc8cf748af70a13",
+      "xor_holds": true,
+      "wire_hits": [
+        {
+          "line": 15,
+          "seq": 15,
+          "dir": "out",
+          "layer": "StreamWriter.write",
+          "rec_len": 15
+        },
+        {
+          "line": 109,
+          "seq": 24,
+          "dir": "out",
+          "layer": "StreamWriter.write",
+          "rec_len": 15
+        }
+      ],
+      "decoded_hits": [
+        {
+          "seq": 15,
+          "dir": "out",
+          "plen": 5,
+          "t": 26.587
+        },
+        {
+          "seq": 24,
+          "dir": "out",
+          "plen": 5,
+          "t": 27.47
+        }
+      ],
+      "wire_hit_count": 2,
+      "decoded_hit_count": 2
+    },
+    {
+      "fixture_index": 2,
+      "bytes": 223,
+      "sha256_body": "81806510b67b056a7792d72f23378aa4ff97cb8a4bd51a14b21feab9a4d51f76",
+      "sha256_payload": "a633c38f973da52e8631ec10169ac07632bb020efe42c5ec86b50ed23f0165aa",
+      "xor_holds": true,
+      "wire_hits": [
+        {
+          "line": 13,
+          "seq": 13,
+          "dir": "out",
+          "layer": "StreamWriter.write",
+          "rec_len": 233
+        },
+        {
+          "line": 105,
+          "seq": 20,
+          "dir": "out",
+          "layer": "StreamWriter.write",
+          "rec_len": 233
+        }
+      ],
+      "decoded_hits": [
+        {
+          "seq": 13,
+          "dir": "out",
+          "plen": 223,
+          "t": 26.237
+        },
+        {
+          "seq": 20,
+          "dir": "out",
+          "plen": 223,
+          "t": 27.124
+        }
+      ],
+      "wire_hit_count": 2,
+      "decoded_hit_count": 2
+    },
+    {
+      "fixture_index": 3,
+      "bytes": 322,
+      "sha256_body": "b4f10c9550aac46e7aa7b0f36acee011c9751dcc039fe6b19027f1281f9ab1d8",
+      "sha256_payload": "987dcf53490b3c92d50b5a95d5fbe0c89a70d15c3420a877e733ed466ad92219",
+      "xor_holds": true,
+      "wire_hits": [
+        {
+          "line": 12,
+          "seq": 12,
+          "dir": "out",
+          "layer": "StreamWriter.write",
+          "rec_len": 332
+        },
+        {
+          "line": 104,
+          "seq": 19,
+          "dir": "out",
+          "layer": "StreamWriter.write",
+          "rec_len": 332
+        }
+      ],
+      "decoded_hits": [
+        {
+          "seq": 12,
+          "dir": "out",
+          "plen": 322,
+          "t": 26.231
+        },
+        {
+          "seq": 19,
+          "dir": "out",
+          "plen": 322,
+          "t": 27.118
+        }
+      ],
+      "wire_hit_count": 2,
+      "decoded_hit_count": 2
+    },
+    {
+      "fixture_index": 4,
+      "bytes": 3869,
+      "sha256_body": "e29e6d8736a0b24c2f04376029eb5f0dee554b6ea6b30027df69374d6ebcba5e",
+      "sha256_payload": "38aa48ff2a7df8b4d4612a87d5ce3b219b062a1751e524c77f028061d84945f4",
+      "xor_holds": true,
+      "wire_hits": [
+        {
+          "line": 14,
+          "seq": 14,
+          "dir": "out",
+          "layer": "StreamWriter.write",
+          "rec_len": 3879
+        },
+        {
+          "line": 107,
+          "seq": 22,
+          "dir": "out",
+          "layer": "StreamWriter.write",
+          "rec_len": 3879
+        }
+      ],
+      "decoded_hits": [
+        {
+          "seq": 14,
+          "dir": "out",
+          "plen": 3869,
+          "t": 26.551
+        },
+        {
+          "seq": 22,
+          "dir": "out",
+          "plen": 3869,
+          "t": 27.448
+        }
+      ],
+      "wire_hit_count": 2,
+      "decoded_hit_count": 2
+    },
+    {
+      "fixture_index": 5,
+      "bytes": 322,
+      "sha256_body": "b4f10c9550aac46e7aa7b0f36acee011c9751dcc039fe6b19027f1281f9ab1d8",
+      "sha256_payload": "987dcf53490b3c92d50b5a95d5fbe0c89a70d15c3420a877e733ed466ad92219",
+      "xor_holds": true,
+      "wire_hits": [
+        {
+          "line": 12,
+          "seq": 12,
+          "dir": "out",
+          "layer": "StreamWriter.write",
+          "rec_len": 332
+        },
+        {
+          "line": 104,
+          "seq": 19,
+          "dir": "out",
+          "layer": "StreamWriter.write",
+          "rec_len": 332
+        }
+      ],
+      "decoded_hits": [
+        {
+          "seq": 12,
+          "dir": "out",
+          "plen": 322,
+          "t": 26.231
+        },
+        {
+          "seq": 19,
+          "dir": "out",
+          "plen": 322,
+          "t": 27.118
+        }
+      ],
+      "wire_hit_count": 2,
+      "decoded_hit_count": 2
+    }
+  ]
+}

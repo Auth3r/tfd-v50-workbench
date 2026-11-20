@@ -1,6 +1,12 @@
 // Source: runs/decoded_payloads_20261121.json (client build 26722146, two captures).
 // body = server body layer (dec_hex); payload = on-wire bytes (raw_hex).
 // Relation: payload[i] = body[i] ^ KEY[i % 30]. Do not regenerate these by encoding.
+//
+// Provenance is auditable offline: docs/evidence/v50_payload/provenance.json pins the
+// sha256 of both source files, plus the exact wire_full.jsonl line number where each
+// payload below appears verbatim, and the decoded-side record it came from. runs/ stays
+// out of the repository (raw capture is a local artifact), so the anchors are hashes and
+// line numbers rather than a copy of the capture.
 
 // seq=9 dir=out plen=4 t=26.205
 const BODY_0_HEX: &str = "02d60f02";
