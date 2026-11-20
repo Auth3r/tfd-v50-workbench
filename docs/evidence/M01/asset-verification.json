@@ -1,0 +1,58 @@
+[
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\protocol.rs",
+    "Expected": "6ca922ef014e09c08b2488ad3a5d032b5636eb27556ec3f03db613fef3d9216c",
+    "Actual": "6ca922ef014e09c08b2488ad3a5d032b5636eb27556ec3f03db613fef3d9216c",
+    "ExpectedBytes": 16214,
+    "ActualBytes": 16214,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\rust\\v50_codec.rs",
+    "Expected": "56eef88c62240ec5f134e3e526e4636ea1a547f8505e0b28de68d97ce9a78533",
+    "Actual": "56eef88c62240ec5f134e3e526e4636ea1a547f8505e0b28de68d97ce9a78533",
+    "ExpectedBytes": 4749,
+    "ActualBytes": 4749,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v50_codec.rs",
+    "Expected": "a27629d83e84dc8e31da6ad2fba246263ca4810fddbd63bac56033fa0a401d42",
+    "Actual": "a27629d83e84dc8e31da6ad2fba246263ca4810fddbd63bac56033fa0a401d42",
+    "ExpectedBytes": 3527,
+    "ActualBytes": 3527,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\tests\\fixtures\\v50_first_frame.rs",
+    "Expected": "b36d07d0cdf74f373e98654b4dd2999218948409b33f5f932be563a4b14fac12",
+    "Actual": "b36d07d0cdf74f373e98654b4dd2999218948409b33f5f932be563a4b14fac12",
+    "ExpectedBytes": 347,
+    "ActualBytes": 347,
+    "Match": true
+  },
+  {
+    "Path": "F:\\Codex\\tfd-offline-2\\app\\V50-FRAME-CONTRACT.md",
+    "Expected": "a8a426d67c77c180e316e3e7f78e9c0e1f84346cebf251eddc3c3e1521fcfe6f",
+    "Actual": "a8a426d67c77c180e316e3e7f78e9c0e1f84346cebf251eddc3c3e1521fcfe6f",
+    "ExpectedBytes": 7669,
+    "ActualBytes": 7669,
+    "Match": true
+  },
+  {
+    "Path": "E:\\第二后裔\\TFD发布端V50\\TFD发布端V50\\docs\\考卷-协议样本-20261121.json",
+    "Expected": "2bc209327d5628e9936f83ce4943cdfd624321bc98fa806e2fc5d532731d9cc4",
+    "Actual": "2bc209327d5628e9936f83ce4943cdfd624321bc98fa806e2fc5d532731d9cc4",
+    "ExpectedBytes": 13609,
+    "ActualBytes": 13609,
+    "Match": true
+  },
+  {
+    "Path": "E:\\第二后裔\\TFD发布端V50\\TFD发布端V50\\docs\\抓帧流水-原始分片-20261121.jsonl",
+    "Expected": "bdb8fbc7d46179dca36147e7b0a942a2376567072e90b570dde98cdf3a362bc4",
+    "Actual": "bdb8fbc7d46179dca36147e7b0a942a2376567072e90b570dde98cdf3a362bc4",
+    "ExpectedBytes": 112092,
+    "ActualBytes": 112092,
+    "Match": true
+  }
+]
