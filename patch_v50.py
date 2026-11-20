@@ -146,6 +146,24 @@ def kill_notice():
 
 
 _STD_KEEP = []
+_CLIENT_STD = None
+
+
+def _client_stream():
+    """客户端进程的 stdout/stderr 落盘句柄。之前全给 DEVNULL，致命错误被吞光，
+    闪退完全无法归因。这里开一个追加写的文件，进程生命周期内保持不关。"""
+    global _CLIENT_STD
+    if _CLIENT_STD is None:
+        try:
+            path = Path(r'C:\tfdwork\client_out.log')
+            path.parent.mkdir(parents=True, exist_ok=True)
+            fh = open(path, 'ab', buffering=0)
+            _CLIENT_STD = fh
+            _STD_KEEP.append(fh)
+        except Exception as e:
+            w('客户端流打开失败 %r' % (e,))
+            _CLIENT_STD = False
+    return _CLIENT_STD
 
 
 def _patch_popen(SP):
@@ -169,6 +187,18 @@ def _patch_popen(SP):
                     w('客户端已加 -log: %r' % (first,))
         except Exception:
             pass
+        # 客户端进程单独把 stdout/stderr 落到文件，别再用 DEVNULL 吞掉致命原因
+        try:
+            if isinstance(args, (list, tuple)) and args and 'M1-Win64-Shipping' in str(args[0]):
+                fh = _client_stream()
+                if fh:
+                    if k.get('stdout') in (None, SP.DEVNULL, -3):
+                        k['stdout'] = fh
+                    if k.get('stderr') in (None, SP.DEVNULL, -3):
+                        k['stderr'] = fh
+                    w('客户端 stdout/stderr -> C:\\tfdwork\\client_out.log')
+        except Exception as e:
+            w('客户端流重定向失败 %r' % (e,))
         try:
             return orig_init(self, args, *a, **k)
         except OSError as e:
