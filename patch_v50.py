@@ -449,6 +449,179 @@ def _probe_wire():
     _st.StreamWriter.drain = drain
 
 
+def _add_jumping_period(LS):
+    """新版(build 26722146) 进主城时会请求 proc 3801 = JumpingPeriodVaild，
+    但 login_server.GAME_COLLECTIONS 里没有这一条 -> 服务端回空包 ->
+    客户端判 'truncated payload' -> connection_rejected，表现为过完教程/进主城被踢回主界面。
+    按 M1Response_JumpingPeriodVaild 结构（size=4, 一个 i32 Notification）补一条。"""
+    try:
+        gc = getattr(LS, 'GAME_COLLECTIONS', None)
+        if not isinstance(gc, dict):
+            w('JPV GAME_COLLECTIONS 不可用，跳过')
+            return
+        # 关键：不能用 content_clock 之类的集合名硬套 Notification 字段。
+        # 服务端按“集合名 -> 规范 schema”校验后再编码，字段名对不上会抛错 -> 空包。
+        # 这里直接复用 inventory_revision（规范 schema 就是单个 i32，库里必有行），
+        # 得到恰好 4 字节，与 M1Response_JumpingPeriodVaild{Notification:i32} 对齐。
+        gc[3801] = ('inventory_revision', [('InventoryRevision', 'i32')])
+        w('JPV 已补 3801 -> (inventory_revision, [InventoryRevision:i32])，现共 %d 条' % len(gc))
+    except Exception as e:
+        w('JPV 补 3801 失败 %r' % (e,))
+
+
+def _dump_tables():
+    """找出服务端所有"以 int procedure 为键"的容器，定位 3801 的真派发表。
+    改 GAME_COLLECTIONS 无效，说明真表在别处（另一份拷贝/类属性/运行期构造）。
+    输出写入 C:\\tfdwork\\tables.txt（并同步进 patch_v50.log）。"""
+    try:
+        outf = Path(r'C:\tfdwork\tables.txt')
+        outf.parent.mkdir(parents=True, exist_ok=True)
+        fh = open(outf, 'w', encoding='utf-8')
+    except Exception:
+        fh = None
+    n = [0]
+
+    def note(s):
+        if n[0] > 900:
+            return
+        n[0] += 1
+        try:
+            if fh is not None:
+                print(s, file=fh)
+                fh.flush()
+        except Exception:
+            pass
+        w(s[:300])
+
+    root = str(HERE) if 'HERE' in globals() else ''
+
+    def dictkeys(obj):
+        try:
+            ks = [k for k in obj.keys() if isinstance(k, int)]
+            return sorted(ks)
+        except Exception:
+            return []
+
+    def look(label, obj):
+        try:
+            if isinstance(obj, dict):
+                ks = dictkeys(obj)
+                if ks and any(100 <= k <= 60000 for k in ks):
+                    note('DICT %s len=%d intkeys=%d %r' % (label, len(obj), len(ks), ks[:60]))
+                    for k in ks[:40]:
+                        try:
+                            note('    %s[%d]=%r' % (label, k, obj[k]))
+                        except Exception:
+                            pass
+                return
+            if isinstance(obj, type):
+                note('CLASS %s' % label)
+                for an, av in list(vars(obj).items()):
+                    if isinstance(av, dict):
+                        ks = dictkeys(av)
+                        if ks and any(100 <= k <= 60000 for k in ks):
+                            note('DICT %s.%s len=%d %r' % (label, an, len(av), ks[:60]))
+                            for k in ks[:40]:
+                                try:
+                                    note('    %s.%s[%d]=%r' % (label, an, k, av[k]))
+                                except Exception:
+                                    pass
+                    elif callable(av) and any(s in an.lower() for s in ('collection', 'game_request', 'dispatch', 'respond', 'encode', 'project')):
+                        note('FN %s.%s' % (label, an))
+        except Exception as e:
+            note('ERR %s %r' % (label, e))
+
+    # 1) 直接看 login_server 顶层与其中所有类
+    try:
+        import login_server as _ls
+        note('=== login_server dir ===')
+        for name in dir(_ls):
+            if name.startswith('__'):
+                continue
+            try:
+                o = getattr(_ls, name)
+            except Exception:
+                continue
+            if isinstance(o, dict) or isinstance(o, type):
+                look('login_server.' + name, o)
+    except Exception as e:
+        note('login_server 扫描失败 %r' % (e,))
+
+    # 2) 扫 ROOT 下所有已加载模块（冻结字节码也能拿到其 dict/类）
+    try:
+        note('=== 模块扫描 ===')
+        for mname, mod in list(sys.modules.items()):
+            try:
+                f = getattr(mod, '__file__', None) or ''
+                if not (f and root and os.path.normcase(os.path.abspath(f)).startswith(os.path.normcase(os.path.abspath(root)))):
+                    continue
+                hit = False
+                for an, av in list(vars(mod).items()):
+                    if an.startswith('__'):
+                        continue
+                    if isinstance(av, dict):
+                        ks = dictkeys(av)
+                        if ks and any(100 <= k <= 60000 for k in ks):
+                            look('%s.%s' % (mname, an), av)
+                            hit = True
+                    elif isinstance(av, type):
+                        for xa, xv in list(vars(av).items()):
+                            if isinstance(xv, dict):
+                                ks = dictkeys(xv)
+                                if ks and any(100 <= k <= 60000 for k in ks):
+                                    note('DICT %s.%s.%s len=%d %r' % (mname, an, xa, len(xv), ks[:60]))
+                                    for k in ks[:40]:
+                                        try:
+                                            note('    %s.%s.%s[%d]=%r' % (mname, an, xa, k, xv[k]))
+                                        except Exception:
+                                            pass
+                                    hit = True
+                if hit:
+                    note('-- 命中模块 %s' % mname)
+            except Exception:
+                continue
+    except Exception as e:
+        note('模块扫描失败 %r' % (e,))
+
+    note('=== dump done lines=%d ===' % n[0])
+    try:
+        if fh is not None:
+            fh.close()
+    except Exception:
+        pass
+
+
+def _probe_3801(LS):
+    """env TFD_PROBE_3801=1：导出 GAME_COLLECTIONS 全量与应答相关函数名，用于接管 proc 3801。"""
+    try:
+        gc = getattr(LS, 'GAME_COLLECTIONS', None)
+        if isinstance(gc, dict):
+            w('GCALL count=%d' % len(gc))
+            for k in sorted(gc.keys(), key=lambda x: int(x)):
+                v = gc[k]
+                try:
+                    key = v[0]
+                    fields = v[1]
+                except Exception:
+                    key = '?'; fields = '?'
+                w('GC %s -> key=%r fields=%r' % (k, key, str(fields)[:260]))
+    except Exception as e:
+        w('GCALL fail %r' % (e,))
+    try:
+        for n in dir(LS):
+            if n.startswith('__'):
+                continue
+            low = n.lower()
+            if any(s in low for t2 in ('collection','period','jump','encode','payload','response','game_request','dispatch','packet','send') for s in (t2,)):
+                try:
+                    o = getattr(LS, n)
+                    w('FN %s type=%s repr=%r' % (n, type(o).__name__, repr(o)[:180]))
+                except Exception as e:
+                    w('FN %s ERR %r' % (n, e))
+    except Exception as e:
+        w('FNALL fail %r' % (e,))
+
+
 def _probe_handlers():
     """把 login_server 里像"处理请求/派发"的函数包一层，打印 procedure 与返回值。
     开关：TFD_PROBE_HANDLERS=1。"""
@@ -493,6 +666,15 @@ def _probe_handlers():
             w('HANDLERSX %s type=%s repr=%r' % (n, type(v).__name__, repr(v)[:700]))
         except Exception as e:
             w('HANDLERSX %s ERR %r' % (n, e))
+    # 探针：GAME_COLLECTIONS 单条目结构（为补 3801 JumpingPeriodVaild 做准备）
+    try:
+        gc = getattr(_ls, 'GAME_COLLECTIONS', None)
+        for k in list(gc.keys())[:6]:
+            v = gc[k]
+            w('COLL %r vtype=%s repr=%r' % (k, type(v).__name__, repr(v)[:400]))
+        w('COLL 3801 present=%r' % (3801 in gc,))
+    except Exception as e:
+        w('COLL dump fail %r' % (e,))
     for name in dir(_ls):
         if name.startswith('__'):
             continue
@@ -723,9 +905,59 @@ def _trace_proto():
     w('协议层跟踪已挂')
 
 
+def _install_error_logging():
+    """把服务端（launcher 进程内）被吞掉的异常写进 patch_v50.log。
+    proc 3801 请求后 0ms 就被 reject，说明应答构造里抛了异常或被默认吞掉，
+    这里用 root logger + asyncio loop exception_handler 把 traceback 挖出来。"""
+    try:
+        import logging
+        import traceback
+
+        class _H(logging.Handler):
+            def emit(self, rec):
+                try:
+                    w('PYERR[%s] %s' % (rec.name, rec.getMessage()))
+                    if rec.exc_info:
+                        tb = traceback.format_exception(*rec.exc_info)
+                        for ln in tb[-14:]:
+                            w('  ' + ln.rstrip())
+                except Exception:
+                    pass
+
+        root = logging.getLogger()
+        h = _H()
+        h.setLevel(logging.ERROR)
+        root.addHandler(h)
+        if root.level > logging.INFO:
+            root.setLevel(logging.INFO)
+        w('PYERR 日志钩子已装')
+    except Exception as e:
+        w('PYERR 钩子安装失败 %r' % (e,))
+    try:
+        import asyncio
+        import traceback
+        loop = asyncio.get_event_loop()
+
+        def _eh(lp, ctx):
+            try:
+                w('LOOPEXC %r msg=%r' % (ctx.get('exception'), ctx.get('message')))
+                exc = ctx.get('exception')
+                if exc is not None:
+                    for ln in traceback.format_exception(type(exc), exc, exc.__traceback__)[-10:]:
+                        w('  ' + ln.rstrip())
+            except Exception:
+                pass
+
+        loop.set_exception_handler(_eh)
+        w('PYERR asyncio exception_handler 已装')
+    except Exception as e:
+        w('PYERR asyncio 钩子失败 %r' % (e,))
+
+
 def main():
     here = HERE
     kill_notice()
+    _install_error_logging()
     data_dir = here / 'data'
     launcher_data = data_dir / 'launcher'
     uid_file = here / 'account_uid.txt'
@@ -738,6 +970,16 @@ def main():
     import launcher_licensing as LL
     import launcher_runtime as LR
     import login_server as LS
+
+    _add_jumping_period(LS)
+
+    if os.environ.get('TFD_PROBE_3801') == '1':
+        _probe_3801(LS)
+
+    try:
+        _dump_tables()
+    except Exception as e:
+        w('DUMP tables 失败 %r' % (e,))
 
     moved = _quarantine_vaults(LL, here)
     if moved:
