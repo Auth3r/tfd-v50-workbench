@@ -429,10 +429,16 @@ def _probe_wire():
     if getattr(orig_write, '_tfd_wrapped', False):
         return
 
+    WIRE_N = {'w': 0, 'skip': 0}
+
     def write(self, data):
         try:
             b = bytes(data)
-            w('WIRE out len=%d hex=%s' % (len(b), b[:220].hex()))
+            WIRE_N['w'] += 1
+            if WIRE_N['w'] <= 6000:
+                w('WIRE out #%d len=%d hex=%s' % (WIRE_N['w'], len(b), b[:180].hex()))
+            elif WIRE_N['w'] == 6001:
+                w('WIRE 达到上限 6000 条，后续不再记录')
         except Exception:
             pass
         return orig_write(self, data)
@@ -467,6 +473,202 @@ def _add_jumping_period(LS):
         w('JPV 已补 3801 -> (inventory_revision, [InventoryRevision:i32])，现共 %d 条' % len(gc))
     except Exception as e:
         w('JPV 补 3801 失败 %r' % (e,))
+
+
+SCAN_TARGETS = (
+    'world_runtime_implemented',
+    'synthetic_standalone_allocation',
+    'native_world_join',
+    'private_world_account',
+    'return_city',
+    'world_reservation',
+    'JumpingPeriodVaild',
+)
+
+SCAN_MODULES = (
+    'world_snapshot',
+    'multiplayer_runtime',
+    'multiplayer_travel',
+    'multiplayer_host',
+    'multiplayer_coordinator',
+    'multiplayer_state',
+    'multiplayer_transport',
+    'multiplayer_game_client',
+    'multiplayer_gameplay',
+    'multiplayer_profiles',
+    'runtime_event_log',
+    'network_expansion',
+    'network_expansion_schemas',
+    'session_rpc',
+    'instance_catalog',
+    'instance_matching',
+)
+
+
+def _scan_consts():
+    """在冻结字节码里按常量池搜索关键字，定位"世界运行时未实现"这个分支属于哪个函数。
+    只读、零副作用，注入时就能跑（不需要客户端启动）。输出 C:\\tfdwork\\consts.txt。"""
+    import types
+    try:
+        outf = Path(r'C:\tfdwork\consts.txt')
+        outf.parent.mkdir(parents=True, exist_ok=True)
+        fh = open(outf, 'w', encoding='utf-8')
+    except Exception:
+        return
+    n = [0]
+
+    def note(s):
+        if n[0] > 2500:
+            return
+        n[0] += 1
+        try:
+            print(s, file=fh)
+            fh.flush()
+        except Exception:
+            pass
+
+    def walk(code, path, depth=0):
+        if depth > 6 or n[0] > 2500:
+            return
+        try:
+            consts = code.co_consts
+            hit = [c for c in consts if isinstance(c, str) and any(t in c for t in SCAN_TARGETS)]
+            if hit:
+                note('=== HIT %s' % path)
+                note('    file=%s line=%d args=%r' % (code.co_filename, code.co_firstlineno, code.co_varnames[:8]))
+                note('    consts_hit=%r' % (hit,))
+                note('    names=%r' % (code.co_names[:24],))
+                note('    consts=%r' % ([c for c in consts if not isinstance(c, types.CodeType)][:24],))
+            for c in consts:
+                if isinstance(c, types.CodeType):
+                    walk(c, path + '::' + (c.co_name or '?'), depth + 1)
+        except Exception:
+            pass
+
+    def scan_obj(label, obj, depth=0):
+        if n[0] > 2500 or depth > 3:
+            return
+        try:
+            if isinstance(obj, types.FunctionType):
+                walk(obj.__code__, label)
+            elif isinstance(obj, types.CodeType):
+                walk(obj, label)
+            elif isinstance(obj, type):
+                for an, av in list(vars(obj).items()):
+                    if isinstance(av, (staticmethod, classmethod)):
+                        av = av.__func__
+                    if isinstance(av, types.FunctionType):
+                        walk(av.__code__, '%s.%s' % (label, an))
+                    elif isinstance(av, property):
+                        for f in (av.fget, av.fset):
+                            if isinstance(f, types.FunctionType):
+                                walk(f.__code__, '%s.%s' % (label, an))
+        except Exception:
+            pass
+
+    # 先把候选模块强制导入：这些模块在客户端连上之前不会被 import，
+    # 不导入就扫不到它们的常量池（上一轮"零命中"就是这个原因）。
+    for mname in SCAN_MODULES:
+        try:
+            __import__(mname)
+            note('IMP 导入 %s OK' % mname)
+        except Exception as e:
+            note('IMP 导入 %s 失败 %r' % (mname, e))
+
+    try:
+        for mname, mod in list(sys.modules.items()):
+            try:
+                if mod is None:
+                    continue
+                for an, av in list(vars(mod).items()):
+                    if an.startswith('__'):
+                        continue
+                    if isinstance(av, (types.FunctionType, type)):
+                        scan_obj('%s.%s' % (mname, an), av)
+                    elif isinstance(av, types.CodeType):
+                        walk(av, '%s.%s(code)' % (mname, an))
+            except Exception:
+                continue
+    except Exception as e:
+        note('SCAN 失败 %r' % (e,))
+    note('=== scan done lines=%d ===' % n[0])
+    try:
+        fh.close()
+    except Exception:
+        pass
+
+
+WDISP_LOG = {'n': 0, 'seen': set()}
+
+
+def _brief(obj, limit=150):
+    try:
+        if isinstance(obj, (bytes, bytearray)):
+            return 'bytes[%d]%s' % (len(obj), bytes(obj[:16]).hex())
+        s = repr(obj)
+        return s[:limit]
+    except Exception:
+        return '<unrepr>'
+
+
+def _hook_world_dispatch():
+    """给 LocalService 的世界/游戏请求派发挂日志（只读观测，不改返回值）。
+    目的：看清进主城那条链实际请求了什么、服务端返回了什么形状。"""
+    try:
+        import login_server as LS
+    except Exception as e:
+        w('WDISP 导入失败 %r' % (e,))
+        return
+    cls = getattr(LS, 'LocalService', None)
+    if cls is None:
+        w('WDISP 无 LocalService')
+        return
+
+    def wrap(orig, label):
+        if inspect.iscoroutinefunction(orig):
+            async def aw(*a, **k):
+                WDISP_LOG['n'] += 1
+                tag = '%s#%d' % (label, WDISP_LOG['n'])
+                if WDISP_LOG['n'] <= 600:
+                    w('WDISP %s 入 a=%s k=%s' % (tag, _brief(a), _brief(k)))
+                try:
+                    r = await orig(*a, **k)
+                except Exception as e:
+                    w('WDISP %s 抛 %r' % (tag, e))
+                    raise
+                if WDISP_LOG['n'] <= 600:
+                    w('WDISP %s 出 %s' % (tag, _brief(r)))
+                return r
+            aw._tfd_wrapped = True
+            return aw
+
+        def sy(*a, **k):
+            WDISP_LOG['n'] += 1
+            tag = '%s#%d' % (label, WDISP_LOG['n'])
+            if WDISP_LOG['n'] <= 600:
+                w('WDISP %s 入 a=%s k=%s' % (tag, _brief(a), _brief(k)))
+            try:
+                r = orig(*a, **k)
+            except Exception as e:
+                w('WDISP %s 抛 %r' % (tag, e))
+                raise
+            if WDISP_LOG['n'] <= 600:
+                w('WDISP %s 出 %s' % (tag, _brief(r)))
+            return r
+        sy._tfd_wrapped = True
+        return sy
+
+    for name in ('dispatch_world_request', 'dispatch_game_request', 'game_request'):
+        try:
+            fn = getattr(cls, name, None)
+            if fn is None:
+                continue
+            if getattr(fn, '_tfd_wrapped', False):
+                continue
+            setattr(cls, name, wrap(fn, name))
+            w('WDISP 已挂 %s' % name)
+        except Exception as e:
+            w('WDISP 挂 %s 失败 %r' % (name, e))
 
 
 def _dump_tables():
@@ -980,6 +1182,17 @@ def main():
         _dump_tables()
     except Exception as e:
         w('DUMP tables 失败 %r' % (e,))
+
+    try:
+        _scan_consts()
+        w('SCAN consts 完成 -> C:\\tfdwork\\consts.txt')
+    except Exception as e:
+        w('SCAN consts 失败 %r' % (e,))
+
+    try:
+        _hook_world_dispatch()
+    except Exception as e:
+        w('WDISP 挂载失败 %r' % (e,))
 
     moved = _quarantine_vaults(LL, here)
     if moved:
