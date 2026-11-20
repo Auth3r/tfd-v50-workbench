@@ -12,22 +12,26 @@ import sys
 from zipfile import BadZipFile, ZipFile
 
 
-DEFAULT_ZIP = Path(r"C:\Users\admin\Doubao\chats\2026-11-19\new-chat\TFD-第五批-帧壳复现-20261121.zip")
+ARCHIVE_DIR = Path(r"C:\Users\admin\Doubao\chats\2026-11-19\new-chat")
 RULES = "02-载荷解码规则.md"
 SAMPLES = "09-帧壳样本.json"
-PINS = {
-    RULES: "2efaf89b287d6d672e819bc10df0ca5e763db29f02ef754dcacc4a7b7a34ada0",
-    SAMPLES: "1807fdf86e8ab6430a395adb76c6ded662908aa6d3e41e5af19bbe0e5cbaea97",
+RULES_SHA = "2efaf89b287d6d672e819bc10df0ca5e763db29f02ef754dcacc4a7b7a34ada0"
+SAMPLE_SHA = {
+    "v1": "1807fdf86e8ab6430a395adb76c6ded662908aa6d3e41e5af19bbe0e5cbaea97",
+    "v2": "eb2ea3583ef3d6e890f658a10ae9f80b5f71af0c6f211dfc16fab57b7542ad82",
 }
+# The 154 reference frames retain the capture order verified in v1.
+RUN_A_ROWS = 56
+CONTROL_ROW = 5
 HEADER = Struct("<IiH")
 
 
-def load_inputs(path):
+def load_inputs(path, edition):
     packed = path.read_bytes()
     print(f"ZIP sha256={sha256(packed).hexdigest()}")
     members = {}
     with ZipFile(BytesIO(packed)) as archive:
-        for name, expected in PINS.items():
+        for name, expected in ((RULES, RULES_SHA), (SAMPLES, SAMPLE_SHA[edition])):
             raw = archive.read(name).replace(b"\r\n", b"\n")
             digest = sha256(raw).hexdigest()
             if digest != expected:
@@ -73,7 +77,7 @@ def describe(first):
     return f"first={offset} expected={show_byte(want)} actual={show_byte(got)}"
 
 
-def negative_control(key, body, reference):
+def negative_control(key, body, reference, label):
     # First byte of the second key period, deliberately beyond the header.
     index = 30
     before = build_frame(body, key)
@@ -83,32 +87,32 @@ def negative_control(key, body, reference):
     after = build_frame(mutated, key)
     count, first = difference(reference, after)
     predicted = 10 + index
-    print(f"CONTROL A seq=12 baseline_diff={baseline} body[{index}]={show_byte(body[index])}"
+    print(f"CONTROL {label} baseline_diff={baseline} body[{index}]={show_byte(body[index])}"
           f"->{show_byte(mutated[index])} expected_diff=1 expected_first={predicted}")
     print(f"CONTROL actual_diff={count} {describe(first)}")
-    passed = baseline == 0 and count == 1 and first == (
-        predicted, reference[predicted], reference[predicted] ^ 1
-    )
+    passed = (baseline == 0 and body[index] == 0x00 and count == 1
+              and first == (predicted, 0x21, 0x20))
     print("CONTROL PASS" if passed else "CONTROL FAIL")
     return passed
 
 
-def check(path):
-    key, frames = load_inputs(path)
-    boundaries = [i for i in range(1, len(frames)) if frames[i]["seq"] < frames[i - 1]["seq"]]
-    if len(boundaries) != 1:
-        raise ValueError(f"expected two ordered captures; seq reset indices={boundaries}")
-    split, = boundaries
+def check(path, edition):
+    key, frames = load_inputs(path, edition)
+    split = RUN_A_ROWS
     groups = (("A", frames[:split]), ("B", frames[split:]))
     eligible = sum(row["body_hex"] is not None for row in frames)
-    if (len(frames), eligible) != (154, 122):
+    required = 154 if edition == "v2" else 122
+    if (len(frames), eligible) != (154, required):
         raise ValueError(f"input inventory: frames={len(frames)} with_body={eligible}")
     print(f"samples={len(frames)} with_body={eligible} without_body={len(frames)-eligible}")
-    print(f"run labels in capture order: A=rows 1..{split}, B=rows {split+1}..{len(frames)}; "
-          f"seq reset {frames[split-1]['seq']}->{frames[split]['seq']}")
+    run_labels = f"run labels in capture order: A=rows 1..{split}, B=rows {split+1}..{len(frames)}"
+    if edition == "v1":
+        # Preserve the original log format. seq is displayed only.
+        print(f"{run_labels}; seq reset {frames[split-1]['seq']}->{frames[split]['seq']}")
+    else:
+        print(f"{run_labels}; sample ID = 1-based row; seq is informational only")
     stats = Counter()
     first_failure = None
-    control = None
     ordinal = 0
     for run, rows in groups:
         for row in rows:
@@ -128,8 +132,6 @@ def check(path):
                   f"built_bytes={len(generated)} diff={count} {describe(first)}")
             if first is not None and first_failure is None:
                 first_failure = f"{label} diff={count} {describe(first)}"
-            if run == "A" and seq == 12 and row["dir"] == "out":
-                control = (body, reference)
 
     for run, rows in groups:
         n = stats[run, "checked"]
@@ -137,9 +139,14 @@ def check(path):
               f"without_body={len(rows)-n} differing_bytes={stats[run,'diff']}")
     total_equal = sum(stats[run, "equal"] for run, _ in groups)
     print(f"positive equal={total_equal}/{eligible} first_failing_frame={first_failure or 'none'}")
-    if control is None or len(control[0]) <= 30:
-        raise ValueError("negative-control fixture A seq=12 missing or too short")
-    control_ok = negative_control(key, *control)
+    control = frames[CONTROL_ROW - 1]
+    control_body = bytes.fromhex(control["body_hex"])
+    if len(control_body) <= 30:
+        raise ValueError(f"negative-control row {CONTROL_ROW} too short")
+    control_label = f"A seq={control['seq']}"
+    if edition == "v2":
+        control_label = f"row={CONTROL_ROW:03} {control_label}"
+    control_ok = negative_control(key, control_body, bytes.fromhex(control["frame_hex"]), control_label)
     passed = total_equal == eligible and control_ok
     print("G5 PASS" if passed else "G5 FAIL")
     return 0 if passed else 1
@@ -148,9 +155,12 @@ def check(path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true", required=True)
-    parser.add_argument("--zip", type=Path, default=DEFAULT_ZIP)
+    parser.add_argument("--edition", choices=("v1", "v2"), default="v2")
+    parser.add_argument("--zip", type=Path)
     args = parser.parse_args()
-    return check(args.zip)
+    filename = ("TFD-第五批-帧壳复现-v2-20261121.zip" if args.edition == "v2"
+                else "TFD-第五批-帧壳复现-20261121.zip")
+    return check(args.zip or ARCHIVE_DIR / filename, args.edition)
 
 
 if __name__ == "__main__":
