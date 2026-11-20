@@ -38,6 +38,32 @@ LOG = HERE / 'patch_v50.log'
 FULL_BRIDGE = HERE / 'old_bridge_full.js'
 
 
+def _work_dir(name=''):
+    """工具输出目录。优先 TFD_WORK，其次 config.local.json 的 paths.work_dir，
+    最后回落到本目录下 runs\\。不再写死 C:\\tfdwork。"""
+    wd = None
+    env = os.environ.get('TFD_WORK', '').strip().strip('"')
+    if env:
+        wd = Path(env)
+    if wd is None:
+        try:
+            cfg = HERE / 'config.local.json'
+            if cfg.is_file():
+                data = json.loads(cfg.read_text(encoding='utf-8'))
+                v = str((data.get('paths') or {}).get('work_dir') or '').strip()
+                if v:
+                    wd = Path(v) if Path(v).is_absolute() else (HERE / v)
+        except Exception:
+            wd = None
+    if wd is None:
+        wd = HERE / 'runs'
+    try:
+        wd.mkdir(parents=True, exist_ok=True)
+    except Exception:
+        pass
+    return (wd / name) if name else wd
+
+
 def _patch_dirs():
     """找附近的 .tfd-patch 目录（含一级子目录里的）。"""
     out = []
@@ -155,7 +181,7 @@ def _client_stream():
     global _CLIENT_STD
     if _CLIENT_STD is None:
         try:
-            path = Path(r'C:\tfdwork\client_out.log')
+            path = _work_dir('client_out.log')
             path.parent.mkdir(parents=True, exist_ok=True)
             fh = open(path, 'ab', buffering=0)
             _CLIENT_STD = fh
@@ -537,10 +563,10 @@ SCAN_MODULES = (
 
 def _scan_consts():
     """在冻结字节码里按常量池搜索关键字，定位"世界运行时未实现"这个分支属于哪个函数。
-    只读、零副作用，注入时就能跑（不需要客户端启动）。输出 C:\\tfdwork\\consts.txt。"""
+    只读、零副作用，注入时就能跑（不需要客户端启动）。输出到输出目录下的 consts.txt。"""
     import types
     try:
-        outf = Path(r'C:\tfdwork\consts.txt')
+        outf = _work_dir('consts.txt')
         outf.parent.mkdir(parents=True, exist_ok=True)
         fh = open(outf, 'w', encoding='utf-8')
     except Exception:
@@ -812,7 +838,7 @@ def _dump_tables():
     改 GAME_COLLECTIONS 无效，说明真表在别处（另一份拷贝/类属性/运行期构造）。
     输出写入 C:\\tfdwork\\tables.txt（并同步进 patch_v50.log）。"""
     try:
-        outf = Path(r'C:\tfdwork\tables.txt')
+        outf = _work_dir('tables.txt')
         outf.parent.mkdir(parents=True, exist_ok=True)
         fh = open(outf, 'w', encoding='utf-8')
     except Exception:
@@ -1335,9 +1361,9 @@ def _probe_1701():
     except Exception as e:
         out.append('PROBE1701 异常 %r' % (e,))
     try:
-        with open(r'C:\tfdwork\probe1701.txt', 'w', encoding='utf-8') as fh:
+        with open(_work_dir('probe1701.txt'), 'w', encoding='utf-8') as fh:
             fh.write('\n'.join(out))
-        w('PROBE1701 完成 -> C:\\tfdwork\\probe1701.txt (%d 行)' % len(out))
+        w('PROBE1701 完成 -> %s (%d 行)' % (_work_dir('probe1701.txt'), len(out)))
     except Exception as e:
         w('PROBE1701 写文件失败 %r' % (e,))
 

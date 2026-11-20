@@ -124,7 +124,8 @@ set "CK="
 for /f "skip=1 tokens=* delims=" %%H in ('certutil -hashfile "%CLIENT%" SHA256 2^>nul') do if not defined CK set "CK=%%H"
 if not defined CK exit /b 0
 set "CK=%CK: =%"
-set "CKOK=c0147688"
+rem 期望哈希 = 本补丁适配的 build 26722146。权威校验在 selfcheck.py（含完整 sha256 比对）。
+set "CKOK=a601a30d"
 echo [client] sha256: %CK:~0,8%...
 if /i not "%CK:~0,8%"=="%CKOK%" (
   echo [warn] this exe is NOT the build this patch fits.

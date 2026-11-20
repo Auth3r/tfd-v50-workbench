@@ -1,0 +1,16 @@
+{
+  "_readme": "复制本文件为 config.local.json，只改 paths 里的三个空值即可。config.local.json 不进仓库。",
+  "paths": {
+    "client_exe": "",
+    "launcher_exe": "",
+    "python_exe": "",
+    "work_dir": "runs",
+    "save_dir": "data/launcher/saves",
+    "bridge_js": "offset_rework/old_bridge_v30_bt.js",
+    "vendor_dir": ""
+  },
+  "expect": {
+    "client_build": "26722146",
+    "client_sha256": "a601a30da965e1b0e7826ba52b957173f47ab41bb29273611cbc4c4ca95ce316"
+  }
+}

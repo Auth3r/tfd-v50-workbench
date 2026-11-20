@@ -3,6 +3,12 @@ bridge_override.txt
 data/
 *.log
 
+# 本机配置与运行产物，不进仓库（新人 clone 后自己生成）
+config.local.json
+client.txt
+runs/
+.tfd-patch/
+
 # 二进制与依赖，不进仓库
 *.exe
 *.dll

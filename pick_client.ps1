@@ -30,8 +30,21 @@ if (-not $path) {
     $dlg.Title = '选择本机客户端 M1-Win64-Shipping.exe（可直接把完整路径粘贴到文件名框）'
     $dlg.Filter = "M1-Win64-Shipping.exe|$exeName|可执行文件 (*.exe)|*.exe"
     $dlg.CheckFileExists = $true
-    foreach ($guess in @('F:\Codex', 'E:\第二后裔')) {
-        if (Test-Path -LiteralPath $guess -PathType Container) { $dlg.InitialDirectory = $guess; break }
+    $guesses = @()
+    $cfgPath = Join-Path $here 'config.local.json'
+    if (Test-Path -LiteralPath $cfgPath) {
+        try {
+            $cfg = [IO.File]::ReadAllText($cfgPath, [Text.Encoding]::UTF8) | ConvertFrom-Json
+            if ($cfg.paths.client_exe) {
+                $p = [string]$cfg.paths.client_exe
+                if (-not [IO.Path]::IsPathRooted($p)) { $p = Join-Path $here $p }
+                $guesses += (Split-Path -Parent $p)
+            }
+        } catch { }
+    }
+    $guesses += @($env:USERPROFILE)
+    foreach ($guess in $guesses) {
+        if ($guess -and (Test-Path -LiteralPath $guess -PathType Container)) { $dlg.InitialDirectory = $guess; break }
     }
     if ($dlg.ShowDialog() -ne [System.Windows.Forms.DialogResult]::OK) { exit 2 }
     $path = Resolve-Client $dlg.FileName
