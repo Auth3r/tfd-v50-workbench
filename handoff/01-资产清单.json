@@ -1,0 +1,1010 @@
+{
+ "package": "TFD 离线工作台 · 主干交接包",
+ "generated": "2026-11-21",
+ "note": "sha256 用于核对版本一致；标注「超过 60MB 未计算」的条目仅记录大小。路径为原始绝对路径，对方按相对路径在各自工程内对应。",
+ "root": "E:\\第二后裔\\TFD发布端V50\\TFD发布端V50",
+ "app_root": "F:\\Codex\\tfd-offline-2\\app",
+ "count": 125,
+ "assets": [
+  {
+   "path": "unpacked\\assets\\content.sealed",
+   "size": 22001501,
+   "sha256": "3367a8888f7358a40eee70a0a9d5b7459f6cf46cc2a9713d65b89d4247650444",
+   "category": "图纸",
+   "key": "★",
+   "use": "内容包本体，语义未解（最大空白）"
+  },
+  {
+   "path": "unpacked\\assets\\feedback-20261107.json",
+   "size": 31093,
+   "sha256": "ff95e89631f225797bc5f11b95441bfc162208a730cacc0bd0b10b9b0c89f423",
+   "category": "图纸",
+   "key": "★",
+   "use": "协议 schema 包"
+  },
+  {
+   "path": "unpacked\\assets\\gameplay-actions-20261031.json",
+   "size": 56092,
+   "sha256": "d78959e3b459014edf4ca2c438a0e9238f908dddfb768afecd453702d01b9b37",
+   "category": "图纸",
+   "key": "★",
+   "use": "协议 schema 包"
+  },
+  {
+   "path": "unpacked\\assets\\housing.json",
+   "size": 47556,
+   "sha256": "130e9becb587bb8c961d83ed44e3ee4bd3822fa17079837ca37d6cb50565a0b3",
+   "category": "图纸",
+   "key": "★",
+   "use": "协议 schema 包"
+  },
+  {
+   "path": "unpacked\\assets\\instance-queries.json",
+   "size": 10069,
+   "sha256": "62a16fda018860245071310b51867c8843144dc63700c93e50fdc6d62f657b2c",
+   "category": "图纸",
+   "key": "★",
+   "use": "协议 schema 包"
+  },
+  {
+   "path": "unpacked\\assets\\interaction-schemas.json",
+   "size": 83250,
+   "sha256": "bef3324592e21c610b1d02aa8e7a3cf37424501efcba8be2d7d10d474cb65822",
+   "category": "图纸",
+   "key": "★",
+   "use": "协议 schema 包"
+  },
+  {
+   "path": "unpacked\\assets\\matching-schemas.json",
+   "size": 25170,
+   "sha256": "5b73ca342dfdb51365d5b8365734a9f1c1019cfa35d831d9df2f1c09f62f3c32",
+   "category": "图纸",
+   "key": "★",
+   "use": "协议 schema 包"
+  },
+  {
+   "path": "unpacked\\assets\\network-expansion.json",
+   "size": 70174,
+   "sha256": "07efcc0f1b2af69a566c7965f230a1945997ad8246513ca012ab1a3ed07fb07e",
+   "category": "图纸",
+   "key": "★",
+   "use": "协议 schema 包"
+  },
+  {
+   "path": "unpacked\\assets\\observed-rpc-20261030.json",
+   "size": 32314,
+   "sha256": "0783a32f8a56adb82ee900c883aec1211b6d7f75adcb1242af81cfd475988cac",
+   "category": "图纸",
+   "key": "★",
+   "use": "协议 schema 包"
+  },
+  {
+   "path": "unpacked\\assets\\player-feedback-20261103.json",
+   "size": 15038,
+   "sha256": "c6fca5c93c8e3e5fcbc5a253c00f239649528dff5fd5529b2486b3273c4fb46d",
+   "category": "图纸",
+   "key": "★",
+   "use": "协议 schema 包"
+  },
+  {
+   "path": "unpacked\\assets\\session-rpc-20261031.json",
+   "size": 26994,
+   "sha256": "2229d941382dae3d59dad8d20c5dfa5e86d49ad9bca2cecf46be1c4b0518143f",
+   "category": "图纸",
+   "key": "★",
+   "use": "协议 schema 包"
+  },
+  {
+   "path": "unpacked\\assets\\trial-cycles-20261103.json",
+   "size": 5416,
+   "sha256": "a980fdcaac12724069582d90d4b6d065f084310b0892ca6e1c7b7f3a3783ee96",
+   "category": "图纸",
+   "key": "★",
+   "use": "协议 schema 包"
+  },
+  {
+   "path": "unpacked\\evidence\\reflected-structures.json",
+   "size": 7453461,
+   "sha256": "a0f2b8d4b5dbc84a3f1b2a6b6cb96c4e0e031e8a0855f929cf89c6fa4015c1cf",
+   "category": "图纸",
+   "key": "★",
+   "use": "结构字段与偏移的权威来源（3834 个结构）"
+  },
+  {
+   "path": "unpacked\\evidence\\table-schemas.json",
+   "size": 4164565,
+   "sha256": "52b95837d09ecf42ecca873a262fdf5190836bce93c8554d5b8e7028a8a9374d",
+   "category": "图纸",
+   "key": "★",
+   "use": "4139 张客户端数据表列定义"
+  },
+  {
+   "path": "offset_rework\\offset_map_v3.json",
+   "size": 59346,
+   "sha256": "de26df287a423c20f956819c990ff85f45169a40152955efcce0c317aa2dcb35",
+   "category": "工具链",
+   "key": "★",
+   "use": "偏移映射，换 build 时复用"
+  },
+  {
+   "path": "offset_rework\\old_bridge_v30_bt.js",
+   "size": 105968,
+   "sha256": "58413df0993ad5e2e9517de5a18b6665e40d052c32159dfd9e4758e17ec9e440",
+   "category": "工具链",
+   "key": "★",
+   "use": "现役桥，把快照推进客户端内存（兜底，待退役）"
+  },
+  {
+   "path": "patch_v50.py",
+   "size": 64615,
+   "sha256": "8e256afe012c56a3b82e86cacd190f5f11b9520f045b31a09786aa5d144053e6",
+   "category": "工具链",
+   "key": "★",
+   "use": "服务端钩子合集：集合表/变更表/过程跟踪/存档读取"
+  },
+  {
+   "path": "data\\launcher\\saves\\04f2858b03d3e1f379515d84ba575f03\\characters.sqlite3",
+   "size": 2392064,
+   "sha256": "b93df84f832b310fa08aae81f935606c38da38e0f1d8cd2fb06eea8740933059",
+   "category": "数据",
+   "key": "★",
+   "use": "真实存档：36 角色（characters）/ 账号与角色（local_runtime）"
+  },
+  {
+   "path": "data\\launcher\\saves\\local_runtime.sqlite3",
+   "size": 167936,
+   "sha256": "b91591dad5ad30778f26316b5b8928d8cc3d32d98866caece7a8ee7e98148f99",
+   "category": "数据",
+   "key": "★",
+   "use": "真实存档：36 角色（characters）/ 账号与角色（local_runtime）"
+  },
+  {
+   "path": "docs\\导出-客户端数据表-20261121.json",
+   "size": 133112,
+   "sha256": "46b4513a88754abd0dfd808837a9be23c3ec74872e4308d7ca1e402ef4dabf6f",
+   "category": "证据",
+   "key": "★",
+   "use": "已导出的人物/表摘要"
+  },
+  {
+   "path": "docs\\抓帧流水-原始分片-20261121.jsonl",
+   "size": 112092,
+   "sha256": "bdb8fbc7d46179dca36147e7b0a942a2376567072e90b570dde98cdf3a362bc4",
+   "category": "证据",
+   "key": "★",
+   "use": "真实帧分片，校准帧层"
+  },
+  {
+   "path": "docs\\考卷-协议样本-20261121.json",
+   "size": 13609,
+   "sha256": "2bc209327d5628e9936f83ce4943cdfd624321bc98fa806e2fc5d532731d9cc4",
+   "category": "证据",
+   "key": "★",
+   "use": "8 条真实收发字节（5 对完整 / 3 条应答截断）"
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\fixtures\\v50_first_frame.rs",
+   "size": 347,
+   "sha256": "b36d07d0cdf74f373e98654b4dd2999218948409b33f5f932be563a4b14fac12",
+   "category": "骨架（GPT 侧工程）",
+   "key": "★",
+   "use": "帧层最小断言（347 B）"
+  },
+  {
+   "path": "unpacked\\assets\\BG.png",
+   "size": 12071848,
+   "sha256": "990fd55f97ed8728d0559444dc90cb893fbd569127bf47f51525c4ca393654f4",
+   "category": "其他",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "unpacked\\assets\\logo_v2.png",
+   "size": 2403,
+   "sha256": "8223f47d1b0f8a44fcfcb4e6de6f9595de1fd89f1f5a5c2ed51e6b4f1c6e3948",
+   "category": "其他",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\GPT-交接-SYNC.md",
+   "size": 11261,
+   "sha256": "d69b480956fcac33816d12196820ec839c091ae00ff30a9c447628f65b6d2a35",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\GPT-交接-外壳与编排.md",
+   "size": 4526,
+   "sha256": "92783de867d52a045b7c65bdf6229cca85929db53d74338ada3b641028389c68",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\GPT-任务-第三批-转A前置-20261121.md",
+   "size": 5172,
+   "sha256": "426bf14596a27317812e536e7fe72c73dee9ee280d6b45d64f131a5ceae8351f",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\GPT-任务-第二批-20261121.md",
+   "size": 4785,
+   "sha256": "8bd81754012ad5514e2974458937bc0dc4cd8cd7563a20f5d34a4497969ee94b",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\GPT-任务-第四批-转A核心-20261121.md",
+   "size": 10191,
+   "sha256": "1be79752e7d98eba8c68560e7c59da8836c7616f967fae2a62a82ee492df23f1",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\_archive_GPT-交接-换外壳与去授权.md",
+   "size": 7756,
+   "sha256": "c32c330c323c308eb6e9ff23c56e91ec7ba6300be478626f02b19b315fcf4254",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\决策-宿主运行时替换-路径与风险.md",
+   "size": 8734,
+   "sha256": "9379d9fd225f16690aaf809ba7212c23fb08556f951e0fee0ceff025e6b223b1",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\报告-A-读档成功-20261121.md",
+   "size": 3751,
+   "sha256": "4a2f6430049774b6adeedd145b356c18f2536405f5da73433d28d244a46fe613",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\报告-P0-结论-角色数与黑屏判据-20261121.md",
+   "size": 4492,
+   "sha256": "9f56cc577e6d86387e6ba57ee63926e13b02856509ed80c9b2d582a6d027f781",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\报告-无宿主拉起实验-20261121.md",
+   "size": 5727,
+   "sha256": "89a9762758cd04863dc44544ed67bb2cb13af57acb027d11aecffcecea4f258f",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\计划-主干优先与今晚开工.md",
+   "size": 5365,
+   "sha256": "9fcb9d6ab05b8f9075598db383a697e2871983c2005eaac8b73fa3e47911aa56",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\证据-载荷非加密-20261121.md",
+   "size": 3424,
+   "sha256": "422e615229ed33fdcd1433b5b2decc1a660c9f75c97304a2083116da4713f32a",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\资产与模块清单-20261121.md",
+   "size": 8352,
+   "sha256": "ff612686ed37caea56f7714fcddb55160559da635c58dff9280ab6fac64b42fb",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\路线-创角进旧存档-20261121.md",
+   "size": 3742,
+   "sha256": "8a67a4ffecd0d32d04e769312551a1ad0478b255f560619f6ce3437052cde95d",
+   "category": "图纸/文档",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\act.py",
+   "size": 7384,
+   "sha256": "9c8b7db781ee4e1cad28774453d08dc0421c42a42a79db33903536bb083f8b5c",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\auto_run.py",
+   "size": 8986,
+   "sha256": "27fd292f0e314186821b25a6f489c83bbda54480a71c46aaaf2815eea6af52b7",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\char_go.py",
+   "size": 1101,
+   "sha256": "8bcb044a08cf9b2852f042772b37d33655620a24677b190a6ef1fcaab9708ab3",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\drive.py",
+   "size": 4974,
+   "sha256": "7d289ed3ad62331b50c9d58cdc98ad7600e7797e251066c27e533d347e42dd99",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\escN.py",
+   "size": 897,
+   "sha256": "80400ebfd45a95dbb474afd292ef4afb64d6a41137c2fd24a50ddb4b226361e9",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\flow.py",
+   "size": 5471,
+   "sha256": "2d5024edcf8ac64b9c44eda2a9544dea364e76bd6de4cb3c482ac409a4c95924",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\flow2.py",
+   "size": 2129,
+   "sha256": "9932b556bb96e2fb6f01c051546956ecc5b8e4b44c633b44e4527b3dcbeee0e1",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\grabwin.py",
+   "size": 1859,
+   "sha256": "a70c5f113fd7066a9f7a503977f7ed3565ac82ec8a44aee2e699774d9c8e5eb3",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\hit_band.py",
+   "size": 2074,
+   "sha256": "4b0bbe711dcfa0a3c4216496d7d3b1234a91a4e351b3d468ec1fd03565d57528",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\prio_watch.py",
+   "size": 1652,
+   "sha256": "f4e1a8826d1c8a04c7c7d76f45dbf1ff30ee302b491eb6797834ab4671377878",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\scriptA.py",
+   "size": 1232,
+   "sha256": "d935d78beeb32e5788c21a2f3ab0dd69cd31646dbdd469cb4b98ee67cc9e888a",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\scriptFull.py",
+   "size": 2443,
+   "sha256": "f05ba67cd1081fc5f3bf3e7dfd122de1fd2afcce84357d72b317725ace15656a",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\skip_task.py",
+   "size": 1965,
+   "sha256": "8e5f48e8e5103befaf5278090e19649d43fdb6d60ca87679b07ce125ac8b3189",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "tools\\auto\\zoom.py",
+   "size": 696,
+   "sha256": "a67db214b176d298c1531a9b31e7b112da18d64eede23416168dd68ba924bcbe",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "启动V50（免授权）.cmd",
+   "size": 5698,
+   "sha256": "a69882a9310a417c804ccf0f5a6b9999d7571efa21e7fe96f6ec46353e0fab93",
+   "category": "工具链/代码",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "docs\\导出-角色模板表-20261121.csv",
+   "size": 1424,
+   "sha256": "98af9742298403fa068ef0c5d337865f3288378da48c25d72f261c80dc842d84",
+   "category": "证据",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\AGENTS.md",
+   "size": 3479,
+   "sha256": "71333cf223b8a345bcd8c467ec5332888796e83f040930d83487cab88045186c",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\CONTRACT.md",
+   "size": 4589,
+   "sha256": "1d64c7d89f77f2fda605f6e6fc1f4534039be78d5dadf39622f4601a50b501ef",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\PROTOCOL.md",
+   "size": 5247,
+   "sha256": "cd235fbd34ac5b7c209fff7a580d83ba2d997da7877fc8139a6ad22b7ffde224",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\RUST.md",
+   "size": 4859,
+   "sha256": "322eedd3ff0d05ee681f707cde99597390ef2144a79a49007627135adbfe6775",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\TAKEOVER.md",
+   "size": 8245,
+   "sha256": "248835833f3d11fc152b66e2890193da1832840e202d78c0129440d16f49c73e",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\USER-CAPTURE-REQUEST.md",
+   "size": 2614,
+   "sha256": "2c393ca7fbc0a807b09a3df29756d10cee00ea648c1d927618f7eb8319a084fa",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\V50-ACCOUNT-LIST-CONTRACT.md",
+   "size": 4882,
+   "sha256": "70d052d6b703257505130d8ac0fc30fbe6c35809cfa51141eb48bb7f21b574af",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\V50-CHARACTER-ENTRY-BINDINGS.md",
+   "size": 4441,
+   "sha256": "b85996eef70e13ea7858e5fba5c1c670a551a14cbd9de827b0dcb0a8609bfade",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\V50-CLIENT-TABLE-BINDINGS.md",
+   "size": 14136,
+   "sha256": "725718012678772f0964e73735ba900d5075f762a7cc2701c676abe2fd4c232a",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\V50-CONTENT-GAPS.md",
+   "size": 10629,
+   "sha256": "18fa77fba5055ad4dc192777708ec11a224c2595c00b0b6eaf96039e0b5ce9cf",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\V50-FRAME-CONTRACT.md",
+   "size": 7669,
+   "sha256": "a8a426d67c77c180e316e3e7f78e9c0e1f84346cebf251eddc3c3e1521fcfe6f",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\V50-LOGIN-RESPONSE-EVIDENCE.md",
+   "size": 1955,
+   "sha256": "cde00c6ff36eee986e648b4b7cdec812f25719a5d30a30f5d5366947fbb4b4dc",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\V50-P8-CAPTURE-SPEC.md",
+   "size": 4302,
+   "sha256": "0ea5f81bbe63c5c9d7dd961c26633865a21d1a124f9f9d6eff06db9e2e71ed6f",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\V50-SAVE-MAPPING.md",
+   "size": 8138,
+   "sha256": "e683b2cd3124c4fdd8d7489bbbb7322658e4f236ad4820e84d1cbfa8b75451ed",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\V50-START-HERE.md",
+   "size": 1096,
+   "sha256": "d5ce1e9d5fde9ea413181bb26835f21c020312a7d9a91081de363b656f051e10",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\V50-TAP-FRAMES.csv",
+   "size": 8680,
+   "sha256": "5548170423f0c0585460ccd3e21cac36f94ff7223d947fb8e2c98a05daa9d21a",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\GpwEgress.cs",
+   "size": 6006,
+   "sha256": "c8c45a5467e91aaec7e0105f0d085b5f1abc1ba3b7743d9285ae457912d8d221",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\afd-connect.wprp",
+   "size": 1241,
+   "sha256": "76c922fb14bf68b4c1158b62b954a557ae845053d661a2701cb6500865fad586",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\accounts.rs",
+   "size": 3573,
+   "sha256": "fed6f68bd3f8324d3288f89284d3d3d414eadfbc1ce492462c83f0cb02cf6f70",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\crypto.rs",
+   "size": 3672,
+   "sha256": "ed6073961b9b9ea3e672307817eef0eb921e1ff155126eb1dbf77dd1379af70f",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\auth\\mod.rs",
+   "size": 11138,
+   "sha256": "f226c4241ccc2936396cb4997c5dc648e466143a2a42f8822b6fa247b912e870",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\character.rs",
+   "size": 5803,
+   "sha256": "827b1fc83352057e2af294d4792bd53a7595d94c0a4fc6751ee2ee40127310c9",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\content.rs",
+   "size": 4318,
+   "sha256": "b3c2866041e5361752b9b4bf07dc8268dda32fad8f0bf9478d5c5d339a2b1944",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\data.rs",
+   "size": 18533,
+   "sha256": "23edb0060a54eb18add9c46fb52d509b47147af51524bd10cc5a76b6adfa1382",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\game_ingress.rs",
+   "size": 16693,
+   "sha256": "e26dc85e05b6e0034f30eb19d8d7f3e077a9709dde6addbdb3642337d61c8e01",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\inspection.rs",
+   "size": 3357,
+   "sha256": "0b1ab91028d965f0a6be3df9d937b9531d0e8531993cf189099071488af6f637",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\launch.rs",
+   "size": 7282,
+   "sha256": "7a55e721e80325c7c9b1847633499455a10274bea82a7c6001987b44e3d65ec2",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\lib.rs",
+   "size": 349,
+   "sha256": "49ecf90d85a2afe191c9976ff124e198017090fcc7cf985056d967277f326259",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\login_wire.rs",
+   "size": 5176,
+   "sha256": "a86478ba84d4be3205304f8c809441e772a0f853038f7fde32131268fd22e4f7",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\main.rs",
+   "size": 7364,
+   "sha256": "21b15c6c7c4653f7a283574a98bc5e2ca367cbf9817f917c21f511b8efa11c37",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\observe-connect.ps1",
+   "size": 5811,
+   "sha256": "9a5fa9af367e112c0809bc44dea2b8086a0dddb2aeab8bca71b0a006c18a3e2f",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\protocol.rs",
+   "size": 16214,
+   "sha256": "6ca922ef014e09c08b2488ad3a5d032b5636eb27556ec3f03db613fef3d9216c",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\registered-route.ps1",
+   "size": 2498,
+   "sha256": "81f6d2906a3895674727f3eb3429e0e1f64b5429789fc4a35b29a8ba30108747",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\runtime.rs",
+   "size": 6059,
+   "sha256": "37611999099433ee685bd1db6e067dddfefd6c21e8b46dc6144f15cadaf3abf1",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\session.rs",
+   "size": 7374,
+   "sha256": "edd9d69cd2f128576f19175adab6b80d3afa9375e7e350fb69b4f155d13fd282",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\snapshot.rs",
+   "size": 13847,
+   "sha256": "a9910269e45088b0271b0e900011d4a353ef1e75283d32d96302cef2932aed0f",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\v50_codec.rs",
+   "size": 4749,
+   "sha256": "56eef88c62240ec5f134e3e526e4636ea1a547f8505e0b28de68d97ce9a78533",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\v50_handlers.rs",
+   "size": 8057,
+   "sha256": "26c452bf8f11472352f6a00c0afc543214793bf46765848105534b282bb81825",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\rust\\v50_schema.rs",
+   "size": 33499,
+   "sha256": "341a66b11848e6e17be731ba811b62d20f25e6e5ea5f2a5be015d596cb1e9f7b",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\src\\LocalService.cs",
+   "size": 7821,
+   "sha256": "2fa41c62a5e22fe53800b39863663cfdc43829a780e7903fec5619c890123c34",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\src\\Model.cs",
+   "size": 2385,
+   "sha256": "a43c56624412c69c2e8df56e1b5e8e05965fb5f801cdc66703a2abb4a24dff3b",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\src\\Persistence.cs",
+   "size": 8395,
+   "sha256": "f01f515ca492412292061d9194fb73086f8b4ade215c2a788e0110b581986c19",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\src\\Program.cs",
+   "size": 6404,
+   "sha256": "f2b751b38196449e581249b0310d72bc9228f3c869a220b2e970dc9426085fb1",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\src\\Protocol.cs",
+   "size": 6453,
+   "sha256": "7219d51b106821950fb42065627f579c25ec54361d66714630022c76f462ea27",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\src\\SelfTest.cs",
+   "size": 19950,
+   "sha256": "f093ec26013219b6405a8788da9d504a88ce37abf566162107b9666a19931d2f",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\auth_runtime.ps1",
+   "size": 24579,
+   "sha256": "213a9cf8c1020ba427311b5f0ecf5153d18adc48cff44dce868eb50f41631444",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\auth_runtime.rs",
+   "size": 1084,
+   "sha256": "3deb7ffd3dd3f6f2692592399ea621e61865b60d3cf8a7118fb18b11f2433976",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\business.rs",
+   "size": 9271,
+   "sha256": "8f1d3e012e94d2409a4a6c36d31066ff46679c177a43632a136449d4b654c37b",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\connect_observation.rs",
+   "size": 2237,
+   "sha256": "2dedb4939dbe35656c3f578222b53d5a4f37482d57235bb712ed1cdb2d293e77",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\core_cli.rs",
+   "size": 5003,
+   "sha256": "a8e82e01ddb71613a73ad5d7b0b39bb77a006d48584cab8e23847f59424d3c03",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\login_procedure1.rs",
+   "size": 8321,
+   "sha256": "14ea9f53faba1c8c34f7c0163db6179fc364521a5b9ef647e2ca36e6ee268efb",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\profile.rs",
+   "size": 2413,
+   "sha256": "760bbe5d0cfa9827c78149cf680adfa9496eb0013e6c48455ad447707a9062c1",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\protocol.rs",
+   "size": 5286,
+   "sha256": "989eb3fc1d13e996563873f782d7e4fdae04df235bab751f33660c0a67e6e509",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\session.rs",
+   "size": 3896,
+   "sha256": "f9053ec1fd75229635780aad6b648ec772023295822546a7faf97793ce127be3",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v15_key_parameter.rs",
+   "size": 2045,
+   "sha256": "e817e559105989bc51403d32ac8d693a9f0a59b9c9e9239ec864f97b1674eff1",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v15_static.rs",
+   "size": 9477,
+   "sha256": "3c501bfe16621f37f57c1587432a6fd33291ddbaaa5ac71074adeba52048e678",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v15_transform.rs",
+   "size": 8554,
+   "sha256": "2352d5f4d9bc6e8a62ebf53e9c2309d6542a356d3734f7a0d743559966e1607a",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v50_codec.rs",
+   "size": 3527,
+   "sha256": "a27629d83e84dc8e31da6ad2fba246263ca4810fddbd63bac56033fa0a401d42",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tests\\v50_domains.rs",
+   "size": 2383,
+   "sha256": "0581b84985237c2ef032a7b9faeb5e01c30647db8bd210ed90918cccfde6c14d",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\_run_v50.py",
+   "size": 2060,
+   "sha256": "37df73c85708022467fd986b31bd1bc5aa8851733429c3dc7e08b54c41986e9e",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\generate_v50_schema.py",
+   "size": 3175,
+   "sha256": "79f8ddbaadbf6f594883e4fde2171a07566a0d40fc64db20c10f46ae12c819c7",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\inspect_v50_login_window.py",
+   "size": 2281,
+   "sha256": "84a3cc35f879198eccaff10915cc4278ed16ceec4c44c37c6e72589c941eeb3c",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\reassemble_v50_tap.py",
+   "size": 6037,
+   "sha256": "e380c701d9d40d25240dc831b5e71faf469ec7b84462320c0a504757b1c43a0d",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_account_save.py",
+   "size": 139,
+   "sha256": "48b8d924a925ec0ae5fca2e243512fe44768589a698823c249d3375f79f3e867",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_frame.py",
+   "size": 125,
+   "sha256": "9e4b8b5abaabc507a97edaae4ad8762b7b2b2340113a43b85a7435beb3a4d55c",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_instance.py",
+   "size": 131,
+   "sha256": "cb5d0195769a2c4d621c494673f19dbd3b78ff97021567ae87b22ae59b430663",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_live.py",
+   "size": 123,
+   "sha256": "f980a0ef20939b2c59f50e872d74d13d05708ead8429c6616754e7671fbf1d79",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_mail.py",
+   "size": 123,
+   "sha256": "6592d920822e407041ddb2b0f5ab1807610ecc0614942dcafbf4e6a137064084",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_quest.py",
+   "size": 125,
+   "sha256": "2e574b9c47f54cee9cdb0cca312be1b3bda93891a15ede0a2472b007176eea54",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  },
+  {
+   "path": "F:\\Codex\\tfd-offline-2\\app\\tools\\run_shop.py",
+   "size": 123,
+   "sha256": "27f13b67c2c5a7dee072255526f9a1130357972e3c29eccb4f530a2237c3cfbd",
+   "category": "骨架（GPT 侧工程）",
+   "key": "-",
+   "use": ""
+  }
+ ]
+}
