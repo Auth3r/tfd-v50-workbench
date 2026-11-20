@@ -1,0 +1,35 @@
+SAMPLE_SHA256_LF=04940ecae8be39e84decf83afcd5bf14650ed2f34100f36a2accd705a3052d97
+PROTOCOL_SHA256_LF=6ca922ef014e09c08b2488ad3a5d032b5636eb27556ec3f03db613fef3d9216c
+
+running 5 tests
+test bytewise_and_header_boundary_fragments_preserve_boundaries ... stream=in-01 chunk_sizes=[1, 7, 9, 10, 11, 17, 509] fragmented_boundaries=match
+stream=in-02 chunk_sizes=[1, 7, 9, 10, 11, 17, 509] fragmented_boundaries=match
+stream=in-03 chunk_sizes=[1, 7, 9, 10, 11, 17, 509] fragmented_boundaries=match
+stream=in-04 chunk_sizes=[1, 7, 9, 10, 11, 17, 509] fragmented_boundaries=match
+stream=out-05 chunk_sizes=[1, 7, 9, 10, 11, 17, 509] fragmented_boundaries=match
+stream=out-06 chunk_sizes=[1, 7, 9, 10, 11, 17, 509] fragmented_boundaries=match
+stream=in-07 chunk_sizes=[1, 7, 9, 10, 11, 17, 509] fragmented_boundaries=match
+stream=in-08 chunk_sizes=[1, 7, 9, 10, 11, 17, 509] fragmented_boundaries=match
+stream=in-09 chunk_sizes=[1, 7, 9, 10, 11, 17, 509] fragmented_boundaries=match
+FRAGMENTED_STREAMS=9/9 FIXED_CHUNK_CASES=63 HEADER_AND_TAIL_SPLITS=264
+ok
+test marker_mutation_is_rejected_and_poisons_the_reader ... MARKER_MUTATION=UnsupportedMode SUBSEQUENT_FEED=Rejected
+ok
+test mirror_mutation_produces_the_existing_structured_warning ... MIRROR_MUTATION=diagnosed Some(LengthMirrorMismatch { declared: 7, mirror: 0 }); original v50 warning policy preserved
+ok
+test truncated_captured_streams_are_not_accepted_as_complete ... TRUNCATED_STREAMS_REFUSED=9/9
+ok
+test whole_streams_match_all_44_annotated_boundaries ... stream=in-01 bytes=523 frames=30 expected=[(0, 17), (17, 17), (34, 17), (51, 17), (68, 17), (85, 17), (102, 17), (119, 19), (138, 20), (158, 17), (175, 17), (192, 17), (209, 18), (227, 17), (244, 18), (262, 23), (285, 17), (302, 17), (319, 17), (336, 16), (352, 17), (369, 17), (386, 17), (403, 18), (421, 18), (439, 17), (456, 17), (473, 17), (490, 16), (506, 17)] actual=[(0, 17), (17, 17), (34, 17), (51, 17), (68, 17), (85, 17), (102, 17), (119, 19), (138, 20), (158, 17), (175, 17), (192, 17), (209, 18), (227, 17), (244, 18), (262, 23), (285, 17), (302, 17), (319, 17), (336, 16), (352, 17), (369, 17), (386, 17), (403, 18), (421, 18), (439, 17), (456, 17), (473, 17), (490, 16), (506, 17)]
+stream=in-02 bytes=55 frames=4 expected=[(0, 13), (13, 14), (27, 14), (41, 14)] actual=[(0, 13), (13, 14), (27, 14), (41, 14)]
+stream=in-03 bytes=51 frames=3 expected=[(0, 17), (17, 17), (34, 17)] actual=[(0, 17), (17, 17), (34, 17)]
+stream=in-04 bytes=36 frames=2 expected=[(0, 17), (17, 19)] actual=[(0, 17), (17, 19)]
+stream=out-05 bytes=49862 frames=1 expected=[(0, 49862)] actual=[(0, 49862)]
+stream=out-06 bytes=28573 frames=1 expected=[(0, 28573)] actual=[(0, 28573)]
+stream=in-07 bytes=13 frames=1 expected=[(0, 13)] actual=[(0, 13)]
+stream=in-08 bytes=13 frames=1 expected=[(0, 13)] actual=[(0, 13)]
+stream=in-09 bytes=13 frames=1 expected=[(0, 13)] actual=[(0, 13)]
+WHOLE_STREAMS=9/9 FRAMES=44/44 MIRROR_WARNINGS=0
+ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
