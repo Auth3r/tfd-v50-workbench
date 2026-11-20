@@ -611,6 +611,69 @@ def _brief(obj, limit=150):
         return '<unrepr>'
 
 
+RDIR = {'done': False}
+
+
+def _consume(reader, n=1):
+    """把 3801 的 1 字节请求体读掉，避免派发层报 trailing bytes。
+    不知道 Reader 的方法名，逐个试，并把可用方法打一次日志。"""
+    try:
+        if not RDIR['done']:
+            RDIR['done'] = True
+            w('RDIR 3801 reader 方法: %s' % [m for m in dir(reader) if not m.startswith('_')])
+    except Exception:
+        pass
+    for name in ('u8', 'read_u8', 'read_i8', 'read', 'read_bytes', 'take', 'get', 'slice'):
+        f = getattr(reader, name, None)
+        if not callable(f):
+            continue
+        try:
+            if name in ('u8', 'read_u8', 'read_i8'):
+                v = f()
+            else:
+                v = f(n)
+            w('RD 用 %s 成功 得 %s' % (name, _brief(v)))
+            return True
+        except Exception as e:
+            w('RD %s 失败 %r' % (name, e))
+    return False
+
+
+def _read_rest(reader, maxn=64):
+    """逐字节把 Reader 里剩下的字节读出来（一次要一大截会报 truncated payload）。"""
+    out = []
+    for i in range(maxn):
+        v = None
+        for name in ('take', 'read', 'read_bytes', 'u8', 'read_u8', 'get'):
+            f = getattr(reader, name, None)
+            if not callable(f):
+                continue
+            try:
+                v = f(1) if name not in ('u8', 'read_u8') else f()
+            except Exception:
+                continue
+            break
+        if v is None:
+            break
+        if isinstance(v, int):
+            v = bytes([v & 0xFF])
+        if not v:
+            break
+        out.append(bytes(v))
+    return b''.join(out)
+
+
+def _arg_proc(a):
+    """从 (service, account, proc, reader) 里取 procedure 号。"""
+    try:
+        for x in a[:4]:
+            if isinstance(x, int) and not isinstance(x, bool) and 0 < x < 200000:
+                return x
+    except Exception:
+        pass
+    return None
+
+
 def _hook_world_dispatch():
     """给 LocalService 的世界/游戏请求派发挂日志（只读观测，不改返回值）。
     目的：看清进主城那条链实际请求了什么、服务端返回了什么形状。"""
@@ -645,6 +708,19 @@ def _hook_world_dispatch():
         def sy(*a, **k):
             WDISP_LOG['n'] += 1
             tag = '%s#%d' % (label, WDISP_LOG['n'])
+            proc = _arg_proc(a)
+            if proc == 3801 and label == 'game_request':
+                rd = a[3] if len(a) > 3 else None
+                if rd is not None:
+                    _consume(rd)
+                w('WDISP %s 3801 读空请求体后回 4 字节 00000000' % tag)
+                return b'\x00\x00\x00\x00'
+            if proc == 1701 and label == 'game_request':
+                rd = a[3] if len(a) > 3 else None
+                body = _read_rest(rd) if rd is not None else b''
+                w('WDISP %s 1701 请求体 len=%d hex=%s' % (tag, len(body), body.hex()))
+                # 试探：短路回 8 字节（content_clock 大概率是 revision i32 + 计数器）
+                return b'\x00' * 8
             if WDISP_LOG['n'] <= 600:
                 w('WDISP %s 入 a=%s k=%s' % (tag, _brief(a), _brief(k)))
             try:
@@ -669,6 +745,36 @@ def _hook_world_dispatch():
             w('WDISP 已挂 %s' % name)
         except Exception as e:
             w('WDISP 挂 %s 失败 %r' % (name, e))
+
+
+SNIFF = {'n': 0}
+
+
+def _sniff_frames():
+    """只抓"整帧里出现 3801 标记"的字节流（最多 200 帧），用来反推子包长度字段与开销。
+    3801 = 0x0ED9，帧内以小端 u16 出现概率最大，同时试大端。"""
+    try:
+        import asyncio.streams as _st
+    except Exception as e:
+        w('SNIFF 导入失败 %r' % (e,))
+        return
+    if getattr(_st.StreamWriter, '_tfd_sniff', False):
+        return
+    orig = _st.StreamWriter.write
+
+    def write(self, data):
+        try:
+            b = bytes(data)
+            if SNIFF['n'] < 200 and 8 <= len(b) <= 400 and (b'\xd9\x0e' in b or b'\x0e\xd9' in b):
+                SNIFF['n'] += 1
+                w('SNIFF #%d len=%d hex=%s' % (SNIFF['n'], len(b), b.hex()))
+        except Exception:
+            pass
+        return orig(self, data)
+
+    write._tfd_sniff = True
+    _st.StreamWriter.write = write
+    w('SNIFF 已挂 StreamWriter.write')
 
 
 def _dump_tables():
@@ -1156,6 +1262,56 @@ def _install_error_logging():
         w('PYERR asyncio 钩子失败 %r' % (e,))
 
 
+def _probe_1701():
+    """只读探针：把运行期认的 content_clock / 1701 结构 dump 出来。
+    新版客户端进主城后会请求 1701，而 GAME_COLLECTIONS(21 条) 里没有 1701，
+    报错点落在 collection.content_clock —— 需要看清它到底有几层、几个字段。"""
+    out = []
+    try:
+        import sys as _sys
+        for mname in ('content_protocol', 'login_server', 'content_local', 'runtime_content',
+                      'launcher_runtime', 'protocol'):
+            mod = _sys.modules.get(mname)
+            if mod is None:
+                try:
+                    mod = __import__(mname)
+                except Exception as e:
+                    out.append('IMP %s 失败 %r' % (mname, e))
+                    continue
+            names = [n for n in dir(mod) if not n.startswith('__')]
+            out.append('MOD %s attrs(%d)' % (mname, len(names)))
+            for n in names:
+                ln = n.lower()
+                v = getattr(mod, n, None)
+                if isinstance(v, dict):
+                    hit = [k for k in v if k in (1701, '1701', 'content_clock', 'content_clock_v2')]
+                    if hit:
+                        for k in hit:
+                            out.append('  DICT %s[%r] = %s' % (n, k, repr(v[k])[:600]))
+                    # 值里出现 content_clock 也算
+                    if any('content_clock' in repr(x) for x in list(v.values())[:60]):
+                        out.append('  DICT %s 含 content_clock 值，keys=%r' % (n, list(v)[:40]))
+                if 'clock' in ln or '1701' in ln or 'content_rev' in ln:
+                    out.append('  ATTR %s = %s' % (n, repr(v)[:600]))
+        for mname, mod in list(_sys.modules.items()):
+            if not mname.startswith(('content', 'login_server', 'launcher', 'protocol', 'runtime')):
+                continue
+            try:
+                for n, v in vars(mod).items():
+                    if isinstance(v, str) and 'content_clock' in v:
+                        out.append('STR %s.%s = %s' % (mname, n, v[:300]))
+            except Exception:
+                pass
+    except Exception as e:
+        out.append('PROBE1701 异常 %r' % (e,))
+    try:
+        with open(r'C:\tfdwork\probe1701.txt', 'w', encoding='utf-8') as fh:
+            fh.write('\n'.join(out))
+        w('PROBE1701 完成 -> C:\\tfdwork\\probe1701.txt (%d 行)' % len(out))
+    except Exception as e:
+        w('PROBE1701 写文件失败 %r' % (e,))
+
+
 def main():
     here = HERE
     kill_notice()
@@ -1179,6 +1335,11 @@ def main():
         _probe_3801(LS)
 
     try:
+        _probe_1701()
+    except Exception as e:
+        w('PROBE1701 调用失败 %r' % (e,))
+
+    try:
         _dump_tables()
     except Exception as e:
         w('DUMP tables 失败 %r' % (e,))
@@ -1193,6 +1354,11 @@ def main():
         _hook_world_dispatch()
     except Exception as e:
         w('WDISP 挂载失败 %r' % (e,))
+
+    try:
+        _sniff_frames()
+    except Exception as e:
+        w('SNIFF 挂载失败 %r' % (e,))
 
     moved = _quarantine_vaults(LL, here)
     if moved:
