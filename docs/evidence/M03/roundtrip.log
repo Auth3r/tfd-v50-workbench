@@ -1,0 +1,47 @@
+    Finished `release` profile [optimized] target(s) in 0.02s
+SOURCE characters.sqlite3 binary_sha256=0bc1672fd8b15526098a58d41b90ce168d121fbd371ff846ec11c90661e94e04 MATCH
+PINNED approved main-file bytes on F:; source_wal_present=True; live WAL not applied
+Rust snapshot: accounts=1 characters=36 selections=1 fields_per_character=10
+character uid=1 account_uid=1 fields=10/10 equal
+character uid=2 account_uid=1 fields=10/10 equal
+character uid=3 account_uid=1 fields=10/10 equal
+character uid=4 account_uid=1 fields=10/10 equal
+character uid=5 account_uid=1 fields=10/10 equal
+character uid=6 account_uid=1 fields=10/10 equal
+character uid=7 account_uid=1 fields=10/10 equal
+character uid=8 account_uid=1 fields=10/10 equal
+character uid=9 account_uid=1 fields=10/10 equal
+character uid=10 account_uid=1 fields=10/10 equal
+character uid=11 account_uid=1 fields=10/10 equal
+character uid=12 account_uid=1 fields=10/10 equal
+character uid=13 account_uid=1 fields=10/10 equal
+character uid=14 account_uid=1 fields=10/10 equal
+character uid=15 account_uid=1 fields=10/10 equal
+character uid=16 account_uid=1 fields=10/10 equal
+character uid=17 account_uid=1 fields=10/10 equal
+character uid=18 account_uid=1 fields=10/10 equal
+character uid=19 account_uid=1 fields=10/10 equal
+character uid=20 account_uid=1 fields=10/10 equal
+character uid=21 account_uid=1 fields=10/10 equal
+character uid=22 account_uid=1 fields=10/10 equal
+character uid=23 account_uid=1 fields=10/10 equal
+character uid=24 account_uid=1 fields=10/10 equal
+character uid=25 account_uid=1 fields=10/10 equal
+character uid=26 account_uid=1 fields=10/10 equal
+character uid=27 account_uid=1 fields=10/10 equal
+character uid=28 account_uid=1 fields=10/10 equal
+character uid=29 account_uid=1 fields=10/10 equal
+character uid=30 account_uid=1 fields=10/10 equal
+character uid=31 account_uid=1 fields=10/10 equal
+character uid=32 account_uid=1 fields=10/10 equal
+character uid=33 account_uid=1 fields=10/10 equal
+character uid=34 account_uid=1 fields=10/10 equal
+character uid=35 account_uid=1 fields=10/10 equal
+character uid=36 account_uid=1 fields=10/10 equal
+ROUNDTRIP characters.sqlite3: characters=36, restored_after_scrub=36, all_mapped_fields=equal, original_sha256_unchanged=true, integrity=ok
+SOURCE local_runtime.sqlite3 binary_sha256=cb51c91074ad6bfb7ac99fc0fa9ceb5ada2f780e461fec6fe7db6e38c60453d5 MATCH
+PINNED approved main-file bytes on F:; source_wal_present=False; live WAL not applied
+Rust snapshot: accounts=2 characters=1 selections=1 fields_per_character=10
+character uid=1 account_uid=1 fields=10/10 equal
+ROUNDTRIP local_runtime.sqlite3: characters=1, restored_after_scrub=1, all_mapped_fields=equal, original_sha256_unchanged=true, integrity=ok
+M03 PASS: main roster=36; runtime roster=1 separately; no account merge; source databases untouched

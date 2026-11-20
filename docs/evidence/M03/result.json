@@ -1,0 +1,32 @@
+[
+  {
+    "source": "E:\\第二后裔\\TFD发布端V50\\TFD发布端V50\\data\\launcher\\saves\\04f2858b03d3e1f379515d84ba575f03\\characters.sqlite3",
+    "source_sha256_before": "0bc1672fd8b15526098a58d41b90ce168d121fbd371ff846ec11c90661e94e04",
+    "source_sha256_after": "0bc1672fd8b15526098a58d41b90ce168d121fbd371ff846ec11c90661e94e04",
+    "pinned_main_file": "F:\\Codex\\tfd-offline-2\\app\\target\\m03-evidence\\characters-3pqu6u9z\\approved-main.sqlite3",
+    "source_wal_present": true,
+    "live_wal_applied": false,
+    "copy": "F:\\Codex\\tfd-offline-2\\app\\target\\m03-evidence\\characters-3pqu6u9z\\roundtrip.sqlite3",
+    "characters": 36,
+    "accounts": 1,
+    "selections": 1,
+    "character_fields_equal": 360,
+    "all_mapped_rows_equal": true,
+    "restored_after_scrub": 36
+  },
+  {
+    "source": "E:\\第二后裔\\TFD发布端V50\\TFD发布端V50\\data\\launcher\\saves\\local_runtime.sqlite3",
+    "source_sha256_before": "cb51c91074ad6bfb7ac99fc0fa9ceb5ada2f780e461fec6fe7db6e38c60453d5",
+    "source_sha256_after": "cb51c91074ad6bfb7ac99fc0fa9ceb5ada2f780e461fec6fe7db6e38c60453d5",
+    "pinned_main_file": "F:\\Codex\\tfd-offline-2\\app\\target\\m03-evidence\\local_runtime-_90es7fo\\approved-main.sqlite3",
+    "source_wal_present": false,
+    "live_wal_applied": false,
+    "copy": "F:\\Codex\\tfd-offline-2\\app\\target\\m03-evidence\\local_runtime-_90es7fo\\roundtrip.sqlite3",
+    "characters": 1,
+    "accounts": 2,
+    "selections": 1,
+    "character_fields_equal": 10,
+    "all_mapped_rows_equal": true,
+    "restored_after_scrub": 1
+  }
+]

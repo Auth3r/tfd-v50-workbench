@@ -1,0 +1,14 @@
+    Finished `release` profile [optimized] target(s) in 0.01s
+SOURCE characters.sqlite3 binary_sha256=0bc1672fd8b15526098a58d41b90ce168d121fbd371ff846ec11c90661e94e04 MATCH
+Traceback (most recent call last):
+  File "F:\Codex\tfd-offline-2\app\tools\v50_save_bridge.py", line 159, in <module>
+    main()
+  File "F:\Codex\tfd-offline-2\app\tools\v50_save_bridge.py", line 152, in main
+    results = [verify(root / key, index[key]["sha256"], count, args.tool.resolve(), parent)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Codex\tfd-offline-2\app\tools\v50_save_bridge.py", line 91, in verify
+    with readonly(source) as c:
+         ^^^^^^^^^^^^^^^^
+  File "F:\Codex\tfd-offline-2\app\tools\v50_save_bridge.py", line 29, in readonly
+    raise RuntimeError(f"Nonempty WAL requires an approved stationary snapshot: {wal}")
+RuntimeError: Nonempty WAL requires an approved stationary snapshot: E:\第二后裔\TFD发布端V50\TFD发布端V50\data\launcher\saves\04f2858b03d3e1f379515d84ba575f03\characters.sqlite3-wal

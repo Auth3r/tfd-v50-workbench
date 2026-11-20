@@ -1,0 +1,10 @@
+   Compiling gpw-offline-core v0.1.0 (F:\Codex\tfd-offline-2\app)
+    Finished `release` profile [optimized] target(s) in 3.55s
+     Running tests\v50_save.rs (target\release\build\gpw-offline-core/0d463a8fa9c950ab\out\v50_save-0d463a8fa9c950ab.exe)
+
+running 2 tests
+test refuses_cross_account_selection_duplicate_identity_and_missing_columns ... ok
+test preserves_all_columns_wide_integers_and_original_json_text ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
