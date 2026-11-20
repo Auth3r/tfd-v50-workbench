@@ -1,0 +1,6551 @@
+{
+ "source": "F:\\Codex\\TFD-Shop-Gate1-20261115-171002\\runtime-low-107812-45da9f\\temp\\onefile_117084_731109_GAo14gO8_GU\\evidence\\client-update-20261029\\content-catalog.sqlite3",
+ "note": "客户端数据表只读导出；供结构↔数据表绑定使用。字段名来自行 JSON 的顶层键，不代表完整 schema。",
+ "character_count": 36,
+ "characters": [
+  {
+   "template_id": 101000001,
+   "row_name": "name:PLAYER_Lepic",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000002,
+   "row_name": "name:PLAYER_Ajax",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000003,
+   "row_name": "name:PLAYER_Viessa",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000004,
+   "row_name": "name:PLAYER_Ultimate_Lepic",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000005,
+   "row_name": "name:PLAYER_Jayber",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000006,
+   "row_name": "name:PLAYER_Bunny",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000007,
+   "row_name": "name:PLAYER_Ultimate_Ajax",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000008,
+   "row_name": "name:PLAYER_Freyna",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000009,
+   "row_name": "name:PLAYER_Gley",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000010,
+   "row_name": "name:PLAYER_Ultimate_Viessa",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000011,
+   "row_name": "name:PLAYER_Sharen",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000012,
+   "row_name": "name:PLAYER_Blair",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000013,
+   "row_name": "name:PLAYER_Valby",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000014,
+   "row_name": "name:PLAYER_Kyle",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000015,
+   "row_name": "name:PLAYER_Esiemo",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000016,
+   "row_name": "name:PLAYER_Enzo",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000017,
+   "row_name": "name:PLAYER_Yujin",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000018,
+   "row_name": "name:PLAYER_Luna",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000019,
+   "row_name": "name:PLAYER_Ultimate_Bunny",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000020,
+   "row_name": "name:PLAYER_Ultimate_Gley",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000021,
+   "row_name": "name:PLAYER_Hailey",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000022,
+   "row_name": "name:PLAYER_Ultimate_Valby",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000023,
+   "row_name": "name:PLAYER_Ultimate_Freyna",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000024,
+   "row_name": "name:PLAYER_Keelan",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000025,
+   "row_name": "name:PLAYER_Ultimate_Sharen",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000026,
+   "row_name": "name:PLAYER_Ines",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000027,
+   "row_name": "name:PLAYER_Serena",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000028,
+   "row_name": "name:PLAYER_Ultimate_Blair",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000029,
+   "row_name": "name:PLAYER_Nell",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000030,
+   "row_name": "name:PLAYER_Ultimate_Luna",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000031,
+   "row_name": "name:PLAYER_Harris",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000032,
+   "row_name": "name:PLAYER_Ultimate_Yujin",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000033,
+   "row_name": "name:PLAYER_Dia",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000034,
+   "row_name": "name:PLAYER_Ultimate_Esiemo",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000035,
+   "row_name": "name:PLAYER_Raven",
+   "string_id": null,
+   "level_max": null
+  },
+  {
+   "template_id": 101000036,
+   "row_name": "name:PLAYER_Ultimate_Hailey",
+   "string_id": null,
+   "level_max": null
+  }
+ ],
+ "table_count": 400,
+ "tables": [
+  {
+   "name": "M1AbilityActorData",
+   "rows": 1457,
+   "top_level_fields": [
+    "AbilityActorClass",
+    "InvokeStatusEffects",
+    "Operations",
+    "Params",
+    "SpawnAbilityActors"
+   ],
+   "observed_slots": 1457,
+   "systems": "combat"
+  },
+  {
+   "name": "M1AbilityData",
+   "rows": 10703,
+   "top_level_fields": [
+    "AbilityClass",
+    "InvokeStatusEffects",
+    "Name",
+    "Operations",
+    "Params",
+    "SpawnAbilityActors",
+    "TaggedModularAbilityParams"
+   ],
+   "observed_slots": 10703,
+   "systems": "combat"
+  },
+  {
+   "name": "M1AbilityTooltipSettingData",
+   "rows": 1284,
+   "top_level_fields": [
+    "DetailData",
+    "Name"
+   ],
+   "observed_slots": 1284,
+   "systems": "combat;client"
+  },
+  {
+   "name": "M1AbilityTooltipSettingMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "DisplayOpCalcClass",
+    "TypeList"
+   ],
+   "observed_slots": 1,
+   "systems": "combat;client;development"
+  },
+  {
+   "name": "M1AccessoryData",
+   "rows": 180,
+   "top_level_fields": [
+    "BaseStats",
+    "CategoryType",
+    "ClassType",
+    "ImportanceType",
+    "ImportantPriority",
+    "Lv",
+    "MasteryLevel",
+    "PropClass",
+    "RequiredStats",
+    "RuneSocketCount",
+    "SellingType",
+    "SetOption",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "UIData"
+   ],
+   "observed_slots": 180,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1AchievementCategoryData",
+   "rows": 22,
+   "top_level_fields": [
+    "AchievementList",
+    "CategoryId",
+    "IconPath",
+    "SortOrder",
+    "StringId"
+   ],
+   "observed_slots": 22,
+   "systems": "quest"
+  },
+  {
+   "name": "M1AchievementData",
+   "rows": 622,
+   "top_level_fields": [
+    "AchievementPoint",
+    "BGImagePath",
+    "CompleteConditionGroupInfo",
+    "CompleteConditions",
+    "ForceCompleteCondition",
+    "ForceShowCompleteToast",
+    "ForceTrackerChange",
+    "GroupId",
+    "HideInLocalMap",
+    "IconPath",
+    "OpenField",
+    "OutgoingMailId",
+    "ProgressId",
+    "QuestDirections",
+    "QuestMarkerTarget",
+    "RequiredCharacterIds",
+    "RewardAdvanced",
+    "RewardAdvancedShortcut",
+    "RewardCharacterExp",
+    "RewardCurrencies",
+    "RewardEigenfactorExp",
+    "RewardItems",
+    "RewardMasteryExp",
+    "RewardSeasonExp",
+    "SeasonId",
+    "SortId",
+    "StartConditions",
+    "StartPoints",
+    "StringIdName",
+    "SubTrackerPriority",
+    "TemplateId",
+    "Type",
+    "UseIndicatorNotify"
+   ],
+   "observed_slots": 622,
+   "systems": "quest"
+  },
+  {
+   "name": "M1AdvancedRewardData",
+   "rows": 334,
+   "top_level_fields": [
+    "Amount",
+    "Flags",
+    "Item",
+    "Level",
+    "RowName",
+    "SlotIndex",
+    "TemplateId",
+    "lookup_verified"
+   ],
+   "observed_slots": 167,
+   "systems": "reward"
+  },
+  {
+   "name": "M1AgitData",
+   "rows": 7,
+   "top_level_fields": [
+    "Extendable",
+    "GroupId",
+    "Items",
+    "LinkedGate",
+    "TemplateId",
+    "UnlockData"
+   ],
+   "observed_slots": 7,
+   "systems": "home"
+  },
+  {
+   "name": "M1AgitDialogData",
+   "rows": 434,
+   "top_level_fields": [
+    "CharacterId",
+    "FacialAnim",
+    "MarkerInfoList",
+    "NextDialog",
+    "Type",
+    "VoiceKey"
+   ],
+   "observed_slots": 434,
+   "systems": "npc;home"
+  },
+  {
+   "name": "M1AgitMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "LikePeriodBaseHour",
+    "LikePeriodDays",
+    "LikePeriodStartTime",
+    "MaxRecentPlayedCount",
+    "MaxRecentVisitedCount",
+    "MaxVisitSprayCount",
+    "UnlockQuest"
+   ],
+   "observed_slots": 1,
+   "systems": "home"
+  },
+  {
+   "name": "M1AgitNpcData",
+   "rows": 82,
+   "top_level_fields": [
+    "BlueprintClass",
+    "Collision",
+    "HudIcon",
+    "LinkedItem",
+    "MapIcon",
+    "NameTagOffset",
+    "Services",
+    "ShowMapIcon",
+    "SkipNpcMenu",
+    "Slots",
+    "SpawnInfo",
+    "SpawnType",
+    "StringIdButtonName",
+    "StringIdName",
+    "TemplateId",
+    "VisitorStringIdButtonName"
+   ],
+   "observed_slots": 82,
+   "systems": "npc;home"
+  },
+  {
+   "name": "M1AgitSlotData",
+   "rows": 37,
+   "top_level_fields": [
+    "BlueprintClass",
+    "CloseUpCameraDistance",
+    "CloseUpTargetHeight",
+    "CloseUpTargetSlot",
+    "LocoType",
+    "Rotatable",
+    "SizeType",
+    "SlotTypes",
+    "StringId",
+    "StringIdButtonName",
+    "TemplateId",
+    "UIData",
+    "UnlockData",
+    "VisitorStringIdButtonName",
+    "bVisitorInteractable"
+   ],
+   "observed_slots": 37,
+   "systems": "home"
+  },
+  {
+   "name": "M1AncestorOptionTierSectionData",
+   "rows": 3683,
+   "top_level_fields": [
+    "ItemOption",
+    "Sections"
+   ],
+   "observed_slots": 3683,
+   "systems": "client"
+  },
+  {
+   "name": "M1AncestorRuneData",
+   "rows": 23,
+   "top_level_fields": [
+    "Ability",
+    "AncestorDetail",
+    "Composable",
+    "Decomposable",
+    "DetailDataList",
+    "Enchantable",
+    "ImportanceType",
+    "ImportantPriority",
+    "LimitedEquipItemClassType",
+    "MasteryLevel",
+    "Name",
+    "PropClass",
+    "RequireCharacterClassTypes",
+    "RuneClassType",
+    "RuneGroupId",
+    "RuneSocketType",
+    "RuneSubClassType",
+    "RuneTierType",
+    "SellingPrice",
+    "SellingType",
+    "TemplateId",
+    "Tradeable",
+    "UIData",
+    "bShowInCodex"
+   ],
+   "observed_slots": 23,
+   "systems": "rune"
+  },
+  {
+   "name": "M1AncestorRuneMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "AncestorRuneOptionTierFix",
+    "DecomposeNoticeOptionTier",
+    "MaxRerollCostAmount",
+    "OptionSlotSection",
+    "RequireMasteryLevelMax",
+    "RequireMasteryLevelMin",
+    "RerollCost",
+    "RerollCountReset"
+   ],
+   "observed_slots": 1,
+   "systems": "rune"
+  },
+  {
+   "name": "M1AncestorRuneOptionGroupData",
+   "rows": 46,
+   "top_level_fields": [
+    "Options",
+    "TemplateId"
+   ],
+   "observed_slots": 46,
+   "systems": "rune;client"
+  },
+  {
+   "name": "M1AutomationTestCharacterData",
+   "rows": 6,
+   "top_level_fields": [
+    "CharacterAttrs",
+    "Nests",
+    "Other",
+    "Stat",
+    "TemplateId"
+   ],
+   "observed_slots": 6,
+   "systems": "character;development"
+  },
+  {
+   "name": "M1AutomationTestNpcData",
+   "rows": 3,
+   "top_level_fields": [
+    "CharacterAttrs",
+    "Nests",
+    "Other",
+    "SecondStat",
+    "Stat",
+    "TemplateId"
+   ],
+   "observed_slots": 3,
+   "systems": "npc;development"
+  },
+  {
+   "name": "M1AutomationTestOtherData",
+   "rows": 3,
+   "top_level_fields": [
+    "Dt",
+    "Name1",
+    "Rotator1",
+    "UnrealAsset1",
+    "Value",
+    "Vector1"
+   ],
+   "observed_slots": 3,
+   "systems": "development"
+  },
+  {
+   "name": "M1BalanceData",
+   "rows": 1,
+   "top_level_fields": [
+    "BaseAncestorRuneInventorySlot",
+    "BaseCharacterSlot",
+    "BaseLoadOutSlot",
+    "BaseRuneInventorySlot",
+    "BaseTriggerRuneInventorySlot",
+    "BattleZoneCompleted",
+    "CharacterIncrementSlotByCash",
+    "CommandPermanentQuestLimit",
+    "CommandSpecialQuestLimit",
+    "DEFLimitConst",
+    "DEFScaleConst",
+    "DefaultEnhancedRounds",
+    "DefaultGeneralRounds",
+    "DefaultHighpowerRounds",
+    "DefaultImpactRounds",
+    "EciveSearchMaxCountMoster",
+    "EciveSearchMaxCountObject",
+    "ElementLimitConst",
+    "ElementScaleConst",
+    "ElementalAdvantageRate",
+    "ElementalAdvantageRateBoss",
+    "ElementalAdvantageRateChampion",
+    "ElementalAdvantageRateMissionTarget",
+    "ElementalAdvantageRateNamed",
+    "ElementalInferiorityRate",
+    "ElementalNormalRate",
+    "EpicBossBonusTime",
+    "EpicBossBurningTime",
+    "EpicBossLifeTime",
+    "EquipInventoryIncrementSlotByCash",
+    "EquipmentItemMaxLv",
+    "FellowNameLimitLength",
+    "FieldOptionLimitedMap",
+    "FieldOptionLimitedMapMissionID",
+    "FocusGoalItemCorrectionValue",
+    "FocusGoalItemMaxCount",
+    "InviteHoldTime",
+    "InviteMaxCount",
+    "JunkDecomposeMaxCount",
+    "LoadoutIncrementSlotByCash"
+   ],
+   "observed_slots": 1,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1BaseItemData",
+   "rows": 3,
+   "top_level_fields": [
+    "AccessorySlot",
+    "CharacterId",
+    "CharacterIdList",
+    "CustomizingList",
+    "ReactorSlotList",
+    "ReactorSlotToEquip",
+    "TemplateId",
+    "WeaponsSlot"
+   ],
+   "observed_slots": 3,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1BaseItemMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "Items",
+    "RewardMailData"
+   ],
+   "observed_slots": 1,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1BattlePassChallengeData",
+   "rows": 696,
+   "top_level_fields": [
+    "CloseTime",
+    "DetailDataList",
+    "Difficulty",
+    "NextWeekId",
+    "OpenTime",
+    "StringId",
+    "TemplateId",
+    "Type"
+   ],
+   "observed_slots": 696,
+   "systems": "event"
+  },
+  {
+   "name": "M1BattlePassChallengeMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "BattlePassXPIconPath",
+    "ChallengeWidgetClass",
+    "CheckNoviceEndQuestId",
+    "CheckNoviceStartQuestId",
+    "CountsPerPlayTime",
+    "DifficultyBoundary",
+    "ReshuffleCountMax",
+    "TrackingChallengeCount"
+   ],
+   "observed_slots": 1,
+   "systems": "event"
+  },
+  {
+   "name": "M1BattlePassData",
+   "rows": 17,
+   "top_level_fields": [
+    "AdjustmentTimeData",
+    "BGId",
+    "BundleDiscountRate",
+    "BundleUnitCount",
+    "ChallengeData",
+    "DetailList",
+    "LevelData",
+    "LevelUpResource",
+    "LevelUpResourceAmount",
+    "MiniType",
+    "MissionRepeatExp",
+    "MissionWaveExp",
+    "MonsterKillExp",
+    "PeriodAdminData",
+    "PopupInfoList",
+    "PremiumResource",
+    "PremiumResourceAmount",
+    "PremiumResourceUIData",
+    "PremiumRewardItemList",
+    "PrereleaseTimeData",
+    "StringId",
+    "TemplateId",
+    "Type",
+    "VoidBattleExp"
+   ],
+   "observed_slots": 17,
+   "systems": "event"
+  },
+  {
+   "name": "M1BattlePassLevelData",
+   "rows": 9,
+   "top_level_fields": [
+    "LevelList",
+    "RewardMail",
+    "TemplateId"
+   ],
+   "observed_slots": 9,
+   "systems": "character;event"
+  },
+  {
+   "name": "M1BattlePassMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "AdjustmentRandTime",
+    "AlertRemainSeconds",
+    "CompileRate",
+    "MiniBattlePassInfos"
+   ],
+   "observed_slots": 1,
+   "systems": "event"
+  },
+  {
+   "name": "M1BattlePassProductData",
+   "rows": 1672,
+   "top_level_fields": [
+    "BGId",
+    "BGMaterial",
+    "BuyableCount",
+    "DiscountPeriodData",
+    "EndTime",
+    "GroupId",
+    "Items",
+    "LargeSize",
+    "Mail",
+    "Page",
+    "PopularType",
+    "Premium",
+    "PreviewLevelType",
+    "PriceType",
+    "RepeatCount",
+    "RequiredLevel",
+    "RequiredPage",
+    "ResetDayOfWeek",
+    "ResetHour",
+    "ResetType",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TicketInfos",
+    "Tier",
+    "Type",
+    "UIData",
+    "WarningStringId",
+    "bEnableCountBar",
+    "bHide",
+    "bShowLimitedWarning",
+    "bUseMultiActorStage"
+   ],
+   "observed_slots": 1672,
+   "systems": "shop;event"
+  },
+  {
+   "name": "M1BattlePassRestrictedProductData",
+   "rows": 4,
+   "top_level_fields": [
+    "BGId",
+    "BGMaterial",
+    "BuyableCount",
+    "DiscountPeriodData",
+    "EndTime",
+    "GroupId",
+    "Items",
+    "LargeSize",
+    "Mail",
+    "Page",
+    "PopularType",
+    "Premium",
+    "PreviewLevelType",
+    "PriceType",
+    "RepeatCount",
+    "RequiredLevel",
+    "RequiredPage",
+    "ResetDayOfWeek",
+    "ResetHour",
+    "ResetType",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TicketInfos",
+    "Tier",
+    "Type",
+    "UIData",
+    "UIDataList",
+    "WarningStringId",
+    "bEnableCountBar",
+    "bHide",
+    "bShowLimitedWarning",
+    "bUseMultiActorStage"
+   ],
+   "observed_slots": 4,
+   "systems": "shop;event"
+  },
+  {
+   "name": "M1BattlePassShopData",
+   "rows": 42,
+   "top_level_fields": [
+    "AvailableUserTypeList",
+    "BannerList",
+    "CategoryType",
+    "Items",
+    "Mail",
+    "ShopGroupCategoryId",
+    "ShopType",
+    "TemplateId"
+   ],
+   "observed_slots": 42,
+   "systems": "shop;event"
+  },
+  {
+   "name": "M1BoostItemData",
+   "rows": 416,
+   "top_level_fields": [
+    "AcquireLimitByMaxStack",
+    "AdaptType",
+    "BoostGroupId",
+    "BoostValue",
+    "BuffItemType",
+    "Category",
+    "CoreSlotCategoryType",
+    "Decomposable",
+    "DecomposeRewards",
+    "DecomposeUIType",
+    "Deletable",
+    "HowToUse",
+    "ImportanceType",
+    "ImportantPriority",
+    "MasteryLevel",
+    "MaxCapacity",
+    "ObtainableCountPerChance",
+    "PropClass",
+    "RedeemItem",
+    "RemainSec",
+    "SeasonReset",
+    "SellingPrice",
+    "SellingType",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "TimeType",
+    "UIData",
+    "bFocusGoalAvailable",
+    "bShowInCodex"
+   ],
+   "observed_slots": 416,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1BoostItemMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "LimitList"
+   ],
+   "observed_slots": 1,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1BossMonsterData",
+   "rows": 41,
+   "top_level_fields": [
+    "AI",
+    "ActionGroupId",
+    "ActiveSkills",
+    "AdvantageType",
+    "AttackAccuracyRate",
+    "BackwardMoveScale",
+    "BareHandStats",
+    "BlueprintClass",
+    "BossType",
+    "CharacterSize",
+    "DisableInstantDropItem",
+    "DropItemIdMinion",
+    "ExpGroupId",
+    "ForwardMoveScale",
+    "GrantEliteWeight",
+    "HasLifeTime",
+    "HitPoint",
+    "LegacyDataAsset",
+    "LegionCategory",
+    "Lv",
+    "LvDrop",
+    "MonsterCategory",
+    "PartsGroupId",
+    "PassiveSkills",
+    "RiskModeDrop",
+    "RuntimeChangeAI",
+    "ShowMapIcon",
+    "SideMoveScale",
+    "SpawnMonsterId",
+    "Specialty",
+    "StatGroupIds",
+    "Stats",
+    "StringId",
+    "Tags",
+    "TemplateId",
+    "UIData",
+    "UnusedGaugeStats"
+   ],
+   "observed_slots": 41,
+   "systems": "mission;ai"
+  },
+  {
+   "name": "M1BossPlayerData",
+   "rows": 1,
+   "top_level_fields": [
+    "ActiveSkills",
+    "AdvantageType",
+    "BareHandStats",
+    "BlueprintClass",
+    "CharacterSize",
+    "HitPoint",
+    "LegacyDataAsset",
+    "Lv",
+    "PassiveSkills",
+    "StatGroupIds",
+    "Stats",
+    "StringId",
+    "TemplateId",
+    "UnusedGaugeStats"
+   ],
+   "observed_slots": 1,
+   "systems": "mission"
+  },
+  {
+   "name": "M1BountyHuntData",
+   "rows": 5,
+   "top_level_fields": [
+    "BGImagePath",
+    "DefaultAbilities",
+    "DungeonSelectUiStringId",
+    "DungeonUiStringId",
+    "EndTime",
+    "MapId",
+    "MatchmakingDataId",
+    "MissionId",
+    "OpenDayOfWeeks",
+    "PlayerStartTag",
+    "PortraitPath",
+    "RandomMatchGroup",
+    "RequiredCharacterIds",
+    "SortOrder",
+    "StartTime",
+    "TemplateId",
+    "TrialPresetScheduleId"
+   ],
+   "observed_slots": 5,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1BountyHuntMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ResetTime"
+   ],
+   "observed_slots": 1,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1BunchItemData",
+   "rows": 105,
+   "top_level_fields": [
+    "AcquireLimitByMaxStack",
+    "Category",
+    "CoreSlotCategoryType",
+    "Decomposable",
+    "DecomposeRewards",
+    "DecomposeUIType",
+    "Deletable",
+    "HowToUse",
+    "ImportanceType",
+    "ImportantPriority",
+    "Mail",
+    "MasteryLevel",
+    "MaxCapacity",
+    "ObtainableCountPerChance",
+    "PriceType",
+    "PropClass",
+    "RedeemItem",
+    "SeasonReset",
+    "SellingPrice",
+    "SellingType",
+    "StringId",
+    "SubItemList",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "bFocusGoalAvailable",
+    "bShowInCodex"
+   ],
+   "observed_slots": 104,
+   "systems": "combat;inventory"
+  },
+  {
+   "name": "M1ChallengeQuestGroupData",
+   "rows": 64,
+   "top_level_fields": [
+    "QuestList",
+    "StringId"
+   ],
+   "observed_slots": 64,
+   "systems": "quest;event"
+  },
+  {
+   "name": "M1CharacterData",
+   "rows": 764,
+   "top_level_fields": [
+    "ActiveSkills",
+    "AdvantageType",
+    "BareHandStats",
+    "BlueprintClass",
+    "CharacterSize",
+    "HitPoint",
+    "LegacyDataAsset",
+    "Lv",
+    "PassiveSkills",
+    "StatGroupIds",
+    "Stats",
+    "StringId",
+    "TemplateId",
+    "UnusedGaugeStats"
+   ],
+   "observed_slots": 764,
+   "systems": "character"
+  },
+  {
+   "name": "M1CharacterDungeonData",
+   "rows": 53,
+   "top_level_fields": [
+    "AllowedQuests",
+    "BGImagePath",
+    "DefaultAbilities",
+    "InstantCharacterId",
+    "MapId",
+    "MatchmakingDataId",
+    "MissionId",
+    "PlayerStartTag",
+    "QuestId",
+    "RandomMatchGroup",
+    "TemplateId",
+    "TrialPresetScheduleId",
+    "bCountDownSkip",
+    "bStandalone"
+   ],
+   "observed_slots": 53,
+   "systems": "mission;character"
+  },
+  {
+   "name": "M1CharacterDungeonInstantCharacterData",
+   "rows": 10,
+   "top_level_fields": [
+    "AccessorySlot",
+    "Character",
+    "Customizing",
+    "FellowSlot",
+    "OpenedMainRuneSlotCountOverride",
+    "ReactorSlot",
+    "TemplateId",
+    "TuningBoard",
+    "Vehicle",
+    "WeaponSlot"
+   ],
+   "observed_slots": 10,
+   "systems": "mission;character"
+  },
+  {
+   "name": "M1CharacterLevelData",
+   "rows": 80,
+   "top_level_fields": [
+    "AccumulatedExp",
+    "RequiredExp",
+    "RewardMasteryExp",
+    "RowName",
+    "RuneCharacterCapacity",
+    "TemplateId",
+    "lookup_verified"
+   ],
+   "observed_slots": 40,
+   "systems": "character"
+  },
+  {
+   "name": "M1CharacterStatValueGroupData",
+   "rows": 142,
+   "top_level_fields": [
+    "Lv"
+   ],
+   "observed_slots": 142,
+   "systems": "combat;character"
+  },
+  {
+   "name": "M1CharacterVoidBattleData",
+   "rows": 2,
+   "top_level_fields": [
+    "AllowedQuests",
+    "DeathCount",
+    "InstantCharacterId",
+    "MapId",
+    "MonsterId",
+    "MonsterLevel",
+    "QuestId",
+    "StringId",
+    "TemplateId",
+    "TimeLimit",
+    "bStandalone"
+   ],
+   "observed_slots": 2,
+   "systems": "mission;character"
+  },
+  {
+   "name": "M1ChatBlockRuleData",
+   "rows": 3,
+   "top_level_fields": [
+    "ResetStackInterval",
+    "RestrictStackCount",
+    "Rule",
+    "UnblockTime",
+    "UseBlock"
+   ],
+   "observed_slots": 3,
+   "systems": "social"
+  },
+  {
+   "name": "M1ChatChannelData",
+   "rows": 7,
+   "top_level_fields": [
+    "Channel",
+    "ChatCmd",
+    "ChatCmdParamCnt",
+    "DisplayInAllLanguages",
+    "DisplayTabs",
+    "InputCoolTime",
+    "UserUseCheck"
+   ],
+   "observed_slots": 7,
+   "systems": "social"
+  },
+  {
+   "name": "M1CheatData",
+   "rows": 71,
+   "top_level_fields": [
+    "Command",
+    "ParentId",
+    "StringId",
+    "Title",
+    "bHasParam"
+   ],
+   "observed_slots": 71,
+   "systems": "development"
+  },
+  {
+   "name": "M1ClashModeData",
+   "rows": 5,
+   "top_level_fields": [
+    "AncestorRuneOptionRewardCount",
+    "AncestorRuneOptionTierGroup",
+    "BGImagePath",
+    "DefaultAbilities",
+    "HideModifierInfo",
+    "MapId",
+    "MatchmakingDataId",
+    "MissionId",
+    "ModifierPresets",
+    "PlayerStartTag",
+    "RandomMatchGroup",
+    "Step",
+    "TemplateId",
+    "TrialPresetScheduleId",
+    "UIData"
+   ],
+   "observed_slots": 5,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1CollectibleItemData",
+   "rows": 352,
+   "top_level_fields": [
+    "AssetPath",
+    "BlueprintClass",
+    "Category",
+    "Decomposable",
+    "DecomposeRewards",
+    "ImportanceType",
+    "ImportantPriority",
+    "MaxCapacity",
+    "PlatformTypes",
+    "ShowStartTime",
+    "SizeType",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "bShowOnlyIfOwned"
+   ],
+   "observed_slots": 352,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1CombatPowerMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ByAccessoryCoreOptionGrade",
+    "ByAccessoryCoreOptionTier",
+    "ByAccessoryLevel",
+    "ByAccessoryOptionTier",
+    "ByAccessorySetOptionCommon",
+    "ByAccessorySetOptionSpecific",
+    "ByAccessoryTier",
+    "ByAncestorRuneCommon",
+    "ByCharacterGrade",
+    "ByCharacterLevel",
+    "ByFellowLevel",
+    "ByFellowTier",
+    "ByReactorEnchantLevel",
+    "ByReactorLevel",
+    "ByReactorOptionTier",
+    "ByReactorTier",
+    "ByRuneSubClassType",
+    "ByT4WeaponQualityPer",
+    "ByT4WeaponQualityRange",
+    "ByTriggerRuneOptionTier",
+    "ByTuningBoardPoint",
+    "ByWeaponCoreOptionGrade",
+    "ByWeaponCoreOptionTier",
+    "ByWeaponLevel",
+    "ByWeaponOptionTier",
+    "ByWeaponPerkLevel",
+    "ByWeaponTier",
+    "CharacterMaxRuneSlotCount",
+    "CombatPowerNotices",
+    "ElementUIDatas",
+    "Revision",
+    "WeaponMaxRuneSlotCount"
+   ],
+   "observed_slots": 1,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1CommandQuestData",
+   "rows": 630,
+   "top_level_fields": [
+    "BGImagePath",
+    "CompleteConditionGroupInfo",
+    "CompleteConditions",
+    "ForceCompleteCondition",
+    "ForceShowCompleteToast",
+    "ForceTrackerChange",
+    "HideInLocalMap",
+    "IsCancelable",
+    "IsRewardSelectable",
+    "OpenField",
+    "OutgoingMailId",
+    "PlayableMaxCount",
+    "ProgressId",
+    "QuestDirections",
+    "QuestMarkerTarget",
+    "RequiredCharacterIds",
+    "RewardAdvanced",
+    "RewardAdvancedShortcut",
+    "RewardCharacterExp",
+    "RewardCurrencies",
+    "RewardEigenfactorExp",
+    "RewardItems",
+    "RewardMasteryExp",
+    "RewardSeasonExp",
+    "SeasonId",
+    "StartConditions",
+    "StartPoints",
+    "StringIdName",
+    "SubTrackerPriority",
+    "TemplateId",
+    "Type",
+    "UseIndicatorNotify"
+   ],
+   "observed_slots": 630,
+   "systems": "quest"
+  },
+  {
+   "name": "M1CommonShopData",
+   "rows": 117,
+   "top_level_fields": [
+    "AvailableUserTypeList",
+    "CategoryType",
+    "Items",
+    "Mail",
+    "ShopGroupCategoryId",
+    "ShopType",
+    "TemplateId"
+   ],
+   "observed_slots": 117,
+   "systems": "shop"
+  },
+  {
+   "name": "M1CommonShopMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "CashShopBundleBannerCount",
+    "CashShopBundleBannerMaxCount",
+    "CashShopSingleBannerCount",
+    "CashShopSingleBannerMaxCount"
+   ],
+   "observed_slots": 1,
+   "systems": "shop"
+  },
+  {
+   "name": "M1ConsumableItemData",
+   "rows": 1942,
+   "top_level_fields": [
+    "AcquireLimitByMaxStack",
+    "Category",
+    "CoreSlotCategoryType",
+    "Decomposable",
+    "DecomposeRewards",
+    "DecomposeUIType",
+    "Deletable",
+    "HowToUse",
+    "ImportanceType",
+    "ImportantPriority",
+    "MasteryLevel",
+    "MaxCapacity",
+    "ObtainableCountPerChance",
+    "PropClass",
+    "RedeemItem",
+    "SeasonReset",
+    "SellingPrice",
+    "SellingType",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "bFocusGoalAvailable",
+    "bShowInCodex"
+   ],
+   "observed_slots": 1938,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1ConsumableItemMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ConsumableItemCategoryTypeStringKey",
+    "CoreItemTab",
+    "EnhancementItemTab",
+    "EtcTab",
+    "FunctionalItemTab",
+    "KeyItemTab",
+    "MaterialItemTab",
+    "VoidVaultTab"
+   ],
+   "observed_slots": 1,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1ContainerRewardBaseGroup",
+   "rows": 53,
+   "top_level_fields": [
+    "IconPath",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 52,
+   "systems": "ai;reward"
+  },
+  {
+   "name": "M1CoreComposeData",
+   "rows": 99,
+   "top_level_fields": [
+    "Category",
+    "RequiredCurrency",
+    "RequiredItem",
+    "ResourceCoreItem",
+    "RewardCoreItemId",
+    "TemplateId"
+   ],
+   "observed_slots": 99,
+   "systems": "rune;craft"
+  },
+  {
+   "name": "M1CoreComposeMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ComposeMaxValue"
+   ],
+   "observed_slots": 1,
+   "systems": "rune;craft"
+  },
+  {
+   "name": "M1CoreItemGroupData",
+   "rows": 20,
+   "top_level_fields": [
+    "ConvertAmount",
+    "Convertible",
+    "CoreGrade",
+    "CoreList",
+    "RequiredCurrency",
+    "TemplateId"
+   ],
+   "observed_slots": 20,
+   "systems": "rune;inventory"
+  },
+  {
+   "name": "M1CoreItemGroupMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ConvertMaxValue"
+   ],
+   "observed_slots": 1,
+   "systems": "rune;inventory"
+  },
+  {
+   "name": "M1CoreOptionGroup",
+   "rows": 210,
+   "top_level_fields": [
+    "Elements",
+    "TemplateId"
+   ],
+   "observed_slots": 210,
+   "systems": "rune;client"
+  },
+  {
+   "name": "M1CoreOptionTierSectionData",
+   "rows": 3683,
+   "top_level_fields": [
+    "ItemOption",
+    "Sections"
+   ],
+   "observed_slots": 3683,
+   "systems": "rune;client"
+  },
+  {
+   "name": "M1CoreSlotData",
+   "rows": 167,
+   "top_level_fields": [
+    "CoreSlotType",
+    "EquipmentId",
+    "TemplateId"
+   ],
+   "observed_slots": 167,
+   "systems": "rune"
+  },
+  {
+   "name": "M1CoreSlotMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "Condition"
+   ],
+   "observed_slots": 1,
+   "systems": "rune"
+  },
+  {
+   "name": "M1CoreSlotType",
+   "rows": 22,
+   "top_level_fields": [
+    "AllType",
+    "CoreSlotTypeOption",
+    "IconBigPath",
+    "IconPath",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 22,
+   "systems": "rune"
+  },
+  {
+   "name": "M1CoreSlotTypeOption",
+   "rows": 17,
+   "top_level_fields": [
+    "CoreOptionGroup",
+    "TemplateId"
+   ],
+   "observed_slots": 17,
+   "systems": "rune;client"
+  },
+  {
+   "name": "M1CrackTraceData",
+   "rows": 3,
+   "top_level_fields": [
+    "BGImagePath",
+    "ContainerRewardData",
+    "DefaultAbilities",
+    "DefaultAbilityId",
+    "Difficulty",
+    "GroupTemplateId",
+    "GroupType",
+    "MapId",
+    "MatchmakingDataId",
+    "MissionId",
+    "ModifierByPlayerCount",
+    "PlayerStartTag",
+    "RandomMatchGroup",
+    "TemplateId",
+    "TrialPresetScheduleId"
+   ],
+   "observed_slots": 3,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1CrackTraceMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "CrackTraceGroupStringList"
+   ],
+   "observed_slots": 1,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1CreditsData",
+   "rows": 29,
+   "top_level_fields": [
+    "Infos"
+   ],
+   "observed_slots": 29,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1CurrencyData",
+   "rows": 7,
+   "top_level_fields": [
+    "CurrencyType",
+    "InternalCurrencyList",
+    "PropClass",
+    "StackLimit",
+    "StringId",
+    "TemplateId",
+    "UIData"
+   ],
+   "observed_slots": 7,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1CurrencyInternalData",
+   "rows": 8,
+   "top_level_fields": [
+    "CurrencyInternalType",
+    "Paid",
+    "Platform",
+    "TemplateId"
+   ],
+   "observed_slots": 8,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1CustomizingAbilityData",
+   "rows": 216,
+   "top_level_fields": [
+    "AbilityClass",
+    "InvokeStatusEffects",
+    "Name",
+    "Operations",
+    "Params",
+    "SpawnAbilityActors",
+    "TaggedModularAbilityParams"
+   ],
+   "observed_slots": 216,
+   "systems": "combat"
+  },
+  {
+   "name": "M1CustomizingCollaboItemData",
+   "rows": 12,
+   "top_level_fields": [
+    "AbilityParam",
+    "AcquireType",
+    "AgitSetting",
+    "AssetDataParams",
+    "Category",
+    "CommonSkinList",
+    "Condition",
+    "ConditionType",
+    "DuplicatedRewards",
+    "EvolutionInfos",
+    "ImportanceType",
+    "IsCollaborationOnly",
+    "MasteryLevel",
+    "MaxStackCount",
+    "PlatformTypes",
+    "ShowStartTime",
+    "SortId",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "bCommonItem",
+    "bEvolvable",
+    "bShowOnlyIfOwned"
+   ],
+   "observed_slots": 12,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1CustomizingItemBase",
+   "rows": 3137,
+   "top_level_fields": [
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 3137,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1CustomizingItemData",
+   "rows": 3117,
+   "top_level_fields": [
+    "AbilityParam",
+    "AcquireType",
+    "AgitSetting",
+    "AssetDataParams",
+    "Category",
+    "CommonSkinList",
+    "Condition",
+    "ConditionType",
+    "DuplicatedRewards",
+    "EvolutionInfos",
+    "ImportanceType",
+    "IsCollaborationOnly",
+    "MasteryLevel",
+    "MaxStackCount",
+    "PlatformTypes",
+    "ShowStartTime",
+    "SortId",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "bCommonItem",
+    "bEvolvable",
+    "bShowOnlyIfOwned"
+   ],
+   "observed_slots": 3117,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1CustomizingItemMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "BaseLoadOutSlot",
+    "BasePhotomodeItem",
+    "DefaultSkins",
+    "LoadoutIncrementSlotByCash",
+    "LoadoutSlot",
+    "LoadoutSlotExpandRequiredItem",
+    "MaxEmotionEquipCount"
+   ],
+   "observed_slots": 1,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1DialogData",
+   "rows": 9834,
+   "top_level_fields": [
+    "CharacterId",
+    "MarkerInfoList",
+    "NextDialog",
+    "Type",
+    "VoiceKey"
+   ],
+   "observed_slots": 9834,
+   "systems": "npc"
+  },
+  {
+   "name": "M1DifficultyAbilityData",
+   "rows": 26,
+   "top_level_fields": [
+    "AbilityClass",
+    "IconPath",
+    "InvokeStatusEffects",
+    "Name",
+    "Operations",
+    "Params",
+    "SpawnAbilityActors",
+    "StringID",
+    "TaggedModularAbilityParams"
+   ],
+   "observed_slots": 26,
+   "systems": "combat"
+  },
+  {
+   "name": "M1DifficultyInfoData",
+   "rows": 3,
+   "top_level_fields": [
+    "Name",
+    "TemplateId"
+   ],
+   "observed_slots": 3,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1DifficultyInfoMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "MonsterCategory"
+   ],
+   "observed_slots": 1,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1DormantMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "QuestDataList"
+   ],
+   "observed_slots": 1,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1DropContainerRewardData",
+   "rows": 13,
+   "top_level_fields": [
+    "BlueprintClass",
+    "RewardInfo",
+    "RewardOpenerKeyItem",
+    "TemplateId"
+   ],
+   "observed_slots": 12,
+   "systems": "ai;reward"
+  },
+  {
+   "name": "M1DropContainerRewardGroup",
+   "rows": 13,
+   "top_level_fields": [
+    "IconPath",
+    "Items",
+    "RandomType",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 12,
+   "systems": "ai;reward"
+  },
+  {
+   "name": "M1DropContainerRewardPoolData",
+   "rows": 41,
+   "top_level_fields": [
+    "ContainerRewardData",
+    "MissionId",
+    "TemplateId"
+   ],
+   "observed_slots": 13,
+   "systems": "ai;reward"
+  },
+  {
+   "name": "M1DropGroupData",
+   "rows": 4959,
+   "top_level_fields": [
+    "DropGroupElementList",
+    "DropGroupType",
+    "T4WeaponQualityGroup",
+    "TemplateId"
+   ],
+   "observed_slots": 4959,
+   "systems": "reward"
+  },
+  {
+   "name": "M1DropItem",
+   "rows": 2353,
+   "top_level_fields": [
+    "DropItemElementList",
+    "InstantUseDropItemElementList",
+    "TemplateId"
+   ],
+   "observed_slots": 2352,
+   "systems": "inventory;reward"
+  },
+  {
+   "name": "M1DropItemLevelWeightData",
+   "rows": 14,
+   "top_level_fields": [
+    "TemplateId",
+    "WeightList"
+   ],
+   "observed_slots": 14,
+   "systems": "character;inventory;reward"
+  },
+  {
+   "name": "M1DynamicOperationData",
+   "rows": 1,
+   "top_level_fields": [
+    "BGImagePath",
+    "ChainMissionIds",
+    "DefaultAbilities",
+    "MapId",
+    "MatchmakingDataId",
+    "MinMembers",
+    "MissionId",
+    "PlayerStartTag",
+    "RandomMatchGroup",
+    "TemplateId",
+    "TrialPresetScheduleId"
+   ],
+   "observed_slots": 1,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1EigenfactorLevelData",
+   "rows": 40,
+   "top_level_fields": [
+    "RequiredExpToNextLv",
+    "RewardSkillPoint",
+    "TemplateId",
+    "TotalRequiredExpToNextLv"
+   ],
+   "observed_slots": 40,
+   "systems": "character"
+  },
+  {
+   "name": "M1EigenfactorLevelMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ExpUnlockQuestTemplateId"
+   ],
+   "observed_slots": 1,
+   "systems": "character"
+  },
+  {
+   "name": "M1EliteMonsterSkillData",
+   "rows": 75,
+   "top_level_fields": [
+    "ArcheType",
+    "AssetData",
+    "CategoryTags",
+    "DontGiveByMonster",
+    "ElementalType",
+    "FxDisplayType",
+    "GroupIndex",
+    "LvData",
+    "Name",
+    "StringId",
+    "Type",
+    "UIGroupId",
+    "bCanBeCanceledByVehicle",
+    "bCanUsedInAir"
+   ],
+   "observed_slots": 75,
+   "systems": "ai;combat;inventory"
+  },
+  {
+   "name": "M1EliteMonsterSkillGroupData",
+   "rows": 242,
+   "top_level_fields": [
+    "Skills"
+   ],
+   "observed_slots": 242,
+   "systems": "ai;combat;inventory"
+  },
+  {
+   "name": "M1EpicMonsterSkillData",
+   "rows": 476,
+   "top_level_fields": [
+    "ArcheType",
+    "AssetData",
+    "CategoryTags",
+    "ElementalType",
+    "FxDisplayType",
+    "GroupIndex",
+    "LvData",
+    "Name",
+    "StringId",
+    "Type",
+    "bCanBeCanceledByVehicle",
+    "bCanUsedInAir"
+   ],
+   "observed_slots": 476,
+   "systems": "ai;combat"
+  },
+  {
+   "name": "M1EquipmentData",
+   "rows": 392,
+   "top_level_fields": [
+    "BaseStats",
+    "CategoryType",
+    "ClassType",
+    "ImportanceType",
+    "ImportantPriority",
+    "Lv",
+    "MasteryLevel",
+    "PropClass",
+    "RequiredStats",
+    "RuneSocketCount",
+    "SellingType",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "UIData"
+   ],
+   "observed_slots": 392,
+   "systems": "equipment;client"
+  },
+  {
+   "name": "M1EquipmentDecomposeData",
+   "rows": 22,
+   "top_level_fields": [
+    "CategoryParam",
+    "CategoryType",
+    "RewardsPerLevel",
+    "TemplateId"
+   ],
+   "observed_slots": 22,
+   "systems": "equipment;craft;client"
+  },
+  {
+   "name": "M1EventAttendanceData",
+   "rows": 26,
+   "top_level_fields": [
+    "AssetData",
+    "AssetDataRowName",
+    "AttendanceInfo",
+    "Buyable",
+    "EndTime",
+    "RepeatPeriodList",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TooltipSortOrder",
+    "TooltipStringId",
+    "Type",
+    "UserType"
+   ],
+   "observed_slots": 26,
+   "systems": "event"
+  },
+  {
+   "name": "M1EventAttendanceMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "AttendanceTicketProduct"
+   ],
+   "observed_slots": 1,
+   "systems": "event"
+  },
+  {
+   "name": "M1EventBaseData",
+   "rows": 328,
+   "top_level_fields": [
+    "AssetData",
+    "AssetDataRowName",
+    "EndTime",
+    "RepeatPeriodList",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TooltipSortOrder",
+    "TooltipStringId",
+    "Type",
+    "UserType"
+   ],
+   "observed_slots": 323,
+   "systems": "event"
+  },
+  {
+   "name": "M1EventBoostingData",
+   "rows": 83,
+   "top_level_fields": [
+    "AssetData",
+    "AssetDataRowName",
+    "BoostDataList",
+    "EndTime",
+    "MasteryRankMax",
+    "MasteryRankMin",
+    "RepeatPeriodList",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TooltipSortOrder",
+    "TooltipStringId",
+    "Type",
+    "UserType"
+   ],
+   "observed_slots": 83,
+   "systems": "event"
+  },
+  {
+   "name": "M1EventBoostingMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ResearchNoticeTimes"
+   ],
+   "observed_slots": 1,
+   "systems": "event;development"
+  },
+  {
+   "name": "M1EventData",
+   "rows": 203,
+   "top_level_fields": [
+    "AssetData",
+    "AssetDataRowName",
+    "ChallengeDataList",
+    "DescEventData",
+    "EndTime",
+    "MasteryRankMax",
+    "MasteryRankMin",
+    "RepeatPeriodList",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TooltipSortOrder",
+    "TooltipStringId",
+    "Type",
+    "UserType"
+   ],
+   "observed_slots": 200,
+   "systems": "event"
+  },
+  {
+   "name": "M1EventDiceData",
+   "rows": 3,
+   "top_level_fields": [
+    "AdditionalDescStringId",
+    "AssetData",
+    "AssetDataRowName",
+    "DiceMaxNumber",
+    "DiceTileList",
+    "EndTime",
+    "FeeItem",
+    "HideGlobalDropUI",
+    "LockerMail",
+    "RepeatPeriodList",
+    "RoundRewardList",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TooltipSortOrder",
+    "TooltipStringId",
+    "Type",
+    "UserType"
+   ],
+   "observed_slots": 2,
+   "systems": "event"
+  },
+  {
+   "name": "M1EventDiceMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "MaxNumberAtOnce"
+   ],
+   "observed_slots": 1,
+   "systems": "event"
+  },
+  {
+   "name": "M1EventMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ActiveUserInfo",
+    "DailyResetTime",
+    "EventWidgetClass",
+    "OntimeEventCheckPeriodSec",
+    "WeeklyResetDate"
+   ],
+   "observed_slots": 1,
+   "systems": "event"
+  },
+  {
+   "name": "M1EventPromotionData",
+   "rows": 6,
+   "top_level_fields": [
+    "AssetData",
+    "AssetDataRowName",
+    "Count",
+    "CountType",
+    "EndTime",
+    "PromotionType",
+    "RepeatPeriodList",
+    "ResetType",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TooltipSortOrder",
+    "TooltipStringId",
+    "Type",
+    "UserType"
+   ],
+   "observed_slots": 5,
+   "systems": "event"
+  },
+  {
+   "name": "M1ExpGrantItemData",
+   "rows": 12,
+   "top_level_fields": [
+    "AcquireLimitByMaxStack",
+    "Category",
+    "CoreSlotCategoryType",
+    "Decomposable",
+    "DecomposeRewards",
+    "DecomposeUIType",
+    "Deletable",
+    "GrantExpValue",
+    "GrantType",
+    "HowToUse",
+    "ImportanceType",
+    "ImportantPriority",
+    "MasteryLevel",
+    "MaxCapacity",
+    "ObtainableCountPerChance",
+    "PropClass",
+    "RedeemItem",
+    "SeasonReset",
+    "SellingPrice",
+    "SellingType",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "bFocusGoalAvailable",
+    "bShowInCodex"
+   ],
+   "observed_slots": 12,
+   "systems": "character;inventory;reward"
+  },
+  {
+   "name": "M1ExpirationItemData",
+   "rows": 9,
+   "top_level_fields": [
+    "AcquireLimitByMaxStack",
+    "AlarmExpire",
+    "Category",
+    "CoreSlotCategoryType",
+    "Decomposable",
+    "DecomposeRewards",
+    "DecomposeUIType",
+    "Deletable",
+    "EndTime",
+    "ExpireTime",
+    "HideInInventoryUI",
+    "HowToUse",
+    "ImportanceType",
+    "ImportantPriority",
+    "MasteryLevel",
+    "MaxCapacity",
+    "MaxHoldCount",
+    "ObtainableCountPerChance",
+    "PropClass",
+    "RedeemItem",
+    "SeasonReset",
+    "SellingPrice",
+    "SellingType",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "bFocusGoalAvailable",
+    "bShowInCodex"
+   ],
+   "observed_slots": 8,
+   "systems": "character;inventory"
+  },
+  {
+   "name": "M1ExploreRegionData",
+   "rows": 16,
+   "top_level_fields": [
+    "BGImagePath",
+    "DefaultAbilities",
+    "DefaultAbilityId",
+    "Difficulty",
+    "GroupTemplateId",
+    "GroupType",
+    "MapId",
+    "MatchmakingDataId",
+    "MissionId",
+    "ModifierByPlayerCount",
+    "PlayerStartTag",
+    "RandomMatchGroup",
+    "TemplateId",
+    "TrialPresetScheduleId"
+   ],
+   "observed_slots": 16,
+   "systems": "character"
+  },
+  {
+   "name": "M1ExploreRegionMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ExploreRegionGroupStringList"
+   ],
+   "observed_slots": 1,
+   "systems": "character"
+  },
+  {
+   "name": "M1FellowAbilityData",
+   "rows": 200,
+   "top_level_fields": [
+    "AbilityClass",
+    "InvokeStatusEffects",
+    "Name",
+    "Operations",
+    "Params",
+    "SkillType",
+    "SpawnAbilityActors",
+    "TaggedModularAbilityParams"
+   ],
+   "observed_slots": 200,
+   "systems": "combat;companion"
+  },
+  {
+   "name": "M1FellowAbilityMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "DisplayInfoList"
+   ],
+   "observed_slots": 1,
+   "systems": "combat;companion"
+  },
+  {
+   "name": "M1FellowData",
+   "rows": 3,
+   "top_level_fields": [
+    "ActiveSkills",
+    "AdvantageType",
+    "BareHandStats",
+    "BlueprintClass",
+    "CharacterSize",
+    "FellowLv",
+    "HitPoint",
+    "IntroduceSequencePath",
+    "LegacyDataAsset",
+    "Lv",
+    "PassiveSkills",
+    "StatGroupIds",
+    "Stats",
+    "StringId",
+    "TemplateId",
+    "Tier",
+    "UIData",
+    "UnusedGaugeStats"
+   ],
+   "observed_slots": 3,
+   "systems": "companion"
+  },
+  {
+   "name": "M1FellowLevelExpData",
+   "rows": 40,
+   "top_level_fields": [
+    "AccumulatedExp",
+    "RequiredExp",
+    "RewardMasteryExp",
+    "TemplateId"
+   ],
+   "observed_slots": 40,
+   "systems": "character;companion"
+  },
+  {
+   "name": "M1FellowMiscData",
+   "rows": 1,
+   "top_level_fields": [],
+   "observed_slots": 1,
+   "systems": "companion"
+  },
+  {
+   "name": "M1FieldDifficultyInfoData",
+   "rows": 2,
+   "top_level_fields": [
+    "DifficultyId",
+    "FieldDifficultyData",
+    "IconPath",
+    "Name",
+    "StringID",
+    "TemplateId",
+    "UnlockQuest"
+   ],
+   "observed_slots": 2,
+   "systems": "map"
+  },
+  {
+   "name": "M1FieldEpicBossSpawnGroupData",
+   "rows": 1,
+   "top_level_fields": [
+    "SpawnInfos",
+    "TemplateId"
+   ],
+   "observed_slots": 1,
+   "systems": "map;mission;ai"
+  },
+  {
+   "name": "M1FieldObjectData",
+   "rows": 57,
+   "top_level_fields": [
+    "ActivateConditions",
+    "ActivateParams",
+    "ActivateType",
+    "BlueprintClass",
+    "DifficultiesDropItem",
+    "EciveType",
+    "NoneDifficultyDropItem",
+    "ObjectType",
+    "SkipItemTrace",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 57,
+   "systems": "map;ai"
+  },
+  {
+   "name": "M1FieldObjectSpawnGroupData",
+   "rows": 43,
+   "top_level_fields": [
+    "SpawnObject"
+   ],
+   "observed_slots": 43,
+   "systems": "map;ai"
+  },
+  {
+   "name": "M1FieldVoidBattleScheduleData",
+   "rows": 3,
+   "top_level_fields": [
+    "ScheduleInfos",
+    "TemplateId"
+   ],
+   "observed_slots": 3,
+   "systems": "map;mission;event"
+  },
+  {
+   "name": "M1FieldVoidBattleScheduleMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "EntranceEndBossHpRatio",
+    "EntranceEndTimeSec",
+    "EntranceMapId",
+    "EpicMonsterTime",
+    "FieldVoidBattleMapId",
+    "NotifyTimeMin",
+    "RotationDateInterval",
+    "StartTime"
+   ],
+   "observed_slots": 1,
+   "systems": "map;mission;event"
+  },
+  {
+   "name": "M1GameplayRulePropertyDataBase",
+   "rows": 145,
+   "top_level_fields": [
+    "Ability",
+    "ApplicablePlayers",
+    "ApplyToPlayer",
+    "GameplayOps",
+    "MonsterCategories",
+    "StatOps",
+    "TemplateId"
+   ],
+   "observed_slots": 145,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1GlobalDropData",
+   "rows": 4,
+   "top_level_fields": [
+    "DropGroupId",
+    "EndTime",
+    "FilterType",
+    "GlobalDropTypeList",
+    "Ratio",
+    "RegionFilters",
+    "StartTime",
+    "TemplateId"
+   ],
+   "observed_slots": 4,
+   "systems": "reward"
+  },
+  {
+   "name": "M1GlobalDropLimitData",
+   "rows": 3,
+   "top_level_fields": [
+    "GlobalDropLimitValue",
+    "ItemId",
+    "ItemType",
+    "ResetType"
+   ],
+   "observed_slots": 3,
+   "systems": "reward"
+  },
+  {
+   "name": "M1GlobalEventRewardGroup",
+   "rows": 2,
+   "top_level_fields": [
+    "Items",
+    "TemplateId"
+   ],
+   "observed_slots": 2,
+   "systems": "reward;event"
+  },
+  {
+   "name": "M1GroupIdMatchingDungeonContents",
+   "rows": 19,
+   "top_level_fields": [
+    "BGImagePath",
+    "DefaultAbilities",
+    "DefaultAbilityId",
+    "Difficulty",
+    "GroupTemplateId",
+    "MapId",
+    "MatchmakingDataId",
+    "MissionId",
+    "ModifierByPlayerCount",
+    "PlayerStartTag",
+    "RandomMatchGroup",
+    "TemplateId",
+    "TrialPresetScheduleId"
+   ],
+   "observed_slots": 19,
+   "systems": "mission;social"
+  },
+  {
+   "name": "M1GuideQuestGroupData",
+   "rows": 1,
+   "top_level_fields": [
+    "BGImagePath",
+    "QuestList",
+    "StringId"
+   ],
+   "observed_slots": 1,
+   "systems": "quest;client"
+  },
+  {
+   "name": "M1HitPointData",
+   "rows": 57,
+   "top_level_fields": [
+    "Param",
+    "StringId"
+   ],
+   "observed_slots": 57,
+   "systems": "combat"
+  },
+  {
+   "name": "M1HitPointMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ForceZeroHPDamageRateMissionIds",
+    "ForceZeroHPDamageRateVoidBattleIds"
+   ],
+   "observed_slots": 1,
+   "systems": "combat"
+  },
+  {
+   "name": "M1IncursionData",
+   "rows": 1,
+   "top_level_fields": [
+    "DialogIdList",
+    "IncursionType",
+    "Name",
+    "NormalIcon",
+    "ObjectBP",
+    "StringId",
+    "TemplateId",
+    "ToastId"
+   ],
+   "observed_slots": 1,
+   "systems": "mission"
+  },
+  {
+   "name": "M1IncursionGroupData",
+   "rows": 2,
+   "top_level_fields": [
+    "IncursionDrawTriggerType",
+    "IncursionGroupRate",
+    "IncursionGroups",
+    "MaxOfIncursionGroup",
+    "MissionId",
+    "Name",
+    "TemplateId",
+    "TrialsNumber"
+   ],
+   "observed_slots": 2,
+   "systems": "mission"
+  },
+  {
+   "name": "M1IncursionSetData",
+   "rows": 6,
+   "top_level_fields": [
+    "DropRewards",
+    "IncursionId",
+    "MaxOfIncursion",
+    "MonsterLevel",
+    "MonsterPackId",
+    "MonsterStatModifiers",
+    "Name",
+    "RequiredPowerType",
+    "RequiredPowerValue",
+    "TemplateId"
+   ],
+   "observed_slots": 6,
+   "systems": "mission"
+  },
+  {
+   "name": "M1InstanceDungeonAbilityData",
+   "rows": 968,
+   "top_level_fields": [
+    "AbilityClass",
+    "ApplicablePlayers",
+    "ApplicableTurrets",
+    "ApplyToPlayer",
+    "ApplyToTurret",
+    "IconPath",
+    "InvokeStatusEffects",
+    "MonsterCategories",
+    "Name",
+    "Operations",
+    "Params",
+    "SpawnAbilityActors",
+    "StringId",
+    "TaggedModularAbilityParams"
+   ],
+   "observed_slots": 968,
+   "systems": "mission;combat"
+  },
+  {
+   "name": "M1InstanceDungeonData",
+   "rows": 51,
+   "top_level_fields": [
+    "BGImagePath",
+    "DefaultAbilities",
+    "Difficulty",
+    "Group",
+    "MapId",
+    "MatchmakingDataId",
+    "MinMembers",
+    "MissionId",
+    "ModifierPresets",
+    "PlayerStartTag",
+    "RandomMatchBonusReward",
+    "RandomMatchGroup",
+    "RecommedSpecs",
+    "RewardGroups",
+    "RotationRewards",
+    "ScoreInfo",
+    "ShowAxionFieldDungeonUI",
+    "TemplateId",
+    "TrialPresetScheduleId"
+   ],
+   "observed_slots": 51,
+   "systems": "mission"
+  },
+  {
+   "name": "M1InstanceDungeonMODData",
+   "rows": 86,
+   "top_level_fields": [
+    "TemplateId"
+   ],
+   "observed_slots": 86,
+   "systems": "mission"
+  },
+  {
+   "name": "M1InstanceDungeonMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ModifierPresetCommonInfo",
+    "RotationRewardMax"
+   ],
+   "observed_slots": 1,
+   "systems": "mission"
+  },
+  {
+   "name": "M1InstanceDungeonModifierPresetData",
+   "rows": 56,
+   "top_level_fields": [
+    "AbilityData",
+    "TemplateId",
+    "bRotate"
+   ],
+   "observed_slots": 56,
+   "systems": "mission"
+  },
+  {
+   "name": "M1InstanceDungeonRewardData",
+   "rows": 113,
+   "top_level_fields": [
+    "Rewards",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 113,
+   "systems": "mission;reward"
+  },
+  {
+   "name": "M1InstanceDungeonSelectionMODData",
+   "rows": 0,
+   "top_level_fields": [],
+   "observed_slots": 0,
+   "systems": "mission"
+  },
+  {
+   "name": "M1InstanceDungeonSelectionMODGroupData",
+   "rows": 0,
+   "top_level_fields": [],
+   "observed_slots": 0,
+   "systems": "mission"
+  },
+  {
+   "name": "M1InstanceFieldContentsDataBase",
+   "rows": 195,
+   "top_level_fields": [
+    "BGImagePath",
+    "DefaultAbilities",
+    "MapId",
+    "MatchmakingDataId",
+    "MissionId",
+    "PlayerStartTag",
+    "RandomMatchGroup",
+    "TemplateId",
+    "TrialPresetScheduleId"
+   ],
+   "observed_slots": 195,
+   "systems": "map;mission"
+  },
+  {
+   "name": "M1InstantUseDropGroupData",
+   "rows": 77,
+   "top_level_fields": [
+    "DropGroupElementList",
+    "TemplateId"
+   ],
+   "observed_slots": 77,
+   "systems": "reward"
+  },
+  {
+   "name": "M1InstantUseItemData",
+   "rows": 19,
+   "top_level_fields": [
+    "Ability",
+    "CurrentStatCapacity",
+    "ImportanceType",
+    "Name",
+    "NumberLimit",
+    "ObtainableCountPerChance",
+    "Private",
+    "PropClass",
+    "RoundsCapacity",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 19,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1InvasionDungeonData",
+   "rows": 13,
+   "top_level_fields": [
+    "BGImagePath",
+    "DefaultAbilities",
+    "InstanceDungeon",
+    "MapId",
+    "MatchmakingDataId",
+    "MissionId",
+    "PlayerStartTag",
+    "RandomMatchGroup",
+    "RewardInfo",
+    "SeasonExpLimit",
+    "TemplateId",
+    "TrialPresetScheduleId"
+   ],
+   "observed_slots": 13,
+   "systems": "mission"
+  },
+  {
+   "name": "M1InvasionDungeonMODData",
+   "rows": 30,
+   "top_level_fields": [
+    "AbilityData",
+    "TemplateId"
+   ],
+   "observed_slots": 30,
+   "systems": "mission"
+  },
+  {
+   "name": "M1InvasionDungeonMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "UnlockDungeon",
+    "UnlockQuest"
+   ],
+   "observed_slots": 1,
+   "systems": "mission"
+  },
+  {
+   "name": "M1InvasionDungeonScheduleData",
+   "rows": 50,
+   "top_level_fields": [
+    "ScheduleInfo",
+    "TemplateId"
+   ],
+   "observed_slots": 50,
+   "systems": "mission;event"
+  },
+  {
+   "name": "M1InvasionDungeonScheduleMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "RotationChangeTimeHour",
+    "RotationIntervalDay",
+    "StartTime"
+   ],
+   "observed_slots": 1,
+   "systems": "mission;event"
+  },
+  {
+   "name": "M1InvasionDungeonTimeAttackGroup",
+   "rows": 15,
+   "top_level_fields": [
+    "Items",
+    "Name",
+    "Ratio"
+   ],
+   "observed_slots": 15,
+   "systems": "mission;combat"
+  },
+  {
+   "name": "M1ItemAcquireLimitData",
+   "rows": 0,
+   "top_level_fields": [],
+   "observed_slots": 0,
+   "systems": "inventory;reward;client"
+  },
+  {
+   "name": "M1ItemLevelUpgradeData",
+   "rows": 4,
+   "top_level_fields": [
+    "RequiredItems",
+    "TargetTier",
+    "TemplateId"
+   ],
+   "observed_slots": 4,
+   "systems": "character;equipment;inventory"
+  },
+  {
+   "name": "M1ItemLevelUpgradeMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ExtendLevelInjectionLowTierProduct",
+    "ExtendLevelInjectionProduct",
+    "ItemLevelUpgradeShop"
+   ],
+   "observed_slots": 1,
+   "systems": "character;equipment;inventory"
+  },
+  {
+   "name": "M1ItemOptionData",
+   "rows": 3683,
+   "top_level_fields": [
+    "BaseStat",
+    "EnchantValueHigh",
+    "EnchantValueLow",
+    "JunkFilter",
+    "OptionGrade",
+    "OptionType",
+    "TemplateId"
+   ],
+   "observed_slots": 3683,
+   "systems": "inventory;client"
+  },
+  {
+   "name": "M1ItemOptionEnchantData",
+   "rows": 5,
+   "top_level_fields": [
+    "CountCost",
+    "EquipCategory"
+   ],
+   "observed_slots": 5,
+   "systems": "equipment;inventory;client"
+  },
+  {
+   "name": "M1ItemOptionEnchantMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "OptionEnchantHighRate"
+   ],
+   "observed_slots": 1,
+   "systems": "equipment;inventory;client"
+  },
+  {
+   "name": "M1ItemOptionMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "AncestorRuneCreateStatValueSection",
+    "AncestorRuneOptionTierSection",
+    "CoreStatValueSection",
+    "OptionTierSection",
+    "RandomOptionAncestorRuneBanStatGroup00",
+    "RandomOptionAncestorRuneBanStatGroup01",
+    "RandomOptionWeaponBanStatGroup",
+    "StatValueSection"
+   ],
+   "observed_slots": 1,
+   "systems": "inventory;client"
+  },
+  {
+   "name": "M1ItemOptionTierSectionData",
+   "rows": 11049,
+   "top_level_fields": [
+    "ItemOption",
+    "Sections"
+   ],
+   "observed_slots": 11049,
+   "systems": "inventory;client"
+  },
+  {
+   "name": "M1ItemSelectBoxData",
+   "rows": 116,
+   "top_level_fields": [
+    "AcquireLimitByMaxStack",
+    "AncestorRuneOptionRewardCount",
+    "AncestorRuneOptionTierGroup",
+    "Category",
+    "CoreSlotCategoryType",
+    "Decomposable",
+    "DecomposeRewards",
+    "DecomposeUIType",
+    "Deletable",
+    "HowToUse",
+    "ImportanceType",
+    "ImportantPriority",
+    "MasteryLevel",
+    "MaxCapacity",
+    "ObtainableCountPerChance",
+    "PropClass",
+    "RedeemItem",
+    "SeasonReset",
+    "SellingPrice",
+    "SellingType",
+    "StringId",
+    "T4WeaponQualityGroup",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "Units",
+    "bFocusGoalAvailable",
+    "bOpenSingleAtOnce",
+    "bShowInCodex"
+   ],
+   "observed_slots": 116,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1ItemSelectBoxMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "MaxSelectOnceCount"
+   ],
+   "observed_slots": 1,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1JumpingData",
+   "rows": 4,
+   "top_level_fields": [
+    "BeginnerPassChallengeList",
+    "BeginnerPassPeriodAdminData",
+    "ChallengeListNameString",
+    "ContentProhibitionQuestList",
+    "EntryIconPath",
+    "IconPath",
+    "ItemSetData",
+    "JumpingDescString",
+    "JumpingDetailResultList",
+    "JumpingMissionList",
+    "JumpingPresetNameString",
+    "JumpingQuestList",
+    "JumpingResultList",
+    "MapDifficulty",
+    "MasteryRankMaxPrerequisite",
+    "NameString",
+    "PeriodAdminData",
+    "StringId",
+    "TemplateId",
+    "TrackerQuestId",
+    "Type"
+   ],
+   "observed_slots": 4,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1JumpingItemSetData",
+   "rows": 2,
+   "top_level_fields": [
+    "Difficulty",
+    "ItemRuneSetList",
+    "ItemSetDetailList",
+    "MasteryRank",
+    "TemplateId"
+   ],
+   "observed_slots": 2,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1JumpingMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "DailyResetTime"
+   ],
+   "observed_slots": 1,
+   "systems": "development"
+  },
+  {
+   "name": "M1KeywordRelatedInfoData",
+   "rows": 181,
+   "top_level_fields": [
+    "EnumList",
+    "ItemList",
+    "bApplyAndConditionToEachList",
+    "bApplyAndConditionToEnumList"
+   ],
+   "observed_slots": 181,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1LaboratoryMonsterSpawnData",
+   "rows": 4,
+   "top_level_fields": [
+    "IconImage",
+    "Index",
+    "LevelMax",
+    "LevelMin",
+    "SpawnList",
+    "StringId",
+    "UnlockData"
+   ],
+   "observed_slots": 4,
+   "systems": "ai"
+  },
+  {
+   "name": "M1LaboratoryMonsterSpawnMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "LaboratoryMonsterCountMax",
+    "LaboratoryMonsterCountMin",
+    "LaboratoryMonsterLevelMax",
+    "LaboratoryMonsterLevelMin",
+    "bLaboratoryMonsterNoDieDefault"
+   ],
+   "observed_slots": 1,
+   "systems": "ai"
+  },
+  {
+   "name": "M1LeaderBoardData",
+   "rows": 4,
+   "top_level_fields": [
+    "Category",
+    "DisplayType",
+    "HideContextButtons",
+    "IconPath",
+    "LeaderBoards",
+    "Order",
+    "RankingRewardHide",
+    "StringId",
+    "UnusedGroups"
+   ],
+   "observed_slots": 4,
+   "systems": "ranking"
+  },
+  {
+   "name": "M1LeaderBoardMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "Difficulties",
+    "LeaderBoardTypes"
+   ],
+   "observed_slots": 1,
+   "systems": "ranking"
+  },
+  {
+   "name": "M1LeavePenaltyData",
+   "rows": 0,
+   "top_level_fields": [],
+   "observed_slots": 0,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1LeavePenaltyMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ContentsTypeList",
+    "LeavePenalty",
+    "Mail",
+    "ResetHour"
+   ],
+   "observed_slots": 1,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1LevelGimmickActorData",
+   "rows": 5,
+   "top_level_fields": [
+    "StringId"
+   ],
+   "observed_slots": 5,
+   "systems": "character"
+  },
+  {
+   "name": "M1LevelGimmickActorSpawnData",
+   "rows": 4,
+   "top_level_fields": [
+    "BlueprintClass",
+    "Params"
+   ],
+   "observed_slots": 4,
+   "systems": "ai;character"
+  },
+  {
+   "name": "M1LoadingImageRandomData",
+   "rows": 37,
+   "top_level_fields": [
+    "LoadingGroupList"
+   ],
+   "observed_slots": 37,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1LoadingTooltipData",
+   "rows": 335,
+   "top_level_fields": [
+    "MasteryRank",
+    "StringId",
+    "Tags"
+   ],
+   "observed_slots": 334,
+   "systems": "client"
+  },
+  {
+   "name": "M1MailData",
+   "rows": 170,
+   "top_level_fields": [
+    "MailStringId",
+    "MailType",
+    "NarrativePriority",
+    "PlatformTypes",
+    "TemplateId"
+   ],
+   "observed_slots": 167,
+   "systems": "ai;mail"
+  },
+  {
+   "name": "M1MailMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "BulkAccountNameChangeMail",
+    "MailItemCountMax",
+    "MailLostExpiredTime",
+    "MailLostHoldCount",
+    "MailLostWarningRemainCount",
+    "MailOpReloadPeriodSec"
+   ],
+   "observed_slots": 1,
+   "systems": "ai;mail"
+  },
+  {
+   "name": "M1ManualGuideData",
+   "rows": 74,
+   "top_level_fields": [
+    "ConsumableItem",
+    "ContentsLink",
+    "ImageGroup",
+    "NpcServiceUnlockId",
+    "SeasonStringId",
+    "SortId",
+    "StringId"
+   ],
+   "observed_slots": 74,
+   "systems": "quest;client"
+  },
+  {
+   "name": "M1MapBattleZoneData",
+   "rows": 59,
+   "top_level_fields": [
+    "BattleZoneOpenCondition",
+    "GoalInfo",
+    "Name",
+    "OnboardingMissions",
+    "SortId",
+    "StringId",
+    "TargetInfo",
+    "TemplateId"
+   ],
+   "observed_slots": 59,
+   "systems": "map"
+  },
+  {
+   "name": "M1MapData",
+   "rows": 224,
+   "top_level_fields": [
+    "AssetName",
+    "BattleZones",
+    "PackageName",
+    "RowName",
+    "SortId",
+    "StringId",
+    "SubPath",
+    "TemplateId",
+    "Type",
+    "lookup_verified"
+   ],
+   "observed_slots": 112,
+   "systems": "map"
+  },
+  {
+   "name": "M1MapMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "DemoMap",
+    "ReturnCityCampId"
+   ],
+   "observed_slots": 1,
+   "systems": "map"
+  },
+  {
+   "name": "M1MasteryLevelData",
+   "rows": 80,
+   "top_level_fields": [
+    "EquipInventorySlot",
+    "PresetSlot",
+    "ReactorSlot",
+    "RequiredExpToNextLv",
+    "RowName",
+    "RuneCharacterCapacity",
+    "RuneWeaponCapacity",
+    "TemplateId",
+    "TotalRequiredExpToNextLv",
+    "WareHouseSlot",
+    "WeaponSlot",
+    "lookup_verified"
+   ],
+   "observed_slots": 40,
+   "systems": "character"
+  },
+  {
+   "name": "M1MatchmakingData",
+   "rows": 3,
+   "top_level_fields": [
+    "AllowDuplicateCharacter",
+    "Id",
+    "MatchingType",
+    "PrivateMatchingPlayerCount",
+    "PublicMatchingPlayerCount"
+   ],
+   "observed_slots": 3,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1MedalData",
+   "rows": 84,
+   "top_level_fields": [
+    "Medal",
+    "SortId",
+    "TemplateId",
+    "UsePeriod",
+    "bShowInList"
+   ],
+   "observed_slots": 84,
+   "systems": "cosmetic"
+  },
+  {
+   "name": "M1MedalMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "Shortcut"
+   ],
+   "observed_slots": 1,
+   "systems": "cosmetic"
+  },
+  {
+   "name": "M1MegaDungeonData",
+   "rows": 3,
+   "top_level_fields": [
+    "BGImagePath",
+    "DefaultAbilities",
+    "Difficulty",
+    "EndTime",
+    "MapId",
+    "MatchmakingDataId",
+    "MissionId",
+    "PlayerStartTag",
+    "RandomMatchGroup",
+    "StartTime",
+    "TemplateId",
+    "TrialPresetScheduleId"
+   ],
+   "observed_slots": 3,
+   "systems": "mission"
+  },
+  {
+   "name": "M1MeleeWeaponAttackSequenceData",
+   "rows": 4,
+   "top_level_fields": [
+    "AttackAbilities",
+    "AttackMotionSequences"
+   ],
+   "observed_slots": 4,
+   "systems": "combat;equipment"
+  },
+  {
+   "name": "M1MeleeWeaponData",
+   "rows": 4,
+   "top_level_fields": [
+    "ActionUIData",
+    "AddProficiency",
+    "BaseStatModOps",
+    "BaseStats",
+    "BlueprintClass",
+    "CategoryType",
+    "ClassType",
+    "Group",
+    "ImportanceType",
+    "ImportantPriority",
+    "InstanceType",
+    "Lv",
+    "MasteryLevel",
+    "Name",
+    "Perk",
+    "PropClass",
+    "ProtectedWithBorn",
+    "RequiredStats",
+    "RoundsClass",
+    "RoundsType",
+    "RuneSocketCount",
+    "SellingType",
+    "StringId",
+    "T4DetailData",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "WeaponLv"
+   ],
+   "observed_slots": 4,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1MeleeWeaponRoundsClassData",
+   "rows": 2,
+   "top_level_fields": [
+    "ComponentClass",
+    "Name"
+   ],
+   "observed_slots": 2,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1MiniGameData",
+   "rows": 42,
+   "top_level_fields": [
+    "DetailDataList",
+    "SaveScope",
+    "StringId",
+    "TemplateId",
+    "Type"
+   ],
+   "observed_slots": 42,
+   "systems": "home"
+  },
+  {
+   "name": "M1MiniGameMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ExtraSettings"
+   ],
+   "observed_slots": 1,
+   "systems": "home"
+  },
+  {
+   "name": "M1MissionCurrencyPaymentData",
+   "rows": 13,
+   "top_level_fields": [
+    "MissionId",
+    "PaymentContexts",
+    "TemplateId"
+   ],
+   "observed_slots": 13,
+   "systems": "mission;inventory;payment"
+  },
+  {
+   "name": "M1MissionData",
+   "rows": 615,
+   "top_level_fields": [
+    "DataLayersToActivate",
+    "ExpRatio",
+    "FieldPrerequisite",
+    "LegionCategory",
+    "MissionCategory",
+    "MissionMonsterLevel",
+    "MissionTypeStringId",
+    "OutgoingMailId",
+    "PlayTimeGuideStringId",
+    "PrerequisiteMissionIds",
+    "PrerequsiteQuestId",
+    "RequiredActivateCondition",
+    "RequiredCombatPower",
+    "RequiredMasteryRank",
+    "Rewards",
+    "RewardsEvaluateCondition",
+    "StringId",
+    "TemplateId",
+    "bActivateRandomSingleDataLayer",
+    "bHideDisplayPathGuide"
+   ],
+   "observed_slots": 615,
+   "systems": "mission"
+  },
+  {
+   "name": "M1MissionMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "AutoEquipmentReplacementNoticeList"
+   ],
+   "observed_slots": 1,
+   "systems": "mission"
+  },
+  {
+   "name": "M1MissionModifierData",
+   "rows": 30,
+   "top_level_fields": [
+    "DefaultAbilityId",
+    "MissionId",
+    "ModifierByPlayerCount"
+   ],
+   "observed_slots": 30,
+   "systems": "mission"
+  },
+  {
+   "name": "M1MissionMonsterAbilityData",
+   "rows": 8,
+   "top_level_fields": [
+    "AbilityClass",
+    "InvokeStatusEffects",
+    "Name",
+    "Operations",
+    "Params",
+    "SpawnAbilityActors",
+    "TaggedModularAbilityParams"
+   ],
+   "observed_slots": 8,
+   "systems": "mission;ai;combat"
+  },
+  {
+   "name": "M1MissionMonsterScalingData",
+   "rows": 1,
+   "top_level_fields": [
+    "ScaleSlider",
+    "Stats",
+    "TemplateId"
+   ],
+   "observed_slots": 1,
+   "systems": "mission;ai"
+  },
+  {
+   "name": "M1MissionMusicData",
+   "rows": 543,
+   "top_level_fields": [
+    "MusicCategory",
+    "TemplateId"
+   ],
+   "observed_slots": 543,
+   "systems": "mission"
+  },
+  {
+   "name": "M1MissionPlayerAbilityGroupPresetData",
+   "rows": 14,
+   "top_level_fields": [
+    "AbilityGroupSlots",
+    "MaxRerollCount",
+    "MissionId",
+    "RerollPaymentId",
+    "TemplateId"
+   ],
+   "observed_slots": 14,
+   "systems": "mission;combat"
+  },
+  {
+   "name": "M1MissionTargetAbilityData",
+   "rows": 179,
+   "top_level_fields": [
+    "AbilityClass",
+    "ActiveAbility",
+    "InvokeStatusEffects",
+    "Name",
+    "Operations",
+    "Params",
+    "Passive",
+    "SpawnAbilityActors",
+    "TaggedModularAbilityParams"
+   ],
+   "observed_slots": 179,
+   "systems": "mission;combat"
+  },
+  {
+   "name": "M1MissionTargetData",
+   "rows": 91,
+   "top_level_fields": [
+    "BlueprintClass",
+    "Lv",
+    "StringId",
+    "TemplateId",
+    "Type"
+   ],
+   "observed_slots": 91,
+   "systems": "mission"
+  },
+  {
+   "name": "M1MissionTaskSubData",
+   "rows": 4122,
+   "top_level_fields": [
+    "EliteSpawnData",
+    "MonsterDropInfoList",
+    "OptionalStringId",
+    "RewardData",
+    "StringId",
+    "Tag",
+    "TaskDropCollection",
+    "TaskDropSupply",
+    "TaskSuccessScore",
+    "TemplateId"
+   ],
+   "observed_slots": 4122,
+   "systems": "mission"
+  },
+  {
+   "name": "M1MissionTaskSubRewardData",
+   "rows": 42,
+   "top_level_fields": [
+    "StringId",
+    "TaskReward",
+    "TemplateId"
+   ],
+   "observed_slots": 42,
+   "systems": "mission;reward"
+  },
+  {
+   "name": "M1MissionTemplateMonsterSpawnData",
+   "rows": 5,
+   "top_level_fields": [
+    "MissionId",
+    "MonsterIds",
+    "TemplateId"
+   ],
+   "observed_slots": 5,
+   "systems": "mission;ai"
+  },
+  {
+   "name": "M1MissionVoidErosionData",
+   "rows": 40,
+   "top_level_fields": [
+    "DropItems",
+    "EliteSpawnData",
+    "MissionId",
+    "TemplateId",
+    "VoidErosionNodeId",
+    "VoidErosionStep",
+    "VoidErosionTaskIndex"
+   ],
+   "observed_slots": 40,
+   "systems": "mission"
+  },
+  {
+   "name": "M1MissionVoidErosionNodeData",
+   "rows": 43,
+   "top_level_fields": [
+    "Nodes",
+    "TargetPoint",
+    "TemplateId"
+   ],
+   "observed_slots": 43,
+   "systems": "mission"
+  },
+  {
+   "name": "M1MissionWaveData",
+   "rows": 247,
+   "top_level_fields": [
+    "DropItems",
+    "EliteSpawnData",
+    "ExpRatio",
+    "StringId",
+    "TemplateId",
+    "WaveMonsterLevel",
+    "WaveRewards"
+   ],
+   "observed_slots": 247,
+   "systems": "mission"
+  },
+  {
+   "name": "M1ModularAbilityData",
+   "rows": 4302,
+   "top_level_fields": [
+    "AbilityClass",
+    "InvokeStatusEffects",
+    "Name",
+    "Operations",
+    "Params",
+    "SpawnAbilityActors",
+    "TaggedModularAbilityParams"
+   ],
+   "observed_slots": 4302,
+   "systems": "combat"
+  },
+  {
+   "name": "M1MonsterAIData",
+   "rows": 309,
+   "top_level_fields": [
+    "AfterAttackDelay",
+    "AllianceBattleEnable",
+    "AllianceCallEnable",
+    "BTPath",
+    "Battle",
+    "BattleEnd",
+    "EnableForceMove",
+    "Mission",
+    "MonsterPattern",
+    "NonBattle",
+    "Override",
+    "SightRadius",
+    "StringId",
+    "SubBT",
+    "TargetSearchType"
+   ],
+   "observed_slots": 309,
+   "systems": "ai"
+  },
+  {
+   "name": "M1MonsterData",
+   "rows": 724,
+   "top_level_fields": [
+    "AI",
+    "ActionGroupId",
+    "ActiveSkills",
+    "AdvantageType",
+    "AttackAccuracyRate",
+    "BareHandStats",
+    "BlueprintClass",
+    "CharacterSize",
+    "DisableInstantDropItem",
+    "ExpGroupId",
+    "GrantEliteWeight",
+    "HitPoint",
+    "LegacyDataAsset",
+    "LegionCategory",
+    "Lv",
+    "MonsterCategory",
+    "PartsGroupId",
+    "PassiveSkills",
+    "RuntimeChangeAI",
+    "ShowMapIcon",
+    "SpawnMonsterId",
+    "Specialty",
+    "StatGroupIds",
+    "Stats",
+    "StringId",
+    "Tags",
+    "TemplateId",
+    "UIData",
+    "UnusedGaugeStats"
+   ],
+   "observed_slots": 724,
+   "systems": "ai"
+  },
+  {
+   "name": "M1MonsterExpGroupData",
+   "rows": 5,
+   "top_level_fields": [
+    "Lv"
+   ],
+   "observed_slots": 5,
+   "systems": "ai;character"
+  },
+  {
+   "name": "M1MonsterMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "InfoClassList"
+   ],
+   "observed_slots": 1,
+   "systems": "ai"
+  },
+  {
+   "name": "M1MonsterPackData",
+   "rows": 81,
+   "top_level_fields": [
+    "Elements",
+    "PackName"
+   ],
+   "observed_slots": 81,
+   "systems": "ai"
+  },
+  {
+   "name": "M1MonsterSkillData",
+   "rows": 977,
+   "top_level_fields": [
+    "ArcheType",
+    "AssetData",
+    "CategoryTags",
+    "ElementalType",
+    "FxDisplayType",
+    "GroupIndex",
+    "LvData",
+    "Name",
+    "RangeCondition",
+    "SearchParam",
+    "SelectRate",
+    "StringId",
+    "Type",
+    "bCanBeCanceledByVehicle",
+    "bCanMove",
+    "bCanUsedInAir",
+    "bStopSkillWhenMainTargetInvalid"
+   ],
+   "observed_slots": 977,
+   "systems": "ai;combat"
+  },
+  {
+   "name": "M1MonsterSpawnGroupData",
+   "rows": 1672,
+   "top_level_fields": [
+    "MonsterCountMax",
+    "MonsterCountMin",
+    "MonsterCountToRetain",
+    "MonsterDropInfoList",
+    "MonsterLevelMax",
+    "MonsterLevelMin",
+    "MonsterSpawnInterval",
+    "Name",
+    "RespawnDelay",
+    "Tags",
+    "TemplateId"
+   ],
+   "observed_slots": 1672,
+   "systems": "ai"
+  },
+  {
+   "name": "M1MonsterSpawnPresetData",
+   "rows": 128,
+   "top_level_fields": [
+    "MonsterPreset",
+    "TemplateId"
+   ],
+   "observed_slots": 128,
+   "systems": "ai"
+  },
+  {
+   "name": "M1MonsterSpawnScheduleData",
+   "rows": 3,
+   "top_level_fields": [
+    "ScheduleIndex",
+    "ScheduleInfos",
+    "TemplateId"
+   ],
+   "observed_slots": 3,
+   "systems": "ai;event"
+  },
+  {
+   "name": "M1MonsterSpawnScheduleGroupData",
+   "rows": 2,
+   "top_level_fields": [
+    "ScheduleIds",
+    "ScheduleInterval",
+    "StartTime",
+    "TemplateId"
+   ],
+   "observed_slots": 2,
+   "systems": "ai;event"
+  },
+  {
+   "name": "M1MonsterSpawnScheduleMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "OptionalInfos"
+   ],
+   "observed_slots": 1,
+   "systems": "ai;event"
+  },
+  {
+   "name": "M1MonsterStatValueGroupData",
+   "rows": 142,
+   "top_level_fields": [
+    "Lv"
+   ],
+   "observed_slots": 142,
+   "systems": "ai;combat"
+  },
+  {
+   "name": "M1MonsterTagData",
+   "rows": 317,
+   "top_level_fields": [
+    "GroupId",
+    "Name",
+    "RateType",
+    "TemplateId"
+   ],
+   "observed_slots": 317,
+   "systems": "ai"
+  },
+  {
+   "name": "M1MultiSupplierData",
+   "rows": 10,
+   "top_level_fields": [
+    "Operations",
+    "ReuseTimer",
+    "TemplateId"
+   ],
+   "observed_slots": 10,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1NpcData",
+   "rows": 674,
+   "top_level_fields": [
+    "BlueprintClass",
+    "Collision",
+    "HudIcon",
+    "MapIcon",
+    "NameTagOffset",
+    "Services",
+    "ShowMapIcon",
+    "SkipNpcMenu",
+    "SpawnInfo",
+    "SpawnType",
+    "StringIdButtonName",
+    "StringIdName",
+    "TemplateId"
+   ],
+   "observed_slots": 674,
+   "systems": "npc"
+  },
+  {
+   "name": "M1NpcDialogueReplayData",
+   "rows": 1,
+   "top_level_fields": [
+    "QuestDatas"
+   ],
+   "observed_slots": 1,
+   "systems": "npc"
+  },
+  {
+   "name": "M1NpcMarkerPriorityData",
+   "rows": 7,
+   "top_level_fields": [
+    "Priority",
+    "PriorityConditions",
+    "PriorityIndicators"
+   ],
+   "observed_slots": 7,
+   "systems": "npc"
+  },
+  {
+   "name": "M1NpcServicePlayDialogData",
+   "rows": 65,
+   "top_level_fields": [
+    "AutoPlayMode",
+    "HasNotifyIndicator",
+    "KeepInteraction",
+    "OptionalNpcAnimKey",
+    "ShowInMenu",
+    "StartDialogId",
+    "TargetSource"
+   ],
+   "observed_slots": 65,
+   "systems": "npc"
+  },
+  {
+   "name": "M1NpcServiceUnlockData",
+   "rows": 80,
+   "top_level_fields": [
+    "ServiceType",
+    "ServiceValue",
+    "UnlockConditions",
+    "UnlockMapNotificationToastId",
+    "UnlockNotificationToastId"
+   ],
+   "observed_slots": 80,
+   "systems": "npc"
+  },
+  {
+   "name": "M1OptionTierSectionData",
+   "rows": 11146,
+   "top_level_fields": [
+    "Sections"
+   ],
+   "observed_slots": 11146,
+   "systems": "client"
+  },
+  {
+   "name": "M1PackageGroupData",
+   "rows": 796,
+   "top_level_fields": [
+    "Comment",
+    "PackageGroupElementList",
+    "TemplateId"
+   ],
+   "observed_slots": 796,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1PackageItemData",
+   "rows": 360,
+   "top_level_fields": [
+    "DefaultPackageGroupId",
+    "RequiredStabilizer",
+    "TemplateId"
+   ],
+   "observed_slots": 360,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1PackageItemMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ReconstructedDeviceContinuousOpenCoolTime",
+    "RequiredStabilizer"
+   ],
+   "observed_slots": 1,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1PaidProductData",
+   "rows": 125,
+   "top_level_fields": [
+    "BGId",
+    "BGMaterial",
+    "BuyableCount",
+    "DiscountPeriodData",
+    "EndTime",
+    "GroupId",
+    "Items",
+    "Mail",
+    "Page",
+    "PopularType",
+    "PreviewLevelType",
+    "PriceType",
+    "ProductIdInfoList",
+    "RepeatCount",
+    "RequiredLevel",
+    "RequiredPage",
+    "ResetDayOfWeek",
+    "ResetHour",
+    "ResetType",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TicketInfos",
+    "Type",
+    "UIData",
+    "WarningStringId",
+    "bEnableCountBar",
+    "bHide",
+    "bShowLimitedWarning",
+    "bUseMultiActorStage"
+   ],
+   "observed_slots": 125,
+   "systems": "ai;shop"
+  },
+  {
+   "name": "M1PaintExtractData",
+   "rows": 0,
+   "top_level_fields": [],
+   "observed_slots": 0,
+   "systems": "ai;cosmetic"
+  },
+  {
+   "name": "M1PaintExtractMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "MaxPaintExtractOnceCount"
+   ],
+   "observed_slots": 1,
+   "systems": "ai;cosmetic"
+  },
+  {
+   "name": "M1PartsData",
+   "rows": 336,
+   "top_level_fields": [
+    "CanDebone",
+    "CanDeboneHPRate",
+    "CancelActionOnDestruction",
+    "DeboneDamageRate",
+    "HitBoneNames",
+    "HitPointId",
+    "HpDamageRateToRoot",
+    "MaxHpRate",
+    "NeedToBerserkState",
+    "NeedToPartsDestruction",
+    "PartsDestructionRageDecreaseRate",
+    "RecreationOnBerserkModeEnd",
+    "RecreationOnRageModeEnd",
+    "RecreationOnRageModeStart",
+    "Stats",
+    "StringId",
+    "TemplateId",
+    "WeaknessHitBoneNames"
+   ],
+   "observed_slots": 336,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1PdlcProductData",
+   "rows": 4,
+   "top_level_fields": [
+    "BGId",
+    "BGMaterial",
+    "BuyableCount",
+    "DiscountPeriodData",
+    "EndTime",
+    "GroupId",
+    "Items",
+    "Mail",
+    "Page",
+    "PlatformType",
+    "PopularType",
+    "PreviewLevelType",
+    "PriceType",
+    "RepeatCount",
+    "RequiredLevel",
+    "RequiredPage",
+    "ResetDayOfWeek",
+    "ResetHour",
+    "ResetType",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TicketInfos",
+    "Type",
+    "UIData",
+    "WarningStringId",
+    "bEnableCountBar",
+    "bHide",
+    "bShowLimitedWarning",
+    "bUseMultiActorStage"
+   ],
+   "observed_slots": 4,
+   "systems": "shop;payment"
+  },
+  {
+   "name": "M1PdlcProductMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "CurrentPdlcProduct",
+    "PdlcProductShop",
+    "PlatformType"
+   ],
+   "observed_slots": 1,
+   "systems": "shop;payment"
+  },
+  {
+   "name": "M1PeriodAdminData",
+   "rows": 45,
+   "top_level_fields": [
+    "EndTime",
+    "StartTime",
+    "TemplateId"
+   ],
+   "observed_slots": 45,
+   "systems": "event"
+  },
+  {
+   "name": "M1PeriodRewardPoolData",
+   "rows": 7,
+   "top_level_fields": [
+    "BGImagePath",
+    "ContentList",
+    "MaxRewardCount",
+    "PeriodRewardContentsStringId",
+    "ResetType",
+    "Reward",
+    "RewardCountMagnificationList",
+    "SortID",
+    "TemplateId"
+   ],
+   "observed_slots": 7,
+   "systems": "reward;event"
+  },
+  {
+   "name": "M1PeriodRewardPoolMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ResetTime",
+    "WeeklyResetDate"
+   ],
+   "observed_slots": 1,
+   "systems": "reward;event"
+  },
+  {
+   "name": "M1PerkAbilityData",
+   "rows": 233,
+   "top_level_fields": [
+    "AbilityClass",
+    "InvokeStatusEffects",
+    "Name",
+    "Operations",
+    "Params",
+    "SpawnAbilityActors",
+    "TaggedModularAbilityParams"
+   ],
+   "observed_slots": 233,
+   "systems": "combat;rune"
+  },
+  {
+   "name": "M1PerkData",
+   "rows": 56,
+   "top_level_fields": [
+    "DetailDataList",
+    "FxDisplayType",
+    "Name",
+    "StringId",
+    "TemplateId",
+    "UIData",
+    "bCanUsedInAir"
+   ],
+   "observed_slots": 56,
+   "systems": "rune"
+  },
+  {
+   "name": "M1PhotoModeFilterData",
+   "rows": 14,
+   "top_level_fields": [
+    "FilterPath",
+    "SortOrder",
+    "StringId"
+   ],
+   "observed_slots": 14,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1PhysicalPowerOptionData",
+   "rows": 21,
+   "top_level_fields": [
+    "LaunchAssistAngle",
+    "LaunchPower",
+    "PhysicalPower",
+    "PowerAfterLaunch",
+    "bLaunchWhenDeathRagDoll"
+   ],
+   "observed_slots": 21,
+   "systems": "client"
+  },
+  {
+   "name": "M1PlatformAchievementData",
+   "rows": 24,
+   "top_level_fields": [
+    "ObjectiveCondition",
+    "ObjectiveParams",
+    "PlatformAchievementInfos",
+    "TemplateId"
+   ],
+   "observed_slots": 24,
+   "systems": "account;quest"
+  },
+  {
+   "name": "M1PlayerData",
+   "rows": 36,
+   "top_level_fields": [
+    "ActiveSkills",
+    "AdvantageType",
+    "AgitAnimStyle",
+    "ArcheTypes",
+    "BareHandStats",
+    "BlueprintClass",
+    "CharacterConceptStringId",
+    "CharacterGender",
+    "CharacterGrade",
+    "CharacterSize",
+    "CommonGauge",
+    "Customize",
+    "DispositionValue",
+    "ElementalType",
+    "Group",
+    "HitPoint",
+    "LegacyDataAsset",
+    "Lv",
+    "MasteryLevel",
+    "Name",
+    "PartsVisibilityType",
+    "PassiveSkills",
+    "RecommendSortId",
+    "SellRewards",
+    "StatGroupIds",
+    "Stats",
+    "StringId",
+    "TemplateId",
+    "UIData",
+    "UnusedGaugeStats"
+   ],
+   "observed_slots": 36,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1PlayerGroupData",
+   "rows": 23,
+   "top_level_fields": [
+    "BigIconPath",
+    "IconPath",
+    "Name",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 23,
+   "systems": "character"
+  },
+  {
+   "name": "M1PopupData",
+   "rows": 297,
+   "top_level_fields": [
+    "Buttons",
+    "CancelHoldingDuration",
+    "ConfirmHoldingDuration",
+    "ContentBlueprintClass",
+    "Desc",
+    "DescType",
+    "Name",
+    "PopupBlueprintClass",
+    "SystemKeys",
+    "Title"
+   ],
+   "observed_slots": 297,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1PoseMotionAbilityData",
+   "rows": 15,
+   "top_level_fields": [
+    "AbilityClass",
+    "InvokeStatusEffects",
+    "Name",
+    "Operations",
+    "Params",
+    "SpawnAbilityActors",
+    "TaggedModularAbilityParams"
+   ],
+   "observed_slots": 15,
+   "systems": "combat"
+  },
+  {
+   "name": "M1PoseMotionItemData",
+   "rows": 15,
+   "top_level_fields": [
+    "AssetData",
+    "AssetDataParams",
+    "AssetPath",
+    "BlueprintClass",
+    "Category",
+    "Decomposable",
+    "DecomposeRewards",
+    "ImportanceType",
+    "ImportantPriority",
+    "MaxCapacity",
+    "PlatformTypes",
+    "ShowStartTime",
+    "SizeType",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "bShowOnlyIfOwned"
+   ],
+   "observed_slots": 15,
+   "systems": "inventory"
+  },
+  {
+   "name": "M1ProductData",
+   "rows": 4720,
+   "top_level_fields": [
+    "BGId",
+    "BGMaterial",
+    "BuyableCount",
+    "DiscountPeriodData",
+    "EndTime",
+    "GroupId",
+    "Items",
+    "Mail",
+    "Page",
+    "PopularType",
+    "PreviewLevelType",
+    "PriceType",
+    "RepeatCount",
+    "RequiredLevel",
+    "RequiredPage",
+    "ResetDayOfWeek",
+    "ResetHour",
+    "ResetType",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TicketInfos",
+    "Type",
+    "UIData",
+    "WarningStringId",
+    "bEnableCountBar",
+    "bHide",
+    "bShowLimitedWarning",
+    "bUseMultiActorStage"
+   ],
+   "observed_slots": 4706,
+   "systems": "shop"
+  },
+  {
+   "name": "M1ProductMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ImminentDayDeadline",
+    "PurchaseLimitPerTransaction"
+   ],
+   "observed_slots": 1,
+   "systems": "shop"
+  },
+  {
+   "name": "M1ProficiencyData",
+   "rows": 40,
+   "top_level_fields": [
+    "RequiredProficiency",
+    "RewardMasteryExp",
+    "TemplateId",
+    "WeaponRuneCapacity"
+   ],
+   "observed_slots": 40,
+   "systems": "character"
+  },
+  {
+   "name": "M1ProficiencyMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "AdditionalDataList"
+   ],
+   "observed_slots": 1,
+   "systems": "character"
+  },
+  {
+   "name": "M1QualityDecomposeData",
+   "rows": 1,
+   "top_level_fields": [
+    "CategoryParam",
+    "CategoryType",
+    "RewardsPerQuality",
+    "TemplateId"
+   ],
+   "observed_slots": 1,
+   "systems": "equipment;craft"
+  },
+  {
+   "name": "M1QuestConditionSchemaData",
+   "rows": 214,
+   "top_level_fields": [
+    "IgnoreServerValidation",
+    "IsClientOnly",
+    "IsDeprecated",
+    "IsRetrospective",
+    "IsServerCondition",
+    "ParamSchema",
+    "UseData"
+   ],
+   "observed_slots": 213,
+   "systems": "quest"
+  },
+  {
+   "name": "M1QuestData",
+   "rows": 12071,
+   "top_level_fields": [
+    "CompleteConditions",
+    "ConditionGroupType",
+    "ForceCompleteCondition",
+    "OpenField",
+    "OutgoingMailId",
+    "ProgressId",
+    "QuestDirections",
+    "QuestType",
+    "RequiredCharacterIds",
+    "RewardAdvanced",
+    "RewardCharacterExp",
+    "RewardCurrencies",
+    "RewardEigenfactorExp",
+    "RewardItems",
+    "RewardMasteryExp",
+    "RewardSeasonExp",
+    "RowName",
+    "StartConditions",
+    "StartPoints",
+    "StringIdName",
+    "SubTrackerPriority",
+    "TemplateId",
+    "lookup_verified"
+   ],
+   "observed_slots": 6029,
+   "systems": "quest"
+  },
+  {
+   "name": "M1QuestGroupData",
+   "rows": 69,
+   "top_level_fields": [
+    "QuestList",
+    "StringId"
+   ],
+   "observed_slots": 69,
+   "systems": "quest"
+  },
+  {
+   "name": "M1QuestGuideData",
+   "rows": 337,
+   "top_level_fields": [
+    "BGImagePath",
+    "CompleteConditionGroupInfo",
+    "CompleteConditions",
+    "ForceCompleteCondition",
+    "ForceShowCompleteToast",
+    "ForceTrackerChange",
+    "GuideImageGroup",
+    "GuideStringId",
+    "HideInLocalMap",
+    "OpenField",
+    "OutgoingMailId",
+    "ProgressId",
+    "QuestDirections",
+    "QuestMarkerTarget",
+    "RequiredCharacterIds",
+    "RewardAdvanced",
+    "RewardAdvancedShortcut",
+    "RewardCharacterExp",
+    "RewardCurrencies",
+    "RewardEigenfactorExp",
+    "RewardItems",
+    "RewardMasteryExp",
+    "RewardSeasonExp",
+    "SeasonId",
+    "StartConditions",
+    "StartPoints",
+    "StringIdName",
+    "SubTrackerPriority",
+    "TemplateId",
+    "Type",
+    "UseIndicatorNotify"
+   ],
+   "observed_slots": 337,
+   "systems": "quest;client"
+  },
+  {
+   "name": "M1QuestParamGroupData",
+   "rows": 518,
+   "top_level_fields": [
+    "Ids",
+    "QuestParamType",
+    "StringIdName"
+   ],
+   "observed_slots": 518,
+   "systems": "quest"
+  },
+  {
+   "name": "M1RandomBoxData",
+   "rows": 115,
+   "top_level_fields": [
+    "AcquireLimitByMaxStack",
+    "AncestorRuneOptionRewardCount",
+    "AncestorRuneOptionTierGroup",
+    "Category",
+    "CoreSlotCategoryType",
+    "Decomposable",
+    "DecomposeRewards",
+    "DecomposeUIType",
+    "Deletable",
+    "HowToUse",
+    "ImportanceType",
+    "ImportantPriority",
+    "MasteryLevel",
+    "MaxCapacity",
+    "ObtainableCountPerChance",
+    "PropClass",
+    "RedeemItem",
+    "SeasonReset",
+    "SellingPrice",
+    "SellingType",
+    "StringId",
+    "T4BoostAffected",
+    "T4WeaponQualityGroup",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "bFocusGoalAvailable",
+    "bShowInCodex"
+   ],
+   "observed_slots": 113,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1RandomOptionChangeData",
+   "rows": 12,
+   "top_level_fields": [
+    "Category",
+    "CostByTier",
+    "OptionLockStep"
+   ],
+   "observed_slots": 12,
+   "systems": "client"
+  },
+  {
+   "name": "M1RandomOptionChangeMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ExtendWeaponOptionChangeLockItemLowTierProduct",
+    "ExtendWeaponOptionChangeLockItemProduct",
+    "RandomOptionChangeShop"
+   ],
+   "observed_slots": 1,
+   "systems": "client"
+  },
+  {
+   "name": "M1RandomOptionGroupData",
+   "rows": 185,
+   "top_level_fields": [
+    "Elements",
+    "TemplateId"
+   ],
+   "observed_slots": 185,
+   "systems": "client"
+  },
+  {
+   "name": "M1RandomShopData",
+   "rows": 37,
+   "top_level_fields": [
+    "BuyableCount",
+    "Category",
+    "EndTime",
+    "PackageGroupId",
+    "RequiredItems",
+    "ResetDayOfWeek",
+    "ResetHour",
+    "ResetType",
+    "SortOrder",
+    "StartTime",
+    "StringId",
+    "T4WeaponQualityGroup",
+    "TemplateId",
+    "UIData",
+    "bHide"
+   ],
+   "observed_slots": 37,
+   "systems": "shop"
+  },
+  {
+   "name": "M1RandomShopMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "CollectBuyOnceCount",
+    "T4WeaponHighQuality"
+   ],
+   "observed_slots": 1,
+   "systems": "shop"
+  },
+  {
+   "name": "M1RangedWeaponData",
+   "rows": 296,
+   "top_level_fields": [
+    "BaseStatCount",
+    "CategoryType",
+    "ClassType",
+    "InstanceType",
+    "LevelStatCount",
+    "MasteryLevel",
+    "Name",
+    "RequiredStatCount",
+    "RoundsType",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "lookup_verified"
+   ],
+   "observed_slots": 148,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1RangedWeaponRecoilData",
+   "rows": 218,
+   "top_level_fields": [
+    "RecoilApplyInterpSpeed",
+    "RecoilInfos",
+    "RecoilRecoverInterpSpeed",
+    "RecoilRecoverStartDelay",
+    "RecoilResetTimeAfterFire",
+    "StringId"
+   ],
+   "observed_slots": 218,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1RangedWeaponReloadClassData",
+   "rows": 2,
+   "top_level_fields": [
+    "ComponentClass",
+    "Name"
+   ],
+   "observed_slots": 2,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1RangedWeaponRoundsClassData",
+   "rows": 3,
+   "top_level_fields": [
+    "ComponentClass",
+    "IsInfinite",
+    "Name"
+   ],
+   "observed_slots": 3,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1RankingRewardData",
+   "rows": 19,
+   "top_level_fields": [
+    "ContentListOrder",
+    "MailId",
+    "PlayType",
+    "RankingMiddleReward",
+    "RankingReward",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 19,
+   "systems": "reward;ranking"
+  },
+  {
+   "name": "M1ReactorData",
+   "rows": 60,
+   "top_level_fields": [
+    "ArcheType",
+    "BaseStats",
+    "CategoryType",
+    "ClassType",
+    "ElementalType",
+    "EnchantEffectByItemLv",
+    "Enchantable",
+    "ImportanceType",
+    "ImportantPriority",
+    "Lv",
+    "MasteryLevel",
+    "Name",
+    "PropClass",
+    "RequiredStats",
+    "RuneSocketCount",
+    "SellingType",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "UIData"
+   ],
+   "observed_slots": 60,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1ReactorEnchantRequireData",
+   "rows": 3,
+   "top_level_fields": [
+    "EnchantRequireDataByItemLv",
+    "Tier"
+   ],
+   "observed_slots": 3,
+   "systems": "equipment;client"
+  },
+  {
+   "name": "M1ReactorEnchantRequireMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ExtendReactorEnhancementHighlevelProduct",
+    "ExtendReactorEnhancementLowTierProduct",
+    "ExtendReactorEnhancementProduct",
+    "ReactorEnchantRequireShop"
+   ],
+   "observed_slots": 1,
+   "systems": "equipment;client"
+  },
+  {
+   "name": "M1RecommendSpecsUIData",
+   "rows": 93,
+   "top_level_fields": [
+    "RecommendSpec",
+    "TemplateId"
+   ],
+   "observed_slots": 93,
+   "systems": "client"
+  },
+  {
+   "name": "M1RecommendStatsData",
+   "rows": 127,
+   "top_level_fields": [
+    "PlayerGroup",
+    "RecommendStats",
+    "SkillRune"
+   ],
+   "observed_slots": 127,
+   "systems": "combat"
+  },
+  {
+   "name": "M1RecordData",
+   "rows": 228,
+   "top_level_fields": [
+    "AutoPlay",
+    "IconPath",
+    "ImgPath",
+    "RecordType",
+    "RecordTypeParam",
+    "SeqAssetPath",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 228,
+   "systems": "quest"
+  },
+  {
+   "name": "M1ReloadableProductData",
+   "rows": 1632,
+   "top_level_fields": [
+    "BGId",
+    "BGMaterial",
+    "BuyableCount",
+    "DiscountPeriodData",
+    "EndTime",
+    "GroupId",
+    "Items",
+    "Mail",
+    "Page",
+    "PopularType",
+    "PreviewLevelType",
+    "PriceType",
+    "RepeatCount",
+    "RequiredLevel",
+    "RequiredPage",
+    "ResetDayOfWeek",
+    "ResetHour",
+    "ResetType",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TicketInfos",
+    "Type",
+    "UIData",
+    "UIDataList",
+    "WarningStringId",
+    "bEnableCountBar",
+    "bHide",
+    "bShowLimitedWarning",
+    "bUseMultiActorStage"
+   ],
+   "observed_slots": 1622,
+   "systems": "shop"
+  },
+  {
+   "name": "M1ReloadableShopData",
+   "rows": 50,
+   "top_level_fields": [
+    "AvailableUserTypeList",
+    "CategoryType",
+    "Items",
+    "Mail",
+    "ShopGroupCategoryId",
+    "ShopType",
+    "TemplateId"
+   ],
+   "observed_slots": 50,
+   "systems": "shop"
+  },
+  {
+   "name": "M1ReplayCinematicData",
+   "rows": 62,
+   "top_level_fields": [
+    "AssetPath",
+    "Category",
+    "CharacterId",
+    "MapId",
+    "SeasonId",
+    "SortOrder",
+    "StringId",
+    "TemplateId",
+    "UIData",
+    "UnlockCondition"
+   ],
+   "observed_slots": 62,
+   "systems": "npc"
+  },
+  {
+   "name": "M1ResearchAccelerationItemData",
+   "rows": 6,
+   "top_level_fields": [
+    "AccelerationValue",
+    "AcquireLimitByMaxStack",
+    "Category",
+    "CoreSlotCategoryType",
+    "Decomposable",
+    "DecomposeRewards",
+    "DecomposeUIType",
+    "Deletable",
+    "HowToUse",
+    "ImportanceType",
+    "ImportantPriority",
+    "MasteryLevel",
+    "MaxCapacity",
+    "ObtainableCountPerChance",
+    "PropClass",
+    "RedeemItem",
+    "SeasonReset",
+    "SellingPrice",
+    "SellingType",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "bFocusGoalAvailable",
+    "bShowInCodex"
+   ],
+   "observed_slots": 6,
+   "systems": "inventory;craft"
+  },
+  {
+   "name": "M1ResearchData",
+   "rows": 611,
+   "top_level_fields": [
+    "GroupId",
+    "Importance",
+    "IsVisible",
+    "RepeatCount",
+    "Repeatable",
+    "ResearchCurrency",
+    "ResearchResourceItems",
+    "ResearchResultItem",
+    "ResearchTime",
+    "SortId",
+    "SubResearch",
+    "TemplateId",
+    "Type",
+    "bNew",
+    "bShowInCodex"
+   ],
+   "observed_slots": 611,
+   "systems": "craft"
+  },
+  {
+   "name": "M1ResearchMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "BoostTimeUnit",
+    "BoostUnitPriceType",
+    "CompanionResearchMailList",
+    "MaxBookMarkCount",
+    "ResearchMaxCount",
+    "ResearchTimeAbsoluteMax",
+    "ResearchTimeBoostTotalLimit"
+   ],
+   "observed_slots": 1,
+   "systems": "craft"
+  },
+  {
+   "name": "M1RestrictionCountryData",
+   "rows": 3,
+   "top_level_fields": [
+    "CountryCodeList",
+    "TemplateId"
+   ],
+   "observed_slots": 3,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1RingMenuActionData",
+   "rows": 20,
+   "top_level_fields": [
+    "Action",
+    "CategoryType",
+    "StringId",
+    "TemplateId",
+    "UIData"
+   ],
+   "observed_slots": 20,
+   "systems": "development"
+  },
+  {
+   "name": "M1RotationDropData",
+   "rows": 37,
+   "top_level_fields": [
+    "BGImagePath",
+    "BattleZoneId",
+    "DifficultyId",
+    "RotationDrop",
+    "TemplateId"
+   ],
+   "observed_slots": 37,
+   "systems": "reward;event"
+  },
+  {
+   "name": "M1RotationDropMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "MissionDropRatio",
+    "RotationChangeTime",
+    "RotationDateInterval",
+    "RotationDropRatio",
+    "RotationStartTime"
+   ],
+   "observed_slots": 1,
+   "systems": "reward;event"
+  },
+  {
+   "name": "M1RotationMissionData",
+   "rows": 84,
+   "top_level_fields": [
+    "RotationMissions",
+    "TemplateId"
+   ],
+   "observed_slots": 84,
+   "systems": "mission;event"
+  },
+  {
+   "name": "M1RotationMissionMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "RotationIntervalHour",
+    "StartTime"
+   ],
+   "observed_slots": 1,
+   "systems": "mission;event"
+  },
+  {
+   "name": "M1RotationQuestScheduleData",
+   "rows": 99,
+   "top_level_fields": [
+    "ContentsType",
+    "TemplateId"
+   ],
+   "observed_slots": 99,
+   "systems": "quest;event"
+  },
+  {
+   "name": "M1RotationQuestScheduleMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "RotationChangeTimeHour",
+    "RotationIntervalDay",
+    "RotationStartTime",
+    "SubChallengeOnce",
+    "SubChallengeResetType",
+    "SubChallengeTarget"
+   ],
+   "observed_slots": 1,
+   "systems": "quest;event"
+  },
+  {
+   "name": "M1RotationShopScheduleData",
+   "rows": 8,
+   "top_level_fields": [],
+   "observed_slots": 8,
+   "systems": "shop;event"
+  },
+  {
+   "name": "M1RuneAutoEquip",
+   "rows": 43,
+   "top_level_fields": [
+    "Comment",
+    "EquipTargetCharacter",
+    "EquipTargetWeapon",
+    "RuneList"
+   ],
+   "observed_slots": 43,
+   "systems": "rune;client"
+  },
+  {
+   "name": "M1RuneClassTypeData",
+   "rows": 9,
+   "top_level_fields": [
+    "RuneClassType",
+    "WeaponBook",
+    "WeaponClassType"
+   ],
+   "observed_slots": 9,
+   "systems": "rune"
+  },
+  {
+   "name": "M1RuneComposeData",
+   "rows": 4,
+   "top_level_fields": [
+    "ResourceWeightList",
+    "RewardDataList",
+    "TemplateId"
+   ],
+   "observed_slots": 4,
+   "systems": "rune;craft"
+  },
+  {
+   "name": "M1RuneComposeMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "AdditionalRewardWeightByClass",
+    "AdditionalRewardWeightBySocket",
+    "ComposeTargetCount",
+    "CostDataList"
+   ],
+   "observed_slots": 1,
+   "systems": "rune;craft"
+  },
+  {
+   "name": "M1RuneData",
+   "rows": 1001,
+   "top_level_fields": [
+    "Ability",
+    "Composable",
+    "Decomposable",
+    "DetailDataList",
+    "Enchantable",
+    "ImportanceType",
+    "ImportantPriority",
+    "LimitedEquipItemClassType",
+    "MasteryLevel",
+    "Name",
+    "PropClass",
+    "RequireCharacterClassTypes",
+    "RuneClassType",
+    "RuneGroupId",
+    "RuneSocketType",
+    "RuneSubClassType",
+    "RuneTierType",
+    "SellingPrice",
+    "SellingType",
+    "TemplateId",
+    "UIData",
+    "bShowInCodex"
+   ],
+   "observed_slots": 1001,
+   "systems": "rune"
+  },
+  {
+   "name": "M1RuneLoadoutProgressionData",
+   "rows": 11,
+   "top_level_fields": [
+    "Steps",
+    "Target",
+    "TemplateId"
+   ],
+   "observed_slots": 11,
+   "systems": "rune"
+  },
+  {
+   "name": "M1RuneMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "CapacityIncreaseCorrection",
+    "CapacityReduceCorrection",
+    "CharacterAddRuneCapacity",
+    "CharacterRuneCostIncreaseResource",
+    "LoadoutNameLimitLength",
+    "LoadoutSlotExpandRequiredItem",
+    "MinimumSendLostMailTier",
+    "RuneCapacityExtendProduct",
+    "RuneCharacterMaxCount",
+    "RuneCostIncreaseValue",
+    "RuneCostReduceValue",
+    "RuneDecomposeNoticeEnchantLevel",
+    "RuneDecomposeNoticeTier",
+    "RuneSetTransplantWeaponProduct",
+    "RuneShop",
+    "RuneSocketGrantItem",
+    "RuneSocketTypeProduct",
+    "RuneWeapontMaxCount",
+    "ValidRuneGroupIds",
+    "WeaponAddRuneCapacity",
+    "WeaponRuneCostIncreaseResource"
+   ],
+   "observed_slots": 1,
+   "systems": "rune"
+  },
+  {
+   "name": "M1RuneSlotData",
+   "rows": 252,
+   "top_level_fields": [
+    "OwnerItemId",
+    "RuneSlotDetailDatas",
+    "SubClassType",
+    "TemplateId"
+   ],
+   "observed_slots": 252,
+   "systems": "rune"
+  },
+  {
+   "name": "M1RuneSocketGrantData",
+   "rows": 60,
+   "top_level_fields": [
+    "ClassType",
+    "DetailDatas",
+    "SocketType",
+    "TemplateId"
+   ],
+   "observed_slots": 60,
+   "systems": "rune;reward"
+  },
+  {
+   "name": "M1RuneUIData",
+   "rows": 10882,
+   "top_level_fields": [
+    "CombineDesc",
+    "StringId",
+    "TitleStringKey",
+    "bUseSeperatedCommentLine"
+   ],
+   "observed_slots": 10882,
+   "systems": "rune;client"
+  },
+  {
+   "name": "M1SearchKeywordData",
+   "rows": 11,
+   "top_level_fields": [
+    "Keywords",
+    "SearchType"
+   ],
+   "observed_slots": 11,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1SeasonData",
+   "rows": 10,
+   "top_level_fields": [
+    "BgImgPath",
+    "EndTime",
+    "ReinforceGroupList",
+    "ReinforceSlotList",
+    "SeasonLevelList",
+    "SeasonQuestIdList",
+    "SeasonUnlockQuestId",
+    "StartTime",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 10,
+   "systems": "event"
+  },
+  {
+   "name": "M1SeasonMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "LoadoutNameLimitLength",
+    "LoadoutSlotExpandRequiredItem",
+    "MaxEquipReinforce",
+    "MaxEquippedReinforcePerGroup",
+    "UICloseDialogDatas"
+   ],
+   "observed_slots": 1,
+   "systems": "event"
+  },
+  {
+   "name": "M1SeasonReinforceAbilityData",
+   "rows": 153,
+   "top_level_fields": [
+    "AbilityClass",
+    "InvokeStatusEffects",
+    "Name",
+    "Operations",
+    "Params",
+    "SpawnAbilityActors",
+    "TaggedModularAbilityParams"
+   ],
+   "observed_slots": 153,
+   "systems": "combat;equipment;event"
+  },
+  {
+   "name": "M1SeasonReinforceData",
+   "rows": 202,
+   "top_level_fields": [
+    "Cooltime",
+    "GroupType",
+    "IconPath",
+    "SeasonReinforceAbility",
+    "StringId"
+   ],
+   "observed_slots": 202,
+   "systems": "equipment;event"
+  },
+  {
+   "name": "M1SelectableAbilityData",
+   "rows": 554,
+   "top_level_fields": [
+    "AbilityClass",
+    "BGImagePath",
+    "Grade",
+    "IconPath",
+    "InvokeStatusEffects",
+    "Name",
+    "Operations",
+    "Params",
+    "SpawnAbilityActors",
+    "StringId",
+    "TaggedModularAbilityParams",
+    "TargetQueryTag"
+   ],
+   "observed_slots": 554,
+   "systems": "combat"
+  },
+  {
+   "name": "M1SelectableAbilityGroupData",
+   "rows": 16,
+   "top_level_fields": [
+    "Abilities",
+    "Entries",
+    "TemplateId"
+   ],
+   "observed_slots": 16,
+   "systems": "combat"
+  },
+  {
+   "name": "M1SelectableGameplayOpData",
+   "rows": 2,
+   "top_level_fields": [
+    "BGImagePath",
+    "GameplayOp",
+    "Grade",
+    "IconPath",
+    "Name",
+    "StringId"
+   ],
+   "observed_slots": 2,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1SetOptionData",
+   "rows": 36,
+   "top_level_fields": [
+    "DetailDataList",
+    "EquipmentSlotList",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 36,
+   "systems": "client"
+  },
+  {
+   "name": "M1ShopCouponData",
+   "rows": 5,
+   "top_level_fields": [
+    "AcquireLimitByMaxStack",
+    "AlarmExpire",
+    "Category",
+    "CoreSlotCategoryType",
+    "Decomposable",
+    "DecomposeRewards",
+    "DecomposeUIType",
+    "Deletable",
+    "DiscountItem",
+    "DiscountPrice",
+    "DiscountThreshold",
+    "EndTime",
+    "ExpireTime",
+    "HideInInventoryUI",
+    "HowToUse",
+    "ImportanceType",
+    "ImportantPriority",
+    "MasteryLevel",
+    "MaxCapacity",
+    "MaxHoldCount",
+    "ObtainableCountPerChance",
+    "PropClass",
+    "RedeemItem",
+    "SeasonReset",
+    "SellingPrice",
+    "SellingType",
+    "ShopGroupCategoryList",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "bFocusGoalAvailable",
+    "bShowInCodex"
+   ],
+   "observed_slots": 5,
+   "systems": "shop;payment"
+  },
+  {
+   "name": "M1ShopThemeData",
+   "rows": 35,
+   "top_level_fields": [
+    "EndTime",
+    "Items",
+    "SearchText",
+    "StartTime",
+    "TemplateId",
+    "ThemeImageAsset",
+    "ThemeImageDesc"
+   ],
+   "observed_slots": 34,
+   "systems": "shop"
+  },
+  {
+   "name": "M1ShortcutData",
+   "rows": 1134,
+   "top_level_fields": [
+    "Name",
+    "NeedToClosePopup",
+    "Params",
+    "StringId",
+    "Type"
+   ],
+   "observed_slots": 1134,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1SkillAbilityData",
+   "rows": 2832,
+   "top_level_fields": [
+    "AbilityClass",
+    "InvokeStatusEffects",
+    "Montage",
+    "Name",
+    "Operations",
+    "Params",
+    "Sequence",
+    "SpawnAbilityActors",
+    "TaggedModularAbilityParams",
+    "bCanBeInterrupted"
+   ],
+   "observed_slots": 2832,
+   "systems": "combat"
+  },
+  {
+   "name": "M1SkillData",
+   "rows": 2209,
+   "top_level_fields": [
+    "ArcheType",
+    "AssetData",
+    "CategoryTags",
+    "ElementalType",
+    "FxDisplayType",
+    "GroupIndex",
+    "LvData",
+    "Name",
+    "StringId",
+    "Type",
+    "bCanBeCanceledByVehicle",
+    "bCanUsedInAir"
+   ],
+   "observed_slots": 2209,
+   "systems": "combat"
+  },
+  {
+   "name": "M1SkillMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "CategoryList"
+   ],
+   "observed_slots": 1,
+   "systems": "combat"
+  },
+  {
+   "name": "M1SkillRedirectData",
+   "rows": 110,
+   "top_level_fields": [
+    "ApplyPriority",
+    "NormalSkills",
+    "UltimateSkills"
+   ],
+   "observed_slots": 110,
+   "systems": "combat"
+  },
+  {
+   "name": "M1SlotExpansionItemData",
+   "rows": 25,
+   "top_level_fields": [
+    "AcquireLimitByMaxStack",
+    "Category",
+    "CoreSlotCategoryType",
+    "Decomposable",
+    "DecomposeRewards",
+    "DecomposeUIType",
+    "Deletable",
+    "ExpansionCount",
+    "HowToUse",
+    "ImportanceType",
+    "ImportantPriority",
+    "MasteryLevel",
+    "MaxCapacity",
+    "ObtainableCountPerChance",
+    "PropClass",
+    "RedeemItem",
+    "SeasonReset",
+    "SellingPrice",
+    "SellingType",
+    "SlotExpansionType",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "bFocusGoalAvailable",
+    "bShowInCodex"
+   ],
+   "observed_slots": 25,
+   "systems": "character;inventory"
+  },
+  {
+   "name": "M1SlotExpansionItemMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "CharacterSlotIncrementProduct",
+    "EquipInventoryIncrementProduct",
+    "PresetSlotIncrementProduct",
+    "SlotIncrementShop",
+    "TradeNFTFStorageSlotIncrementProduct",
+    "WareHouseSlotIncrementProduct"
+   ],
+   "observed_slots": 1,
+   "systems": "character;inventory"
+  },
+  {
+   "name": "M1SocialTagData",
+   "rows": 212,
+   "top_level_fields": [
+    "Link",
+    "SortId",
+    "StringId",
+    "TagType",
+    "TemplateId",
+    "Unused",
+    "UseDungeonMatch"
+   ],
+   "observed_slots": 212,
+   "systems": "social"
+  },
+  {
+   "name": "M1SocialTagMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "MaxMasteryRank",
+    "MaxRecruitCharacterCount",
+    "MaxSocialTagCount",
+    "RecommandedPlayerMaxCount",
+    "RecommendedPartyMaxCount",
+    "RefreshRecommendedPartyDelayTime"
+   ],
+   "observed_slots": 1,
+   "systems": "social;development"
+  },
+  {
+   "name": "M1StatBaseData",
+   "rows": 308,
+   "top_level_fields": [
+    "StatTypeEnum",
+    "ValueOrder"
+   ],
+   "observed_slots": 308,
+   "systems": "combat"
+  },
+  {
+   "name": "M1StatClampOverrideData",
+   "rows": 6,
+   "top_level_fields": [
+    "OverrideInfos"
+   ],
+   "observed_slots": 6,
+   "systems": "combat"
+  },
+  {
+   "name": "M1StatData",
+   "rows": 308,
+   "top_level_fields": [
+    "ClampInfo",
+    "CombatPowerConstant",
+    "GaugeInfo",
+    "IconImage",
+    "SortOrder",
+    "StatTypeEnum",
+    "StringId",
+    "StringIdForMonster",
+    "TemplateId",
+    "UIData",
+    "ValueOrder"
+   ],
+   "observed_slots": 308,
+   "systems": "combat"
+  },
+  {
+   "name": "M1StatMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "DefenceStatGroup",
+    "MeleeWeaponStatGroup",
+    "RangedWeaponStatGroup",
+    "SkillStatGroup",
+    "SupportStatGroup"
+   ],
+   "observed_slots": 1,
+   "systems": "combat"
+  },
+  {
+   "name": "M1StatValueSectionGroup",
+   "rows": 9,
+   "top_level_fields": [
+    "StatValueSection",
+    "TemplateId"
+   ],
+   "observed_slots": 9,
+   "systems": "combat"
+  },
+  {
+   "name": "M1StatValueSectionGroupMisc",
+   "rows": 1,
+   "top_level_fields": [
+    "BaseStatValueSection"
+   ],
+   "observed_slots": 1,
+   "systems": "combat"
+  },
+  {
+   "name": "M1StatusEffectData",
+   "rows": 3546,
+   "top_level_fields": [
+    "AbilityClass",
+    "AmassScope",
+    "AmassType",
+    "ApplyPriority",
+    "BlockingOwnerTag",
+    "Channel",
+    "Duration",
+    "IdTag",
+    "ImmuneTags",
+    "InvokeStatusEffects",
+    "MaxStackCount",
+    "Name",
+    "Operations",
+    "Params",
+    "Period",
+    "RemoveTags",
+    "SpawnAbilityActors",
+    "StackDecreasePolicy",
+    "StartStackCount",
+    "TaggedModularAbilityParams",
+    "UIData",
+    "bReplaceOnlyDuration"
+   ],
+   "observed_slots": 3546,
+   "systems": "combat"
+  },
+  {
+   "name": "M1StoryStringTableDataRow",
+   "rows": 21331,
+   "top_level_fields": [
+    "EN",
+    "KO",
+    "NeedStringKeyReplacement"
+   ],
+   "observed_slots": 21330,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1StringTableDataRow",
+   "rows": 21331,
+   "top_level_fields": [
+    "EN",
+    "KO"
+   ],
+   "observed_slots": 21330,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1SummonsAIData",
+   "rows": 2,
+   "top_level_fields": [
+    "AfterAttackDelay",
+    "AllianceBattleEnable",
+    "AllianceCallEnable",
+    "BTPath",
+    "Battle",
+    "BattleEnd",
+    "EnableForceMove",
+    "Mission",
+    "MonsterPattern",
+    "NonBattle",
+    "Override",
+    "SightRadius",
+    "StringId",
+    "SubBT",
+    "TargetSearchType"
+   ],
+   "observed_slots": 2,
+   "systems": "ai"
+  },
+  {
+   "name": "M1SummonsData",
+   "rows": 2,
+   "top_level_fields": [
+    "AI",
+    "ActionGroupId",
+    "ActiveSkills",
+    "AdvantageType",
+    "AttackAccuracyRate",
+    "BareHandStats",
+    "BlueprintClass",
+    "CharacterSize",
+    "DisableInstantDropItem",
+    "ExpGroupId",
+    "GrantEliteWeight",
+    "HitPoint",
+    "LegacyDataAsset",
+    "LegionCategory",
+    "Lv",
+    "MonsterCategory",
+    "PartsGroupId",
+    "PassiveSkills",
+    "RuntimeChangeAI",
+    "ShowMapIcon",
+    "SpawnMonsterId",
+    "Specialty",
+    "StatGroupIds",
+    "Stats",
+    "StringId",
+    "SummonsLv",
+    "Tags",
+    "TemplateId",
+    "UIData",
+    "UnusedGaugeStats"
+   ],
+   "observed_slots": 2,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1SummonsSkillData",
+   "rows": 7,
+   "top_level_fields": [
+    "ArcheType",
+    "AssetData",
+    "CategoryTags",
+    "ElementalType",
+    "FxDisplayType",
+    "GroupIndex",
+    "LvData",
+    "Name",
+    "RangeCondition",
+    "SearchParam",
+    "SelectRate",
+    "StringId",
+    "Type",
+    "bCanBeCanceledByVehicle",
+    "bCanMove",
+    "bCanUsedInAir",
+    "bStopSkillWhenMainTargetInvalid"
+   ],
+   "observed_slots": 7,
+   "systems": "combat"
+  },
+  {
+   "name": "M1T4WeaponDetailData",
+   "rows": 12,
+   "top_level_fields": [
+    "FixedSubPerks",
+    "QualityRanges"
+   ],
+   "observed_slots": 12,
+   "systems": "ai;equipment"
+  },
+  {
+   "name": "M1T4WeaponDetailMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "FXMapTypeBlacklist",
+    "FXPath",
+    "PointRatioBase",
+    "QualityRanges",
+    "RandomSubPerkCount",
+    "RandomValueCount",
+    "StatClampOverrideData",
+    "T4WeaponOptionTierByOptionTierPoint",
+    "T4WeaponOptionTierPointByPerkPoint",
+    "T4WeaponOptionTierPointBySubPerkGrade"
+   ],
+   "observed_slots": 1,
+   "systems": "ai;equipment"
+  },
+  {
+   "name": "M1T4WeaponQualityGroupData",
+   "rows": 58,
+   "top_level_fields": [
+    "LowLimitFromStandardQuality",
+    "QualityLimitMax",
+    "QualityLimitMin",
+    "StringId",
+    "T4WeaponQualityReferenceType",
+    "T4WeaponQualityStatValueSectionId",
+    "TemplateId"
+   ],
+   "observed_slots": 58,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1T4WeaponQualityGroupMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "StatValues"
+   ],
+   "observed_slots": 1,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1T4WeaponStandardQualityData",
+   "rows": 400,
+   "top_level_fields": [
+    "RequiredExpToNextLv",
+    "StandardQuality",
+    "TemplateId",
+    "TotalRequiredExpToNextLv"
+   ],
+   "observed_slots": 400,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1T4WeaponStandardQualityMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "StandardQualityExp"
+   ],
+   "observed_slots": 1,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1T4WeaponSubPerkData",
+   "rows": 1077,
+   "top_level_fields": [
+    "Ability",
+    "ChannelID",
+    "Grade",
+    "StatOps",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 1077,
+   "systems": "equipment;rune"
+  },
+  {
+   "name": "M1T4WeaponSubPerkGroupData",
+   "rows": 52,
+   "top_level_fields": [
+    "Elements",
+    "TemplateId"
+   ],
+   "observed_slots": 52,
+   "systems": "equipment;rune"
+  },
+  {
+   "name": "M1TestAssetData",
+   "rows": 2,
+   "top_level_fields": [
+    "AssetData"
+   ],
+   "observed_slots": 2,
+   "systems": "development"
+  },
+  {
+   "name": "M1TimeTrialData",
+   "rows": 6,
+   "top_level_fields": [
+    "RewardInfo",
+    "StringIdName",
+    "TemplateId"
+   ],
+   "observed_slots": 6,
+   "systems": "mission;ranking"
+  },
+  {
+   "name": "M1TitleData",
+   "rows": 622,
+   "top_level_fields": [
+    "TemplateId",
+    "Title",
+    "TitleFemale",
+    "Type"
+   ],
+   "observed_slots": 622,
+   "systems": "cosmetic"
+  },
+  {
+   "name": "M1TitleMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "IconPath",
+    "ReverseOrderList"
+   ],
+   "observed_slots": 1,
+   "systems": "cosmetic"
+  },
+  {
+   "name": "M1ToastData",
+   "rows": 682,
+   "top_level_fields": [
+    "ButtonStringKey",
+    "Duration",
+    "Name",
+    "Priority",
+    "StringId",
+    "ToastType",
+    "UseChatMsg"
+   ],
+   "observed_slots": 682,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1TradeMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "BindResetItem",
+    "BindTargetList",
+    "BodyList",
+    "CommissionDataList",
+    "CurrencyUnitDataList",
+    "NFTFTradeQuest",
+    "NFTFTradeTaxRate",
+    "PermitCurrencyType",
+    "SubjectList",
+    "TradeCountResetTime",
+    "TradeCurrencyInputUnit",
+    "TradeCurrencyMax",
+    "TradeLimitMarginTime",
+    "TradeProhibitCountryDataList",
+    "TradeableItemList",
+    "TwoFactorAuthGraceDays"
+   ],
+   "observed_slots": 1,
+   "systems": "shop"
+  },
+  {
+   "name": "M1TrialModeCycleRewardData",
+   "rows": 1,
+   "top_level_fields": [
+    "CycleReward",
+    "MaxCycleRewardCount"
+   ],
+   "observed_slots": 1,
+   "systems": "reward"
+  },
+  {
+   "name": "M1TrialModeData",
+   "rows": 2,
+   "top_level_fields": [
+    "BGImagePath",
+    "CycleRewardID",
+    "DefaultAbilities",
+    "MapId",
+    "MatchmakingDataId",
+    "MinMembers",
+    "MissionId",
+    "PlayerStartTag",
+    "RandomMatchGroup",
+    "RotationOrder",
+    "Step",
+    "TemplateId",
+    "TrialPresetScheduleId",
+    "UIData"
+   ],
+   "observed_slots": 2,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1TrialModeMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "RotationChangeTimeHour",
+    "RotationIntervalDay",
+    "RotationStartTime"
+   ],
+   "observed_slots": 1,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1TrialModeModifierData",
+   "rows": 8,
+   "top_level_fields": [
+    "Cycle",
+    "MissionId",
+    "ScalerByBattleTask",
+    "ScalerByCycle"
+   ],
+   "observed_slots": 8,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1TrialModeModifierPropertyData",
+   "rows": 94,
+   "top_level_fields": [
+    "Ability",
+    "ApplicablePlayers",
+    "ApplyToPlayer",
+    "GameplayOps",
+    "MonsterCategories",
+    "StatOps",
+    "TemplateId"
+   ],
+   "observed_slots": 94,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1TrialModeSelectableAbilityData",
+   "rows": 492,
+   "top_level_fields": [
+    "AbilityClass",
+    "BGImagePath",
+    "Grade",
+    "IconPath",
+    "InvokeStatusEffects",
+    "Name",
+    "Operations",
+    "Params",
+    "SpawnAbilityActors",
+    "StringId",
+    "TaggedModularAbilityParams",
+    "TargetQueryTag"
+   ],
+   "observed_slots": 492,
+   "systems": "combat"
+  },
+  {
+   "name": "M1TrialModeSelectableAbilityPoolData",
+   "rows": 1,
+   "top_level_fields": [
+    "Pool"
+   ],
+   "observed_slots": 1,
+   "systems": "combat"
+  },
+  {
+   "name": "M1TrialModeSelectorSettingData",
+   "rows": 2,
+   "top_level_fields": [
+    "MaxDrawsCount",
+    "MaxRerollCount",
+    "MaxSelectorCount",
+    "MaxTargetTagCount",
+    "MissionId",
+    "PoolId",
+    "SelectChanceTierRate",
+    "TargetTagRate",
+    "bUseFirstSelectPool"
+   ],
+   "observed_slots": 2,
+   "systems": "client"
+  },
+  {
+   "name": "M1TrialPresetCharacterGroupData",
+   "rows": 2,
+   "top_level_fields": [
+    "InstantCharacter",
+    "TemplateId"
+   ],
+   "observed_slots": 2,
+   "systems": "character"
+  },
+  {
+   "name": "M1TrialPresetModeScheduleData",
+   "rows": 1,
+   "top_level_fields": [
+    "TemplateId",
+    "TrialPresetCharacterGroup"
+   ],
+   "observed_slots": 1,
+   "systems": "event"
+  },
+  {
+   "name": "M1TrialPresetModeScheduleMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "RotationIntervalDay",
+    "RotationStartTime"
+   ],
+   "observed_slots": 1,
+   "systems": "event"
+  },
+  {
+   "name": "M1TriggerOptionTierSectionData",
+   "rows": 97,
+   "top_level_fields": [
+    "RandomValueIndex",
+    "Sections",
+    "TriggerRune"
+   ],
+   "observed_slots": 97,
+   "systems": "client"
+  },
+  {
+   "name": "M1TriggerRuneData",
+   "rows": 43,
+   "top_level_fields": [
+    "Ability",
+    "Composable",
+    "Decomposable",
+    "DetailDataList",
+    "Enchantable",
+    "ImportanceType",
+    "ImportantPriority",
+    "InvolvedSkillCatgoryTags",
+    "LimitedEquipItemClassType",
+    "MasteryLevel",
+    "Name",
+    "PropClass",
+    "RandomValues",
+    "RequireCharacterClassTypes",
+    "RuneClassType",
+    "RuneGroupId",
+    "RuneSocketType",
+    "RuneSubClassType",
+    "RuneTierType",
+    "SellingPrice",
+    "SellingType",
+    "TemplateId",
+    "Tradeable",
+    "TriggerRuneSkill",
+    "UIData",
+    "bShowInCodex"
+   ],
+   "observed_slots": 43,
+   "systems": "rune"
+  },
+  {
+   "name": "M1TriggerRuneMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "OptionTierSection",
+    "OptionValueSection",
+    "TriggerUnlockCondition",
+    "ValuableOptionTier"
+   ],
+   "observed_slots": 1,
+   "systems": "rune"
+  },
+  {
+   "name": "M1TuningBoardData",
+   "rows": 47,
+   "top_level_fields": [
+    "Board",
+    "NeedMasteryRank",
+    "NeedTuningLv",
+    "TemplateId"
+   ],
+   "observed_slots": 47,
+   "systems": "rune"
+  },
+  {
+   "name": "M1TuningBoardGroupData",
+   "rows": 23,
+   "top_level_fields": [
+    "BoardId",
+    "EffectiveJewelList",
+    "TargetPlayerGroupId",
+    "TemplateId"
+   ],
+   "observed_slots": 23,
+   "systems": "rune"
+  },
+  {
+   "name": "M1TuningBoardJewelData",
+   "rows": 64,
+   "top_level_fields": [
+    "Ability",
+    "IconPath",
+    "Name",
+    "SocketType",
+    "StatOps",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 64,
+   "systems": "rune"
+  },
+  {
+   "name": "M1TuningBoardMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "LoadoutNameLimitLength",
+    "MaxLoadoutSize",
+    "TuningBoardLength"
+   ],
+   "observed_slots": 1,
+   "systems": "rune"
+  },
+  {
+   "name": "M1TuningBoardNodeData",
+   "rows": 175,
+   "top_level_fields": [
+    "AvailabeJewelSocketType",
+    "Category",
+    "IconPath",
+    "NeedPoint",
+    "StatOps",
+    "StringId",
+    "TemplateId",
+    "Tier"
+   ],
+   "observed_slots": 175,
+   "systems": "rune"
+  },
+  {
+   "name": "M1TuningBoardProgressionData",
+   "rows": 1,
+   "top_level_fields": [
+    "JewelId",
+    "NodeGroupList",
+    "TargetPlayerGroupId",
+    "TemplateId"
+   ],
+   "observed_slots": 1,
+   "systems": "rune"
+  },
+  {
+   "name": "M1TurretData",
+   "rows": 12,
+   "top_level_fields": [
+    "ActorIconPath",
+    "BaseStats",
+    "BlueprintClass",
+    "IconPath",
+    "Lv",
+    "StringId"
+   ],
+   "observed_slots": 12,
+   "systems": "ai"
+  },
+  {
+   "name": "M1TurretSpawnGroupData",
+   "rows": 8,
+   "top_level_fields": [
+    "TemplateId",
+    "TurretIds"
+   ],
+   "observed_slots": 8,
+   "systems": "ai"
+  },
+  {
+   "name": "M1UITitleData",
+   "rows": 14,
+   "top_level_fields": [
+    "DisplayItems",
+    "TitleStringId"
+   ],
+   "observed_slots": 14,
+   "systems": "cosmetic;client"
+  },
+  {
+   "name": "M1UnlockConditionProductData",
+   "rows": 45,
+   "top_level_fields": [
+    "BGId",
+    "BGMaterial",
+    "BuyableCount",
+    "DiscountPeriodData",
+    "EndTime",
+    "GroupId",
+    "Items",
+    "Mail",
+    "Page",
+    "PopularType",
+    "PreviewLevelType",
+    "PriceType",
+    "RepeatCount",
+    "RequiredLevel",
+    "RequiredPage",
+    "ResetDayOfWeek",
+    "ResetHour",
+    "ResetType",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TicketInfos",
+    "Type",
+    "UIData",
+    "UnlockConditionQuest",
+    "UnlockConditionType",
+    "WarningStringId",
+    "bEnableCountBar",
+    "bHide",
+    "bShowLimitedWarning",
+    "bUseMultiActorStage"
+   ],
+   "observed_slots": 45,
+   "systems": "shop"
+  },
+  {
+   "name": "M1VehicleData",
+   "rows": 3,
+   "top_level_fields": [
+    "BaseStats",
+    "BlueprintClass",
+    "IntroduceSequencePath",
+    "Lv",
+    "PartsSlot",
+    "StringId",
+    "TemplateId",
+    "Tier",
+    "UIData"
+   ],
+   "observed_slots": 3,
+   "systems": "companion"
+  },
+  {
+   "name": "M1VehicleMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "LevelUpCost",
+    "LoadoutNameLimitLength"
+   ],
+   "observed_slots": 1,
+   "systems": "companion"
+  },
+  {
+   "name": "M1VehiclePartsData",
+   "rows": 57,
+   "top_level_fields": [
+    "Ability",
+    "CategoryType",
+    "IconPath",
+    "Name",
+    "OpenConditionLevel",
+    "StatOps",
+    "StringId",
+    "TemplateId",
+    "VehicleSkillRedirects"
+   ],
+   "observed_slots": 57,
+   "systems": "companion"
+  },
+  {
+   "name": "M1VehiclePartsMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "LoadoutSlotExpandRequiredItem"
+   ],
+   "observed_slots": 1,
+   "systems": "companion"
+  },
+  {
+   "name": "M1VehiclePartsToolTipSettingData",
+   "rows": 14,
+   "top_level_fields": [
+    "DetailData",
+    "Name",
+    "TypeList"
+   ],
+   "observed_slots": 14,
+   "systems": "companion;client"
+  },
+  {
+   "name": "M1VoidBattleData",
+   "rows": 33,
+   "top_level_fields": [
+    "BossInfo",
+    "EndTime",
+    "FirstRewardResetTime",
+    "FirstRewards",
+    "OnlyPrivateMatching",
+    "RecommedSpecs",
+    "RequiredCombatPower",
+    "RequiredItems",
+    "Rewards",
+    "StartConditions",
+    "StartTime",
+    "TemplateId",
+    "UIData",
+    "UnlockConditions",
+    "VoidBattleInfos",
+    "VoidBattleRiskModeDataId"
+   ],
+   "observed_slots": 33,
+   "systems": "mission"
+  },
+  {
+   "name": "M1VoidBattleDataBase",
+   "rows": 35,
+   "top_level_fields": [
+    "TemplateId"
+   ],
+   "observed_slots": 35,
+   "systems": "mission"
+  },
+  {
+   "name": "M1VoidBattleMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ForcedExitTimeInVoid",
+    "ForcedRestartTimeVoid",
+    "PartyVaultSelectionTimeInVoid"
+   ],
+   "observed_slots": 1,
+   "systems": "mission"
+  },
+  {
+   "name": "M1VoidBattleRiskModeData",
+   "rows": 1,
+   "top_level_fields": [
+    "SlotGroup"
+   ],
+   "observed_slots": 1,
+   "systems": "mission"
+  },
+  {
+   "name": "M1VoidBattleRiskModeMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "LoadoutNameLimitLength"
+   ],
+   "observed_slots": 1,
+   "systems": "mission"
+  },
+  {
+   "name": "M1VoidBattleRiskModeSlotData",
+   "rows": 47,
+   "top_level_fields": [
+    "IconPath",
+    "PropertyId",
+    "RiskCost",
+    "StringId",
+    "TemplateId",
+    "Type"
+   ],
+   "observed_slots": 47,
+   "systems": "mission"
+  },
+  {
+   "name": "M1VoidBattleRiskModeSlotPropertyData",
+   "rows": 51,
+   "top_level_fields": [
+    "Ability",
+    "ApplicablePlayers",
+    "ApplyToPlayer",
+    "GameplayOps",
+    "MonsterCategories",
+    "StatOps",
+    "TemplateId"
+   ],
+   "observed_slots": 51,
+   "systems": "mission"
+  },
+  {
+   "name": "M1VoidErosionData",
+   "rows": 39,
+   "top_level_fields": [
+    "BGImagePath",
+    "DefaultAbilities",
+    "Difficulty",
+    "IsAccessible",
+    "MapId",
+    "MatchmakingDataId",
+    "MinMembers",
+    "MissionId",
+    "ModifierByPlayerCount",
+    "ModifierPresets",
+    "MonsterElementalResistanceInfos",
+    "PlayerStartTag",
+    "RandomMatchGroup",
+    "RemainingTimeNextStepOpen",
+    "RotationOrder",
+    "TemplateId",
+    "TrialPresetScheduleId",
+    "VoidErosionPlayTime",
+    "VoidErosionStep"
+   ],
+   "observed_slots": 39,
+   "systems": "mission"
+  },
+  {
+   "name": "M1VoidErosionMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "ChallengeOnlyPrivateMatchingVoidErosionIds",
+    "DeathPenaltyInfos",
+    "OnlyPrivateMatchingVoidErosionIds",
+    "RotationChangeTimeHour",
+    "RotationIntervalDay",
+    "RotationStartTime"
+   ],
+   "observed_slots": 1,
+   "systems": "mission"
+  },
+  {
+   "name": "M1VoidVaultData",
+   "rows": 249,
+   "top_level_fields": [
+    "AcquireLimitByMaxStack",
+    "Category",
+    "CoreSlotCategoryType",
+    "Decomposable",
+    "DecomposeRewards",
+    "DecomposeUIType",
+    "Deletable",
+    "FixedReward",
+    "HowToUse",
+    "ImportanceType",
+    "ImportantPriority",
+    "MasteryLevel",
+    "MaxCapacity",
+    "ObtainableCountPerChance",
+    "PropClass",
+    "RedeemItem",
+    "SeasonReset",
+    "SellingPrice",
+    "SellingType",
+    "StringId",
+    "TemplateId",
+    "TierType",
+    "UIData",
+    "VoidValutMaxOpenCount",
+    "bFocusGoalAvailable",
+    "bShowInCodex"
+   ],
+   "observed_slots": 249,
+   "systems": "mission"
+  },
+  {
+   "name": "M1VoidVesselData",
+   "rows": 4,
+   "top_level_fields": [
+    "BGImagePath",
+    "DefaultAbilities",
+    "Difficulty",
+    "MapId",
+    "MatchmakingDataId",
+    "MissionId",
+    "PlayerStartTag",
+    "RandomMatchGroup",
+    "RewardInfo",
+    "RewardOpenerKeyItem",
+    "ShowRewardInfoString",
+    "TemplateId",
+    "TrialPresetScheduleId"
+   ],
+   "observed_slots": 4,
+   "systems": "mission"
+  },
+  {
+   "name": "M1VoidVesselRewardGroup",
+   "rows": 40,
+   "top_level_fields": [
+    "IconPath",
+    "Items",
+    "RemainingTime",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 40,
+   "systems": "mission;reward"
+  },
+  {
+   "name": "M1VulnerableCoreData",
+   "rows": 4,
+   "top_level_fields": [
+    "DeactivationStatusEffect",
+    "EnableHitBoneWithActivation",
+    "HitBoneNames",
+    "HitPointId",
+    "MaxHpRate",
+    "RecreationTime",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 4,
+   "systems": "rune"
+  },
+  {
+   "name": "M1WeaponData",
+   "rows": 152,
+   "top_level_fields": [
+    "AddProficiency",
+    "BaseStatModOps",
+    "BaseStats",
+    "BlueprintClass",
+    "CategoryType",
+    "ClassType",
+    "Group",
+    "ImportanceType",
+    "ImportantPriority",
+    "InstanceType",
+    "Lv",
+    "MasteryLevel",
+    "Name",
+    "Perk",
+    "PropClass",
+    "ProtectedWithBorn",
+    "RequiredStats",
+    "RoundsType",
+    "RuneSocketCount",
+    "SellingType",
+    "StringId",
+    "T4DetailData",
+    "TemplateId",
+    "TierType",
+    "UIData"
+   ],
+   "observed_slots": 152,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1WeaponGroupData",
+   "rows": 4,
+   "top_level_fields": [
+    "BigIconPath",
+    "IconPath",
+    "Name",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 4,
+   "systems": "equipment"
+  },
+  {
+   "name": "M1WorldEventGoalGroupData",
+   "rows": 7,
+   "top_level_fields": [
+    "Goal",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 7,
+   "systems": "event"
+  },
+  {
+   "name": "M1WorldEventMissionData",
+   "rows": 6,
+   "top_level_fields": [
+    "Params",
+    "PointPerAction",
+    "StringId",
+    "TemplateId",
+    "TotalConditionValue",
+    "UIData",
+    "WorldGoalType"
+   ],
+   "observed_slots": 6,
+   "systems": "mission;event"
+  },
+  {
+   "name": "M1WorldEventPersonalGoalGroupData",
+   "rows": 7,
+   "top_level_fields": [
+    "Goal",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 7,
+   "systems": "event"
+  },
+  {
+   "name": "M1WorldEventScheduleData",
+   "rows": 7,
+   "top_level_fields": [
+    "AssetData",
+    "AssetDataRowName",
+    "EndTime",
+    "GoallInfo",
+    "PersonalInfo",
+    "RepeatPeriodList",
+    "RewardEndTime",
+    "RotationBonusActive",
+    "SortId",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "TooltipSortOrder",
+    "TooltipStringId",
+    "Type",
+    "UserType",
+    "WorldMissions"
+   ],
+   "observed_slots": 7,
+   "systems": "event"
+  },
+  {
+   "name": "M1WorldEventScheduleMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "DailyMission",
+    "RotationOrder",
+    "startTime"
+   ],
+   "observed_slots": 1,
+   "systems": "event"
+  },
+  {
+   "name": "M1WorldMissionData",
+   "rows": 29,
+   "top_level_fields": [
+    "Difficulty",
+    "EnterWorldMissionToast",
+    "IsAccessible",
+    "MapId",
+    "RecommedSpecs",
+    "TemplateId"
+   ],
+   "observed_slots": 29,
+   "systems": "mission"
+  },
+  {
+   "name": "M1WorldMoodPresetData",
+   "rows": 8,
+   "top_level_fields": [
+    "ActivateConditions",
+    "AssetPath",
+    "Available",
+    "BlockConditions",
+    "Map",
+    "Priority",
+    "StartTime",
+    "TemplateId"
+   ],
+   "observed_slots": 8,
+   "systems": "unclassified"
+  },
+  {
+   "name": "M1WorldQuestGoalGroupData",
+   "rows": 2,
+   "top_level_fields": [
+    "Goal",
+    "StringId",
+    "TemplateId"
+   ],
+   "observed_slots": 2,
+   "systems": "quest"
+  },
+  {
+   "name": "M1WorldQuestScheduleData",
+   "rows": 2,
+   "top_level_fields": [
+    "Available",
+    "DateInterval",
+    "GoalGroup",
+    "RemainTimeSec",
+    "StartTime",
+    "StringId",
+    "TemplateId",
+    "WorldQuestType",
+    "WorldQuestTypeValue"
+   ],
+   "observed_slots": 2,
+   "systems": "quest;event"
+  },
+  {
+   "name": "M1WorldQuestScheduleMiscData",
+   "rows": 1,
+   "top_level_fields": [
+    "WorldQuestClearGlobalPointValue",
+    "WorldQuestFailedGlobalPointValue",
+    "WorldQuestRankScoreAddValue",
+    "WorldQuestRankScoreBasicValue"
+   ],
+   "observed_slots": 1,
+   "systems": "quest;event"
+  }
+ ],
+ "metadata": [
+  [
+   "build",
+   "{\"source_sha256\":\"c01476888da891bf38f464aca7081a7da6bde6a33e50485cd75c9fa93794e867\",\"legacy_source_sha256\":\"5665ce66bb3883d9c44f09bc27b87b7aeca38d2be385509abbb3f9be46afd57e\",\"counts\":{\"structures\":4140,\"table_registry\":400,\"enum_values\":7567,\"content_rows\":197224,\"references_found\":384325,\"capture_tables\":400},\"bulk_capture_complete\":true,\"complete_reflected_tables\":399,\"all_server_rules_recovered\":false,\"all_gameplay_verified\":false}"
+  ]
+ ]
+}
