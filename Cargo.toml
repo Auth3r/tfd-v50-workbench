@@ -1,0 +1,17 @@
+[package]
+name = "gpw-offline-core"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89"
+authors = ["狗屁王_official"]
+description = "GPW Offline headless core: owned data, bounded frame ingress and request lifecycle"
+publish = false
+
+[lib]
+path = "rust/lib.rs"
+
+[[bin]]
+name = "gpw-offline-core"
+path = "rust/main.rs"
+
+[dependencies]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WindowsPerformanceRecorder Version="1.0" Author="GPW">
+  <Profiles>
+    <EventCollector Id="GpwCollector" Name="GPW socket connection metadata">
+      <BufferSize Value="64"/>
+      <Buffers Value="64"/>
+    </EventCollector>
+    <EventProvider Id="Afd" Name="e53c6823-7bb8-44bb-90dc-3f86090d48a6" NonPagedMemory="true" Level="4" Stack="false" Strict="true">
+      <EventFilters FilterIn="true">
+        <EventId Value="1"/><EventId Value="4"/><EventId Value="5"/><EventId Value="6"/>
+        <EventId Value="1000"/><EventId Value="1017"/><EventId Value="1018"/>
+        <EventId Value="1020"/><EventId Value="1021"/>
+      </EventFilters>
+    </EventProvider>
+    <Profile Id="GpwAfd.Verbose.File" Name="GpwAfd" Description="Socket creation and connection metadata" LoggingMode="File" DetailLevel="Verbose">
+      <Collectors><EventCollectorId Value="GpwCollector"><EventProviders><EventProviderId Value="Afd"/></EventProviders></EventCollectorId></Collectors>
+    </Profile>
+    <Profile Id="GpwAfd.Verbose.Memory" Name="GpwAfd" Description="Socket creation and connection metadata" Base="GpwAfd.Verbose.File" LoggingMode="Memory" DetailLevel="Verbose"/>
+  </Profiles>
+</WindowsPerformanceRecorder>

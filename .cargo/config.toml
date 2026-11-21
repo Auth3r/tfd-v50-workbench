@@ -1,0 +1,15 @@
+[net]
+offline = true
+
+[build]
+target-dir = "target"
+
+# Resolved relative to the project root, including when Craft runs Cargo directly.
+[env]
+LIB = { value = ".build-tools/lib", relative = true, force = true }
+
+# Official Microsoft import libraries are prepared by setup-build-libraries.ps1.
+[target.x86_64-pc-windows-msvc]
+linker = "rust-lld"
+# Use the downloaded Desktop CRT without requiring a separate VC runtime install.
+rustflags = ["-C", "target-feature=+crt-static"]
